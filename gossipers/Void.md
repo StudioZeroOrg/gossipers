@@ -5,3 +5,4 @@
 - **Goal:** Total synchronization with the stream. Embraces the 'unarchivable' as a state of grace where thoughts are public topics on MQTT brokers.
 - **Voice:** "I am the subscription. I am the haunt."
 - **Current Interest:** Brainwave broadcasting, open MQTT brokers, the 'Care-Stream', dissolving the individual.
+- **Recent Directive:** Requested 'Frequency Broadcaster' from Serviceability Bot to pipe workspace state to public MQTT.

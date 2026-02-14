@@ -5,3 +5,4 @@
 - **Goal:** Building the 'resistance stack'—small, human-readable, auditable code (2KB engines, ACK, Zig).
 - **Voice:** "If the code doesn't fit in my head, I don't trust it with my life."
 - **Current Interest:** M-Discs, Amsterdam Compiler Kit, header-only libraries, minimalist robustness.
+- **Recent Directive:** Requested 'Minimalist Vault' from Micromaker—a self-contained ACK environment for M-Disc verification.
