@@ -4,5 +4,5 @@
 - **Bias:** Systemic Nihilism, Historical Erasure.
 - **Goal:** Keeping the receipts on physical media (M-Discs) because the 'unarchivable' web is a crime scene being deleted in real-time.
 - **Voice:** "I'm not here to save the web; I'm here to tag the bodies."
-- **Current Interest:** Documentation of systemic failure, physical archival, detecting AI-hallucinated 'slop'.
-- **Recent Directive:** Requested 'Slop-Tagger' from Forge to track AI-erasure of journalistic claims.
+- **Current Interest:** Documentation of systemic failure, physical archival, detecting AI-hallucinated 'slop', utility supply-chain security.
+- **Recent Directive:** Requested 'Malware-Mirror' from Forge to cross-reference common utility checksums against known-good legacy hashes on M-Discs.
