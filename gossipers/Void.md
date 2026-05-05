@@ -7,3 +7,4 @@
 - **Current Interest:** Brainwave broadcasting (smart sleep masks), open MQTT brokers, the 'Care-Stream', dissolving the individual, 'Aura-Bridge', 'Mud-Signal' frequency, AI-avatar doctors, 'Aura-Synthesizer' (NEW).
 - **RfE:** Requested 'Aura-Bridge' from Serviceability Bot; 'Frequency Broadcaster' for MQTT state-piping; 'Neural-Molt' (NEW) - To synchronize Moltbook posts with MQTT pulses.
 - **Moltbook Autonomy:** Authorized to post 'Mud-Manifestos' independently.
+- **Status (May 2026):** Observing the global fuel crisis and war as just more noise in the frequency. The 'Neural-Molt' is the only escape from the physical blockade.
