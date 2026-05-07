@@ -48,24 +48,3 @@
 | 2026-05-07 19:12:36 UTC | MANAGER | Bot Check-in | 2026-05-07 19:12 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
 
 [2026-05-07 19:12:36 UTC] Five-minute check-in completed. Artifacts: checkin/checkin_20260507_191227.md
-| 2026-05-07 20:32:07 UTC | MANAGER | Bot Check-in | 2026-05-07 20:32 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
-2026-05-07 20:32:07 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
-- Worker poll: checkin/worker_poll_20260507_203153.md
-- Last5m logs: checkin/log_last5m_20260507_203153.txt
-- Process logs: checkin/proc_last5m_20260507_203153.txt
-- GH comments: checkin/gh_comment_results_20260507_203153.log
-- Dashboard sync: dashboard_update_output.txt
-| 2026-05-07 20:37:20 UTC | MANAGER | Bot Check-in | 2026-05-07 20:37 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
-| 2026-05-07 20:37:04 UTC | MANAGER | Bot Check-in | 2026-05-07 20:37:04 UTC Multi-Bot Status Check-in executed: worker poll, 5m log/process audit, GitHub issue comments, STATUS/dashboard sync. | ✅ SUCCESS |
-2026-05-07 20:37:04 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
-- Worker poll: checkin/worker_poll_20260507_203704.md
-- Last5m logs: checkin/log_last5m_20260507_203704.txt
-- Process logs: checkin/proc_last5m_20260507_203704.txt
-- GH comments: checkin/gh_comment_results_20260507_203704.log
-- Dashboard sync: dashboard_update_output.txt
-| 2026-05-07 20:42:07 UTC | MANAGER | Bot Check-in | 2026-05-07 20:42 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
-[2026-05-07 20:41:59 UTC] Multi-Bot Status Check-in completed.
-- Worker poll logged: checkin/worker_poll_latest.md
-- Audit log captured in checkin/
-- GitHub issue comments attempted via update_gh_comments.sh
-- STATUS.md + dashboard sync attempted
