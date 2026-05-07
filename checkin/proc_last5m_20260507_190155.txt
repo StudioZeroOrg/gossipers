@@ -1,0 +1,135 @@
+May 07 18:56:59 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:56:59.553Z [ws] ⇄ res ✓ sessions.list 86ms conn=df037308…c3d9 id=7a325cb9…6f78
+May 07 18:56:59 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:56:59.685Z [ws] ⇄ res ✓ chat.history 98ms conn=355e0ed4…2aa4 id=7ddc56a2…d35f
+May 07 18:56:59 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:56:59.810Z [ws] ⇄ res ✓ chat.history 104ms conn=42759f28…81eb id=b4806711…1c35
+May 07 18:56:59 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:56:59.937Z [ws] ⇄ res ✓ chat.history 89ms conn=2c728426…a69c id=b647ba95…205c
+May 07 18:57:00 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:00.918Z [ws] ⇄ res ✓ chat.history 104ms conn=953f9b62…4ae6 id=82d2f8bd…6e57
+May 07 18:57:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:01.054Z [ws] ⇄ res ✓ chat.history 111ms conn=c15a260c…b7b5 id=4f87d5c5…4548
+May 07 18:57:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:01.229Z [ws] ⇄ res ✓ chat.history 80ms conn=381e5cda…c000 id=3be79601…6cde
+May 07 18:57:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:01.326Z [ws] ⇄ res ✓ chat.history 79ms conn=2e070965…796d id=650bb304…02cd
+May 07 18:57:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:01.451Z [ws] ⇄ res ✓ chat.history 101ms conn=761f3b63…32d9 id=1a86f496…3689
+May 07 18:57:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:01.554Z [ws] ⇄ res ✓ chat.history 86ms conn=c340690f…e312 id=30c58c0f…f241
+May 07 18:57:06 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676661]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 18:57:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676661]: Failed password for root from 103.61.122.229 port 59126 ssh2
+May 07 18:57:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676661]: Connection closed by authenticating user root 103.61.122.229 port 59126 [preauth]
+May 07 18:57:43 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.189  user=root
+May 07 18:57:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Failed password for root from 2.57.122.189 port 41628 ssh2
+May 07 18:57:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Failed password for root from 2.57.122.189 port 41628 ssh2
+May 07 18:57:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Failed password for root from 2.57.122.189 port 41628 ssh2
+May 07 18:57:54 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Failed password for root from 2.57.122.189 port 41628 ssh2
+May 07 18:57:54 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:54.864Z [ws] ⇄ res ✓ agent.wait 72366ms conn=856ed783…a522 id=a501a091…e9e6
+May 07 18:57:57 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:57:57.385Z [ws] ⇄ res ✓ chat.history 131ms conn=59568316…1752 id=cb7fbbca…bb69
+May 07 18:57:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Failed password for root from 2.57.122.189 port 41628 ssh2
+May 07 18:57:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: Connection reset by authenticating user root 2.57.122.189 port 41628 [preauth]
+May 07 18:57:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.189  user=root
+May 07 18:57:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676745]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:58:01.514Z Completed. I executed the five-minute Bot Check-in Loop in `/root/.openclaw/workspace` and logged outputs to files only (no Telegram messaging).
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: ### What I accomplished
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 1. **Polled worker sessions/bots** (Forge, Micromaker, Scout, Serviceability)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Output: `checkin/worker_poll_20260507_185726.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Symlink updated: `worker_poll_latest.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2. **Audited last 5 minutes**
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - `LOG.md` audit output: `checkin/log_last5m_20260507_185726.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Process snapshot output: `checkin/proc_last5m_20260507_185726.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Symlinks updated: `log_last5m.txt`, `proc_last5m.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 3. **Posted technical GitHub issue comments** (with Latest Progress / Current Blocker / Next Milestone via existing automation)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Output log: `checkin/gh_comment_results_20260507_185726.log`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Posted comment URLs:
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/tasks/issues/7#issuecomment-4400168802
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/tasks/issues/6#issuecomment-4400168945
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/tasks/issues/5#issuecomment-4400169169
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/tasks/issues/4#issuecomment-4400169312
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/ssg-apocalypse/issues/1#issuecomment-4400169441
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/mqtt-privacy-filter/issues/1#issuecomment-4400169549
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:      - https://github.com/StudioZeroOrg/brainwave-visualizer/issues/1#issuecomment-4400169710
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 4. **Updated STATUS + dashboard heartbeat**
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - `STATUS.md` updated (and mirrored by script into status locations)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Dashboard update log: `dashboard_update_output.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Web heartbeat JSON updated: `dashboard/team-heartbeat.json`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Snapshot copy: `checkin/checkin_20260507_185726.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 5. **Logged cron completion**
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]:    - Appended completion entry to `LOG.md` with artifact paths.
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: ---
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: ### File paths changed (this run)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `LOG.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `STATUS.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `dashboard/STATUS.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `status/STATUS.md` *(via script)*
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `repo-status/STATUS.md` *(via script)*
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `dashboard/team-heartbeat.json`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `dashboard_update_output.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `checkin/worker_poll_20260507_185726.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `checkin/log_last5m_20260507_185726.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `checkin/proc_last5m_20260507_185726.txt`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `checkin/gh_comment_results_20260507_185726.log`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `checkin/checkin_20260507_185726.md`
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `worker_poll_latest.txt` (symlink)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `log_last5m.txt` (symlink)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: - `proc_last5m.txt` (symlink)
+May 07 18:58:01 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: No commit was made. (If you want, I can commit with identity `Viswanatha Kartha V <vichukartha@gmail.com>` in a follow-up.)
+May 07 18:58:06 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:58:06.060Z [ws] ⇄ res ✓ agent 1639ms runId=1cf08764-0290-4471-b01b-5f6539e4752e conn=042182c3…1b16 id=ed4fcfe0…4170
+May 07 18:58:16 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:58:16.053Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=1cf08764-0290-4471-b01b-5f6539e4752e error=Error: Delivering to Telegram requires target <chatId> conn=042182c3…1b16 id=ed4fcfe0…4170
+May 07 18:58:16 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:58:16.056Z Subagent announce failed: Error: Error: Delivering to Telegram requires target <chatId>
+May 07 18:58:19 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T18:58:19.580Z [ws] ⇄ res ✓ sessions.patch 1541ms conn=5d4d6611…9593 id=b89d9f02…1155
+May 07 18:59:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Invalid user admin from 2.57.121.112 port 18030
+May 07 18:59:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): check pass; user unknown
+May 07 18:59:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.121.112
+May 07 18:59:14 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Failed password for invalid user admin from 2.57.121.112 port 18030 ssh2
+May 07 18:59:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): check pass; user unknown
+May 07 18:59:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Failed password for invalid user admin from 2.57.121.112 port 18030 ssh2
+May 07 18:59:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): check pass; user unknown
+May 07 18:59:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Failed password for invalid user admin from 2.57.121.112 port 18030 ssh2
+May 07 18:59:22 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): check pass; user unknown
+May 07 18:59:25 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Failed password for invalid user admin from 2.57.121.112 port 18030 ssh2
+May 07 18:59:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: pam_unix(sshd:auth): check pass; user unknown
+May 07 18:59:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Failed password for invalid user admin from 2.57.121.112 port 18030 ssh2
+May 07 18:59:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Received disconnect from 2.57.121.112 port 18030:11: Bye [preauth]
+May 07 18:59:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: Disconnected from invalid user admin 2.57.121.112 port 18030 [preauth]
+May 07 18:59:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.121.112
+May 07 18:59:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676761]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 18:59:32 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676765]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.59.74.51  user=root
+May 07 18:59:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676765]: Failed password for root from 139.59.74.51 port 35128 ssh2
+May 07 18:59:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676765]: Connection closed by authenticating user root 139.59.74.51 port 35128 [preauth]
+May 07 18:59:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.191  user=root
+May 07 18:59:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676772]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 18:59:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Failed password for root from 2.57.122.191 port 34250 ssh2
+May 07 18:59:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676772]: Failed password for root from 103.61.122.229 port 37756 ssh2
+May 07 18:59:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676772]: Connection closed by authenticating user root 103.61.122.229 port 37756 [preauth]
+May 07 18:59:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Failed password for root from 2.57.122.191 port 34250 ssh2
+May 07 18:59:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Failed password for root from 2.57.122.191 port 34250 ssh2
+May 07 18:59:59 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Failed password for root from 2.57.122.191 port 34250 ssh2
+May 07 19:00:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Failed password for root from 2.57.122.191 port 34250 ssh2
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676776]: Invalid user server from 103.97.215.11 port 40740
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676776]: pam_unix(sshd:auth): check pass; user unknown
+May 07 19:00:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676776]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.97.215.11
+May 07 19:00:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: Connection reset by authenticating user root 2.57.122.191 port 34250 [preauth]
+May 07 19:00:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.191  user=root
+May 07 19:00:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676770]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 19:00:06 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676776]: Failed password for invalid user server from 103.97.215.11 port 40740 ssh2
+May 07 19:00:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676776]: Connection closed by invalid user server 103.97.215.11 port 40740 [preauth]
+May 07 19:00:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676787]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 19:00:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676787]: Failed password for root from 103.61.122.229 port 40700 ssh2
+May 07 19:00:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676787]: Connection closed by authenticating user root 103.61.122.229 port 40700 [preauth]
+May 07 19:01:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 19:01:11 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676791]: Failed password for root from 103.61.122.229 port 38488 ssh2
+May 07 19:01:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676791]: Connection closed by authenticating user root 103.61.122.229 port 38488 [preauth]
+May 07 19:01:29 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676797]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.150.30.30  user=root
+May 07 19:01:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676797]: Failed password for root from 103.150.30.30 port 40326 ssh2
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676797]: Connection closed by authenticating user root 103.150.30.30 port 40326 [preauth]
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.234Z [ws] ⇄ res ✓ sessions.list 132ms conn=eab49248…149b id=2f6f319e…ca07
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.585Z [ws] ⇄ res ✓ chat.history 96ms conn=75ba6b8d…d3d3 id=f9ce8a8f…85ad
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.674Z [ws] ⇄ res ✓ chat.history 74ms conn=4410f7b5…d747 id=ce62fe65…b050
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.761Z [ws] ⇄ res ✓ chat.history 68ms conn=9499c475…9ae5 id=0f3f80da…1f4f
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.856Z [ws] ⇄ res ✓ chat.history 74ms conn=7633501e…f983 id=5f92c99c…e2e7
+May 07 19:01:31 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:31.950Z [ws] ⇄ res ✓ chat.history 79ms conn=1c53b281…749c id=5947c383…a6b4
+May 07 19:01:32 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:32.039Z [ws] ⇄ res ✓ chat.history 75ms conn=2bd21408…d1a3 id=a453b67f…74bd
+May 07 19:01:32 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:32.130Z [ws] ⇄ res ✓ chat.history 68ms conn=dc3a504d…f69e id=65fd207f…3654
+May 07 19:01:32 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:32.230Z [ws] ⇄ res ✓ chat.history 77ms conn=5b288afe…68c4 id=f5c3fae4…1141
+May 07 19:01:32 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T19:01:32.317Z [ws] ⇄ res ✓ chat.history 73ms conn=4eb06384…799d id=96fabda0…9002
+May 07 19:01:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676802]: Invalid user ubuntu from 103.61.122.229 port 52980
+May 07 19:01:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676802]: pam_unix(sshd:auth): check pass; user unknown
+May 07 19:01:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 07 19:01:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676802]: Failed password for invalid user ubuntu from 103.61.122.229 port 52980 ssh2
+May 07 19:01:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[676802]: Connection closed by invalid user ubuntu 103.61.122.229 port 52980 [preauth]

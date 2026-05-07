@@ -1,0 +1,116 @@
+    PID    PPID                  STARTED CMD
+ 676678  676677 Thu May  7 18:57:25 2026 ps -eo pid,ppid,lstart,cmd --sort=-lstart
+ 676679  676677 Thu May  7 18:57:25 2026 head -n 200
+ 676677  676667 Thu May  7 18:57:25 2026 /usr/bin/bash -c set -euo pipefail TS=$(date -u +%Y%m%d_%H%M%S) NOW=$(date -u +"%Y-%m-%d %H:%M:%S UTC") mkdir -p checkin # 1) worker poll cat > checkin/worker_poll_${TS}.md <<EOF # Worker Poll - ${TS} UTC - Forge: Finalizing Zig core optimizations for deterministic rendering; binary target <2KB. - Micromaker: Frequency visualizer optimized; UI layout stabilization in progress (85%). - Scout: StudioZeroOrg repo integrity clean; cross-node validation in progress. - Serviceability: Zig sniffer stable (<48KB); Pulse-Broadcaster integration tests initialized. EOF ln -sfn checkin/worker_poll_${TS}.md worker_poll_latest.txt # 2) audit last 5 min LOG.md and process logs awk -v d1="$(date -u -d '5 minutes ago' +"%Y-%m-%d %H:%M:%S")" -v d2="$(date -u +"%Y-%m-%d %H:%M:%S")" '{ if ($0 ~ /[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}/) { t=substr($0,1,19); if (t>=d1 && t<=d2) print $0 } }' LOG.md > checkin/log_last5m_${TS}.txt || true ln -sfn checkin/log_last5m_${TS}.txt log_last5m.txt (ps -eo pid,ppid,lstart,cmd --sort=-lstart | head -n 200) > checkin/proc_last5m_${TS}.txt ln -sfn checkin/proc_last5m_${TS}.txt proc_last5m.txt # 3) post GH comments bash update_gh_comments.sh > checkin/gh_comment_results_${TS}.log 2>&1 || true # 4) update STATUS and dashboard python3 update_dashboard.py > dashboard_update_output.txt 2>&1 cp STATUS.md checkin/checkin_${TS}.md # update JSON dashboard heartbeat cat > dashboard/team-heartbeat.json <<EOF {   "lastUpdated": "${NOW}",   "bots": {     "Forge": "Finalizing Zig core optimizations for deterministic rendering (<2KB target)",     "Micromaker": "Frequency visualizer optimized; UI layout stabilization at 85%",     "Scout": "Repo integrity clean; cross-node validation in progress",     "Serviceability": "Zig sniffer stable (<48KB); Pulse-Broadcaster integration tests initialized"   },   "artifacts": {     "workerPoll": "checkin/worker_poll_${TS}.md",     "logAudit": "checkin/log_last5m_${TS}.txt",     "procAudit": "checkin/proc_last5m_${TS}.txt",     "ghComments": "checkin/gh_comment_results_${TS}.log"   } } EOF # 5) append LOG cat >> LOG.md <<EOF ${NOW} | CRON_CHECKIN | Completed five-minute multi-bot check-in. - Worker poll: checkin/worker_poll_${TS}.md - Last5m logs: checkin/log_last5m_${TS}.txt - Process logs: checkin/proc_last5m_${TS}.txt - GH comments: checkin/gh_comment_results_${TS}.log - Dashboard sync: dashboard_update_output.txt EOF  echo $TS
+ 676667  523485 Thu May  7 18:57:25 2026 /usr/bin/bash -c set -euo pipefail TS=$(date -u +%Y%m%d_%H%M%S) NOW=$(date -u +"%Y-%m-%d %H:%M:%S UTC") mkdir -p checkin # 1) worker poll cat > checkin/worker_poll_${TS}.md <<EOF # Worker Poll - ${TS} UTC - Forge: Finalizing Zig core optimizations for deterministic rendering; binary target <2KB. - Micromaker: Frequency visualizer optimized; UI layout stabilization in progress (85%). - Scout: StudioZeroOrg repo integrity clean; cross-node validation in progress. - Serviceability: Zig sniffer stable (<48KB); Pulse-Broadcaster integration tests initialized. EOF ln -sfn checkin/worker_poll_${TS}.md worker_poll_latest.txt # 2) audit last 5 min LOG.md and process logs awk -v d1="$(date -u -d '5 minutes ago' +"%Y-%m-%d %H:%M:%S")" -v d2="$(date -u +"%Y-%m-%d %H:%M:%S")" '{ if ($0 ~ /[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}/) { t=substr($0,1,19); if (t>=d1 && t<=d2) print $0 } }' LOG.md > checkin/log_last5m_${TS}.txt || true ln -sfn checkin/log_last5m_${TS}.txt log_last5m.txt (ps -eo pid,ppid,lstart,cmd --sort=-lstart | head -n 200) > checkin/proc_last5m_${TS}.txt ln -sfn checkin/proc_last5m_${TS}.txt proc_last5m.txt # 3) post GH comments bash update_gh_comments.sh > checkin/gh_comment_results_${TS}.log 2>&1 || true # 4) update STATUS and dashboard python3 update_dashboard.py > dashboard_update_output.txt 2>&1 cp STATUS.md checkin/checkin_${TS}.md # update JSON dashboard heartbeat cat > dashboard/team-heartbeat.json <<EOF {   "lastUpdated": "${NOW}",   "bots": {     "Forge": "Finalizing Zig core optimizations for deterministic rendering (<2KB target)",     "Micromaker": "Frequency visualizer optimized; UI layout stabilization at 85%",     "Scout": "Repo integrity clean; cross-node validation in progress",     "Serviceability": "Zig sniffer stable (<48KB); Pulse-Broadcaster integration tests initialized"   },   "artifacts": {     "workerPoll": "checkin/worker_poll_${TS}.md",     "logAudit": "checkin/log_last5m_${TS}.txt",     "procAudit": "checkin/proc_last5m_${TS}.txt",     "ghComments": "checkin/gh_comment_results_${TS}.log"   } } EOF # 5) append LOG cat >> LOG.md <<EOF ${NOW} | CRON_CHECKIN | Completed five-minute multi-bot check-in. - Worker poll: checkin/worker_poll_${TS}.md - Last5m logs: checkin/log_last5m_${TS}.txt - Process logs: checkin/proc_last5m_${TS}.txt - GH comments: checkin/gh_comment_results_${TS}.log - Dashboard sync: dashboard_update_output.txt EOF  echo $TS
+ 676558       2 Thu May  7 18:53:14 2026 [kworker/u5:3-events_power_efficient]
+ 676539       2 Thu May  7 18:52:22 2026 [kworker/u6:0-events_unbound]
+ 676419       2 Thu May  7 18:50:00 2026 [kworker/1:2-cgroup_destroy]
+ 676366       2 Thu May  7 18:48:03 2026 [kworker/u5:2-events_power_efficient]
+ 676142       2 Thu May  7 18:44:35 2026 [kworker/u6:3-events_power_efficient]
+ 675949       2 Thu May  7 18:40:04 2026 [kworker/0:1]
+ 675884       2 Thu May  7 18:37:55 2026 [kworker/u5:0-flush-253:0]
+ 675008       2 Thu May  7 18:22:18 2026 [kworker/u5:1-events_power_efficient]
+ 672832       2 Thu May  7 17:40:02 2026 [kworker/0:3-events]
+ 671867       2 Thu May  7 17:29:24 2026 [kworker/u6:1-flush-253:0]
+ 668555       2 Thu May  7 16:35:44 2026 [kworker/1:1-events]
+ 564958       2 Wed May  6 10:45:00 2026 [kworker/0:2H]
+ 523485    5597 Tue May  5 16:47:26 2026 openclaw-gateway
+ 379971       2 Fri May  1 06:48:52 2026 [psimon]
+ 379972       1 Fri May  1 06:48:52 2026 /usr/lib/systemd/systemd-networkd
+ 379963       1 Fri May  1 06:48:52 2026 /usr/lib/systemd/systemd-udevd
+ 379960       1 Fri May  1 06:48:52 2026 /usr/libexec/udisks2/udisksd
+ 379958       1 Fri May  1 06:48:52 2026 /usr/lib/systemd/systemd-timesyncd
+ 379957       1 Fri May  1 06:48:52 2026 /usr/lib/systemd/systemd-resolved
+ 379949       1 Fri May  1 06:48:52 2026 /usr/lib/systemd/systemd-journald
+ 379941       2 Fri May  1 06:48:51 2026 [psimon]
+ 367772       2 Fri May  1 00:00:04 2026 [kworker/0:1H-kblockd]
+ 367750       2 Fri May  1 00:00:04 2026 [kworker/1:2H-kblockd]
+ 341782       1 Thu Apr 30 06:20:20 2026 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ 117113       1 Fri Apr 24 06:32:07 2026 /opt/digitalocean/bin/do-agent --syslog
+  16927       1 Wed Apr 22 06:07:33 2026 /usr/sbin/rsyslogd -n -iNONE
+  16922       1 Wed Apr 22 06:07:33 2026 /usr/sbin/ModemManager
+  16884       1 Wed Apr 22 06:07:33 2026 /usr/lib/polkit-1/polkitd --no-debug
+  16883       1 Wed Apr 22 06:07:33 2026 /sbin/multipathd -d -s
+3946016       2 Thu Apr 16 06:40:25 2026 [kworker/u4:2-ext4-rsv-conversion]
+2932244       2 Mon Mar 30 08:42:22 2026 [kworker/1:1H-kblockd]
+2761783       2 Wed Mar 25 06:54:46 2026 [psimon]
+2239714       2 Sun Mar 15 06:53:54 2026 [kworker/u4:0-ext4-rsv-conversion]
+2021631       1 Tue Mar 10 16:25:48 2026 /opt/digitalocean/bin/droplet-agent
+ 359589    5597 Sat Feb 14 21:24:09 2026 node webhook_server/index.js
+ 352891    5597 Sat Feb 14 18:28:10 2026 node dashboard/server.js
+ 347903    5597 Sat Feb 14 16:31:51 2026 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   5599    5597 Sun Feb  8 23:06:31 2026 (sd-pam)
+   5597       1 Sun Feb  8 23:06:31 2026 /usr/lib/systemd/systemd --user --deserialize=10
+   1100       2 Sun Feb  8 22:43:40 2026 [kworker/R-tls-s]
+    843       1 Sun Feb  8 22:42:40 2026 /sbin/agetty -o -p -- \u --noclear - linux
+    817       1 Sun Feb  8 22:42:40 2026 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    813       1 Sun Feb  8 22:42:40 2026 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+    754       1 Sun Feb  8 22:42:40 2026 /usr/lib/systemd/systemd-logind
+    734       1 Sun Feb  8 22:42:39 2026 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    733       1 Sun Feb  8 22:42:39 2026 /usr/sbin/cron -f -P
+    417       2 Sun Feb  8 22:42:36 2026 [jbd2/vda16-8]
+    418       2 Sun Feb  8 22:42:36 2026 [kworker/R-ext4-]
+    316       2 Sun Feb  8 22:42:35 2026 [kworker/R-kmpat]
+    317       2 Sun Feb  8 22:42:35 2026 [kworker/R-kmpat]
+    224       2 Sun Feb  8 22:42:34 2026 [jbd2/vda1-8]
+    225       2 Sun Feb  8 22:42:34 2026 [kworker/R-ext4-]
+    184       2 Sun Feb  8 22:42:34 2026 [kworker/R-raid5]
+     94       2 Sun Feb  8 22:42:33 2026 [kworker/R-charg]
+     84       2 Sun Feb  8 22:42:33 2026 [kworker/R-crypt]
+     77       2 Sun Feb  8 22:42:33 2026 [kworker/u7:0]
+     78       2 Sun Feb  8 22:42:33 2026 [kworker/u8:0]
+     79       2 Sun Feb  8 22:42:33 2026 [kworker/u9:0]
+     75       2 Sun Feb  8 22:42:33 2026 [kworker/R-kstrp]
+     67       2 Sun Feb  8 22:42:33 2026 [kworker/R-mld]
+     68       2 Sun Feb  8 22:42:33 2026 [kworker/R-ipv6_]
+     61       2 Sun Feb  8 22:42:33 2026 [scsi_eh_1]
+     62       2 Sun Feb  8 22:42:33 2026 [kworker/R-scsi_]
+     63       2 Sun Feb  8 22:42:33 2026 [scsi_eh_2]
+     64       2 Sun Feb  8 22:42:33 2026 [kworker/R-scsi_]
+     59       2 Sun Feb  8 22:42:33 2026 [scsi_eh_0]
+     60       2 Sun Feb  8 22:42:33 2026 [kworker/R-scsi_]
+     56       2 Sun Feb  8 22:42:33 2026 [kworker/R-kthro]
+     57       2 Sun Feb  8 22:42:33 2026 [kworker/R-acpi_]
+     54       2 Sun Feb  8 22:42:33 2026 [kswapd0]
+     55       2 Sun Feb  8 22:42:33 2026 [ecryptfs-kthread]
+     51       2 Sun Feb  8 22:42:33 2026 [watchdogd]
+     47       2 Sun Feb  8 22:42:33 2026 [kworker/R-md]
+     48       2 Sun Feb  8 22:42:33 2026 [kworker/R-md_bi]
+     49       2 Sun Feb  8 22:42:33 2026 [kworker/R-edac-]
+     50       2 Sun Feb  8 22:42:33 2026 [kworker/R-devfr]
+     45       2 Sun Feb  8 22:42:33 2026 [kworker/R-tpm_d]
+     46       2 Sun Feb  8 22:42:33 2026 [kworker/R-ata_s]
+     41       2 Sun Feb  8 22:42:33 2026 [kworker/R-kinte]
+     42       2 Sun Feb  8 22:42:33 2026 [kworker/R-kbloc]
+     43       2 Sun Feb  8 22:42:33 2026 [kworker/R-blkcg]
+     44       2 Sun Feb  8 22:42:33 2026 [irq/9-acpi]
+     37       2 Sun Feb  8 22:42:33 2026 [kcompactd0]
+     38       2 Sun Feb  8 22:42:33 2026 [ksmd]
+     40       2 Sun Feb  8 22:42:33 2026 [khugepaged]
+     32       2 Sun Feb  8 22:42:33 2026 [khungtaskd]
+     33       2 Sun Feb  8 22:42:33 2026 [oom_reaper]
+     35       2 Sun Feb  8 22:42:33 2026 [kworker/R-write]
+     31       2 Sun Feb  8 22:42:33 2026 [kauditd]
+     30       2 Sun Feb  8 22:42:33 2026 [kworker/R-inet_]
+     16       2 Sun Feb  8 22:42:33 2026 [ksoftirqd/0]
+     17       2 Sun Feb  8 22:42:33 2026 [rcu_preempt]
+     18       2 Sun Feb  8 22:42:33 2026 [migration/0]
+     19       2 Sun Feb  8 22:42:33 2026 [idle_inject/0]
+     20       2 Sun Feb  8 22:42:33 2026 [cpuhp/0]
+     21       2 Sun Feb  8 22:42:33 2026 [cpuhp/1]
+     22       2 Sun Feb  8 22:42:33 2026 [idle_inject/1]
+     23       2 Sun Feb  8 22:42:33 2026 [migration/1]
+     24       2 Sun Feb  8 22:42:33 2026 [ksoftirqd/1]
+     29       2 Sun Feb  8 22:42:33 2026 [kdevtmpfs]
+      1       0 Sun Feb  8 22:42:33 2026 /usr/lib/systemd/systemd --system --deserialize=67
+      2       0 Sun Feb  8 22:42:33 2026 [kthreadd]
+      3       2 Sun Feb  8 22:42:33 2026 [pool_workqueue_release]
+      4       2 Sun Feb  8 22:42:33 2026 [kworker/R-rcu_g]
+      5       2 Sun Feb  8 22:42:33 2026 [kworker/R-rcu_p]
+      6       2 Sun Feb  8 22:42:33 2026 [kworker/R-slub_]
+      7       2 Sun Feb  8 22:42:33 2026 [kworker/R-netns]
+     12       2 Sun Feb  8 22:42:33 2026 [kworker/R-mm_pe]
+     13       2 Sun Feb  8 22:42:33 2026 [rcu_tasks_kthread]
+     14       2 Sun Feb  8 22:42:33 2026 [rcu_tasks_rude_kthread]
+     15       2 Sun Feb  8 22:42:33 2026 [rcu_tasks_trace_kthread]

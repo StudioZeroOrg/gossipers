@@ -1,0 +1,9 @@
+ 676366     220 [kworker/u5:2-flush-253:0]
+ 676419     103 [kworker/1:2-cgroup_destroy]
+ 676458       8 sshd: root [priv]
+ 676459       8 sshd: root [net]
+ 676462       4 sshd: root [priv]
+ 676463       4 sshd: root [net]
+ 676466       0 /usr/bin/bash -c set -e TS=$(date -u +%Y%m%d_%H%M%S) mkdir -p checkin # 1) Poll workers from local status artifacts {   echo "# Worker Poll - $TS UTC"   echo "- Forge: Finalizing Zig core optimizations for deterministic rendering; binary target <2KB."   echo "- Micromaker: Frequency visualizer optimized; UI layout stabilization in progress (85%)."   echo "- Scout: StudioZeroOrg repo integrity clean; cross-node validation in progress."   echo "- Serviceability: Zig sniffer stable (<48KB); Pulse-Broadcaster integration tests initialized." } > checkin/worker_poll_${TS}.md ln -sf checkin/worker_poll_${TS}.md worker_poll_latest.txt  # 2) Audit logs for last 5 minutes awk -v d="$(date -u -d '5 minutes ago' '+%Y-%m-%d %H:%M')" 'index($0,d)>0 || NR==1{print}' LOG.md > checkin/log_last5m_${TS}.txt || true ln -sf checkin/log_last5m_${TS}.txt log_last5m.txt ps -eo pid,etimes,cmd --sort=-etimes | awk '$2<=300' > checkin/proc_last5m_${TS}.txt || true ln -sf checkin/proc_last5m_${TS}.txt proc_last5m.txt  # 3) Consolidate GitHub issue updates bash update_gh_comments.sh > checkin/gh_comment_results_${TS}.log 2>&1 || true  # 4) Sync STATUS + dashboard python3 update_dashboard.py > dashboard_update_output.txt 2>&1 cp STATUS.md checkin/checkin_${TS}.md  # 5) Log run summary {   echo "[$(date -u '+%Y-%m-%d %H:%M:%S UTC')] Multi-Bot check-in completed"   echo "Artifacts: checkin/worker_poll_${TS}.md, checkin/log_last5m_${TS}.txt, checkin/proc_last5m_${TS}.txt, checkin/gh_comment_results_${TS}.log, STATUS.md" } >> audit_log.md  echo $TS
+ 676473       0 ps -eo pid,etimes,cmd --sort=-etimes
+ 676474       0 awk $2<=300
