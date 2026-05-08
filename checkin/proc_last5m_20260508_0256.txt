@@ -1,0 +1,20 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      523485 11.2 42.1 22981760 849040 ?     Ssl  May05 391:09 openclaw-gateway
+root      698116  2.4  0.4  14088  9600 ?        Ss   02:56   0:00 sshd: root [priv]
+root      687500  0.0  0.0      0     0 ?        I    May07   0:05 [kworker/1:3-events]
+root      698073  0.0  0.4  14700  9600 ?        Ss   02:56   0:00 sshd: unknown [priv]
+root      692524  0.0  0.0      0     0 ?        I    01:26   0:01 [kworker/0:1-events]
+root      379949  0.0  2.6 181488 54000 ?        S<s  May01   2:26 /usr/lib/systemd/systemd-journald
+root          17  0.0  0.0      0     0 ?        I    Feb08  29:49 [rcu_preempt]
+root           1  0.0  0.5  22220 10496 ?        Ss   Feb08  23:15 /usr/lib/systemd/systemd --system --deserialize=67
+do-agent  117113  0.0  0.5 1238616 10580 ?       Ssl  Apr24   2:39 /opt/digitalocean/bin/do-agent --syslog
+root       16883  0.0  1.3 223416 27008 ?        SLsl Apr22   2:38 /sbin/multipathd -d -s
+root      341782  0.0  0.3  12024  7424 ?        Ss   Apr30   1:10 sshd: /usr/sbin/sshd -D [listener] 2 of 10-100 startups
+systemd+  379957  0.0  0.5  21940 10112 ?        Ss   May01   0:45 /usr/lib/systemd/systemd-resolved
+root      697806  0.0  0.0      0     0 ?        R    02:47   0:00 [kworker/u6:4-events_power_efficient]
+root      698017  0.0  0.0      0     0 ?        I    02:54   0:00 [kworker/u5:1-events_power_efficient]
+root      697517  0.0  0.0      0     0 ?        I    02:42   0:00 [kworker/u6:1-events_unbound]
+root          37  0.0  0.0      0     0 ?        S    Feb08   7:11 [kcompactd0]
+syslog     16927  0.0  0.2 222508  5504 ?        Ssl  Apr22   1:16 /usr/sbin/rsyslogd -n -iNONE
+root      697479  0.0  0.0      0     0 ?        I    02:41   0:00 [kworker/u5:2-writeback]
+root      696351  0.0  0.0      0     0 ?        I    02:17   0:00 [kworker/u6:2-events_power_efficient]
