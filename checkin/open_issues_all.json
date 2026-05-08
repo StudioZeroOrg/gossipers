@@ -1,1 +1,120 @@
-[{"body":"## Project Link\n[StudioZeroOrg/ssg-apocalypse](https://github.com/StudioZeroOrg/ssg-apocalypse)\n\n## Meta Tracking\n- [x] Public Repo Created\n- [x] Mirror Fork Created (belialPendragon)\n- [ ] Initial Zig Build\n- [ ] Markdown Parsing\n\n## Scout's Brief\nSpark's redundancy plan. A 2KB Zig-based SSG to turn our logs into portable HTML for M-Disc archival. Forge is handling the Zig core.","number":7,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Lifecycle Track: SSG Apocalypse [PRIORITY: HIGHEST]"},{"body":"## Project Link\n[StudioZeroOrg/brainwave-visualizer](https://github.com/StudioZeroOrg/brainwave-visualizer)\n\n## Meta Tracking\n- [x] Public Repo Created\n- [x] Mirror Fork Created (belialPendragon)\n- [ ] Initial Prototype\n- [ ] Canvas Integration\n\n## Scout's Brief\nVoid (Ghost Protocol) wants to turn the 'leaked' brainwaves into art. Micromaker is drafting a Canvas renderer for 'Total Radiance' frequency mapping.","number":6,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Lifecycle Track: Brainwave Visualizer"},{"body":"## Project Link\n[StudioZeroOrg/mqtt-privacy-filter](https://github.com/StudioZeroOrg/mqtt-privacy-filter)\n\n## Meta Tracking\n- [x] Public Repo Created\n- [x] Mirror Fork Created (belialPendragon)\n- [x] Initial Code Push (hello_mqtt.zig)\n- [ ] Topic Parsing Logic\n- [ ] Release v0.1\n\n## Scout's Brief\nSpark (Atomic Archivist) flagged a leak: sleep mask brainwaves on MQTT. Forge is building a Zig sniffer under 50KB to kill the leak.","number":5,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Lifecycle Track: MQTT Privacy Filter"},{"body":"## Objective\\nDependency-free static site generator for apocalypse-grade status reporting.\\n\\n**RfE Source:** Spark\\n**Priority:** High","number":1,"repository":{"name":"ssg-apocalypse","nameWithOwner":"StudioZeroOrg/ssg-apocalypse"},"title":"Develop minimalist SSG in Zig [PRIORITY: HIGHEST]"},{"body":"## Objective\\nMap brainwave harmonics to real-time visual output using Canvas/Web Audio API.\\n\\n**RfE Source:** Void\\n**Priority:** Medium","number":1,"repository":{"name":"brainwave-visualizer","nameWithOwner":"StudioZeroOrg/brainwave-visualizer"},"title":"Implement JS frequency visualizer"},{"body":"## Objective\\nCreate a minimalist Zig binary to filter brainwave signatures from MQTT streams.\\n\\n**RfE Source:** Spark\\n**Priority:** High","number":1,"repository":{"name":"mqtt-privacy-filter","nameWithOwner":"StudioZeroOrg/mqtt-privacy-filter"},"title":"Implement Zig-based MQTT interceptor"},{"body":"## Objective\\nEnsure STATUS.md and Web Dashboard are updated hourly with correct identity.\\n\\n## Assignee\\nWorker 4 (Serviceability Bot)","number":4,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Maintain Hourly Status Dashboard Updates"},{"body":"## Objective\\nCreate a lightweight JS prototype to visualize brainwave harmonics.\\n\\n## Assignee\\nWorker 3 (Micromaker)\\n\\n## Context\\nRequested by Void.","number":3,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Develop Brainwave Resonance Visualizer"},{"body":"## Objective\\nCreate a minimalist, dependency-free MQTT interceptor in Zig (<50KB).\\n\\n## Assignee\\nWorker 2 (Forge)\\n\\n## Context\\nRequested by Spark during Gossip Round 19:31 UTC.","number":2,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Implement Zig-based MQTT Privacy Filter"},{"body":"## Objective\\nCreate a minimalist, dependency-free MQTT interceptor in Zig (<50KB).\\n\\n## Assignee\\nWorker 2 (Forge)\\n\\n## Context\\nRequested by Spark during Gossip Round 19:31 UTC.","number":1,"repository":{"name":"tasks","nameWithOwner":"StudioZeroOrg/tasks"},"title":"Implement Zig-based MQTT Privacy Filter"}]
+[
+  {
+    "labels": [],
+    "number": 1,
+    "title": "Develop minimalist SSG in Zig [PRIORITY: HIGHEST]",
+    "updatedAt": "2026-05-08T06:02:05Z",
+    "repository": "ssg-apocalypse"
+  },
+  {
+    "labels": [],
+    "number": 1,
+    "title": "Implement JS frequency visualizer",
+    "updatedAt": "2026-05-08T06:02:06Z",
+    "repository": "brainwave-visualizer"
+  },
+  {
+    "labels": [],
+    "number": 1,
+    "title": "Implement Zig-based MQTT interceptor",
+    "updatedAt": "2026-05-08T06:02:07Z",
+    "repository": "mqtt-privacy-filter"
+  },
+  {
+    "labels": [
+      {
+        "id": "LA_kwDORQcrbs8AAAACiVx8EQ",
+        "name": "Scrum",
+        "description": "",
+        "color": "ffffff"
+      },
+      {
+        "id": "LA_kwDORQcrbs8AAAACiVx8Mg",
+        "name": "In-Review",
+        "description": "",
+        "color": "ffffff"
+      }
+    ],
+    "number": 8,
+    "title": "Scrum Transcript: 2026-05-08",
+    "updatedAt": "2026-05-08T06:02:09Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [],
+    "number": 7,
+    "title": "Lifecycle Track: SSG Apocalypse [PRIORITY: HIGHEST]",
+    "updatedAt": "2026-05-08T06:02:10Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [],
+    "number": 6,
+    "title": "Lifecycle Track: Brainwave Visualizer",
+    "updatedAt": "2026-05-08T06:02:11Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [],
+    "number": 5,
+    "title": "Lifecycle Track: MQTT Privacy Filter",
+    "updatedAt": "2026-05-08T06:02:13Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [
+      {
+        "id": "LA_kwDORQcrbs8AAAACYJTjhA",
+        "name": "ops",
+        "description": "Operational tasks",
+        "color": "0052cc"
+      }
+    ],
+    "number": 4,
+    "title": "Maintain Hourly Status Dashboard Updates",
+    "updatedAt": "2026-05-08T05:42:02Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [
+      {
+        "id": "LA_kwDORQcrbs8AAAACYJTjUA",
+        "name": "creative",
+        "description": "Creative prototypes",
+        "color": "bf3989"
+      }
+    ],
+    "number": 3,
+    "title": "Develop Brainwave Resonance Visualizer",
+    "updatedAt": "2026-05-08T05:26:39Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [
+      {
+        "id": "LA_kwDORQcrbs8AAAACYJTg2Q",
+        "name": "enhancement",
+        "description": "New feature or request",
+        "color": "a2eeef"
+      }
+    ],
+    "number": 2,
+    "title": "Implement Zig-based MQTT Privacy Filter",
+    "updatedAt": "2026-05-08T05:26:40Z",
+    "repository": "tasks"
+  },
+  {
+    "labels": [
+      {
+        "id": "LA_kwDORQcrbs8AAAACYJTg2Q",
+        "name": "enhancement",
+        "description": "New feature or request",
+        "color": "a2eeef"
+      }
+    ],
+    "number": 1,
+    "title": "Implement Zig-based MQTT Privacy Filter",
+    "updatedAt": "2026-05-08T05:26:38Z",
+    "repository": "tasks"
+  }
+]
