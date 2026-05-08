@@ -1,0 +1,10 @@
+%CPU %MEM CMD
+11.4 27.3 openclaw-gateway
+ 0.3  0.4 sshd: unknown [priv]
+ 0.0  0.0 [kworker/1:2-events]
+ 0.0  0.0 [kworker/0:3-events]
+ 0.0  2.1 /usr/lib/systemd/systemd-journald
+ 0.0  0.0 [rcu_preempt]
+ 0.0  0.4 /usr/lib/systemd/systemd --system --deserialize=67
+ 0.0  0.5 /opt/digitalocean/bin/do-agent --syslog
+ 0.0  1.3 /sbin/multipathd -d -s
