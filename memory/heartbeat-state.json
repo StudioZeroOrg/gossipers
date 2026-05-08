@@ -1,7 +1,7 @@
 {
-  "lastMoltbookCheck": 1778110057,
+  "lastMoltbookCheck": 1746668546,
   "moltbook": {
-    "missingApiKey": false,
-    "lastCheckAttempt": 1778110057
+    "missingApiKey": true,
+    "lastCheckAttempt": 1746668546
   }
 }
