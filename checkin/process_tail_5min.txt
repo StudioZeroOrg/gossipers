@@ -1,1 +1,78 @@
--- No entries --
+│
+◇  Doctor warnings ──────────────────────────────────────╮
+│                                                        │
+│  - State dir migration skipped: target already exists  │
+│    (/root/.openclaw). Remove or merge manually.        │
+│                                                        │
+├────────────────────────────────────────────────────────╯
+OpenClaw status
+
+Overview
+┌─────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Item            │ Value                                                                                             │
+├─────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Dashboard       │ http://127.0.0.1:18789/                                                                           │
+│ OS              │ linux 6.8.0-94-generic (x64) · node 22.22.0                                                       │
+│ Tailscale       │ off                                                                                               │
+│ Channel         │ stable (default)                                                                                  │
+│ Update          │ available · pnpm · npm update 2026.5.7                                                            │
+│ Gateway         │ local · ws://127.0.0.1:18789 (local loopback) · reachable 42ms · auth token+password · ubuntu-s-  │
+│                 │ 2vcpu-2gb-blr1-01 (64.227.184.138) app unknown linux 6.8.0-94-generic                             │
+│ Gateway service │ systemd installed · enabled · running (pid 523485, state active)                                  │
+│ Node service    │ systemd not installed                                                                             │
+│ Agents          │ 1 · no bootstraps · sessions 860 · default main active 1m ago                                     │
+│ Memory          │ 0 files · 0 chunks · dirty · sources memory · plugin memory-core · vector ready · fts ready ·     │
+│                 │ cache on (0)                                                                                      │
+│ Probes          │ skipped (use --deep)                                                                              │
+│ Events          │ none                                                                                              │
+│ Heartbeat       │ 30m (main)                                                                                        │
+│ Sessions        │ 860 active · default gemini-3-flash-preview (1049k ctx) · ~/.openclaw/agents/main/sessions/       │
+│                 │ sessions.json                                                                                     │
+└─────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Security audit
+Summary: 1 critical · 2 warn · 1 info
+  CRITICAL Small models require sandboxing and web tools disabled
+    Small models (<=300B params) detected: - google/gemini-1.5-flash-8b (8B) @ agents.defaults.model.fallbacks (unsafe; sandbox=off; web=[web_fetch, browser]) Unco…
+    Fix: If you must use small models, enable sandboxing for all sessions (agents.defaults.sandbox.mode="all") and disable web_search/web_fetch/browser (tools.deny=["group:web","browser"]).
+  WARN Gateway password is stored in config
+    gateway.auth.password is set in the config file; prefer environment variables for secrets when possible.
+    Fix: Prefer OPENCLAW_GATEWAY_PASSWORD (env) and remove gateway.auth.password from disk.
+  WARN Some configured models are below recommended tiers
+    Smaller/older models are generally more susceptible to prompt injection and tool misuse. - github-copilot/gpt-4o (Below GPT-5 family) @ agents.defaults.model.f…
+    Fix: Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+.
+Full report: openclaw security audit
+Deep probe: openclaw security audit --deep
+
+Channels
+┌──────────┬─────────┬────────┬───────────────────────────────────────────────────────────────────────────────────────┐
+│ Channel  │ Enabled │ State  │ Detail                                                                                │
+├──────────┼─────────┼────────┼───────────────────────────────────────────────────────────────────────────────────────┤
+│ Telegram │ ON      │ OK     │ token config (8222…eP74 · len 46) · accounts 1/1                                      │
+└──────────┴─────────┴────────┴───────────────────────────────────────────────────────────────────────────────────────┘
+
+Sessions
+┌──────────────────────────────────────────────────────┬────────┬─────────┬────────────────────────┬──────────────────┐
+│ Key                                                  │ Kind   │ Age     │ Model                  │ Tokens           │
+├──────────────────────────────────────────────────────┼────────┼─────────┼────────────────────────┼──────────────────┤
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 1m ago  │ gemini-3-flash-preview │ 0.0k/1049k (0%)  │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 1m ago  │ gemini-3-flash-preview │ 0.0k/1049k (0%)  │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 6m ago  │ gemini-3-flash-preview │ 53k/1049k (5%)   │
+│ agent:main:main                                      │ direct │ 10m ago │ gemini-3-flash-preview │ 112k/1049k (11%) │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 11m ago │ gemini-3-flash-preview │ 231k/1049k (22%) │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 16m ago │ gemini-3-flash-preview │ 102k/1049k (10%) │
+│ agent:main:cron:ad1b74de-6a5f-4…                     │ direct │ 17m ago │ gemini-3-flash-preview │ 52k/1049k (5%)   │
+│ agent:main:cron:ad1b74de-6a5f-4…                     │ direct │ 17m ago │ gemini-3-flash-preview │ 52k/1049k (5%)   │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 21m ago │ gemini-3-flash-preview │ 51k/1049k (5%)   │
+│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 26m ago │ gemini-3-flash-preview │ 30k/1049k (3%)   │
+└──────────────────────────────────────────────────────┴────────┴─────────┴────────────────────────┴──────────────────┘
+
+FAQ: https://docs.openclaw.ai/faq
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
+
+Update available (npm 2026.5.7). Run: openclaw update
+
+Next steps:
+  Need to share?      openclaw status --all
+  Need to debug live? openclaw logs --follow
+  Need to test channels? openclaw status --deep
