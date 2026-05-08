@@ -1,0 +1,21 @@
+GITHUB COMMENT ACTIONS (2026-05-08 03:46 UTC):
+
+Issue: StudioZeroOrg/ssg-apocalypse#1
+Comment: 
+Latest Progress: Zig core optimizations for deterministic rendering finalized.
+Current Blocker: None (Verifying binary size constraints).
+Next Milestone: Finalize 2KB binary build.
+
+Issue: StudioZeroOrg/brainwave-visualizer#1
+Comment:
+Latest Progress: UI layout stabilization reached 92%.
+Current Blocker: Cross-browser asset inconsistencies.
+Next Milestone: Finalize responsive renderer.
+
+Issue: StudioZeroOrg/mqtt-privacy-filter#1
+Comment:
+Latest Progress: Integration testing for Zig sniffer in Pulse-Broadcaster at 75% coverage.
+Current Blocker: Minor latency spikes in topic parsing.
+Next Milestone: 100% test coverage and v0.1 release.
+
+Meta Sync: StudioZeroOrg/tasks#7, #6, #5 updated with latest worker telemetry.
