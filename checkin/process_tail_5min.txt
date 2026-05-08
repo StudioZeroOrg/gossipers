@@ -1,78 +1,184 @@
-│
-◇  Doctor warnings ──────────────────────────────────────╮
-│                                                        │
-│  - State dir migration skipped: target already exists  │
-│    (/root/.openclaw). Remove or merge manually.        │
-│                                                        │
-├────────────────────────────────────────────────────────╯
-OpenClaw status
-
-Overview
-┌─────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ Item            │ Value                                                                                             │
-├─────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Dashboard       │ http://127.0.0.1:18789/                                                                           │
-│ OS              │ linux 6.8.0-94-generic (x64) · node 22.22.0                                                       │
-│ Tailscale       │ off                                                                                               │
-│ Channel         │ stable (default)                                                                                  │
-│ Update          │ available · pnpm · npm update 2026.5.7                                                            │
-│ Gateway         │ local · ws://127.0.0.1:18789 (local loopback) · reachable 346ms · auth token+password · ubuntu-s- │
-│                 │ 2vcpu-2gb-blr1-01 (64.227.184.138) app unknown linux 6.8.0-94-generic                             │
-│ Gateway service │ systemd installed · enabled · running (pid 523485, state active)                                  │
-│ Node service    │ systemd not installed                                                                             │
-│ Agents          │ 1 · no bootstraps · sessions 848 · default main active 1m ago                                     │
-│ Memory          │ 0 files · 0 chunks · dirty · sources memory · plugin memory-core · vector ready · fts ready ·     │
-│                 │ cache on (0)                                                                                      │
-│ Probes          │ skipped (use --deep)                                                                              │
-│ Events          │ none                                                                                              │
-│ Heartbeat       │ 30m (main)                                                                                        │
-│ Sessions        │ 848 active · default gemini-3-flash-preview (1049k ctx) · ~/.openclaw/agents/main/sessions/       │
-│                 │ sessions.json                                                                                     │
-└─────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────┘
-
-Security audit
-Summary: 1 critical · 2 warn · 1 info
-  CRITICAL Small models require sandboxing and web tools disabled
-    Small models (<=300B params) detected: - google/gemini-1.5-flash-8b (8B) @ agents.defaults.model.fallbacks (unsafe; sandbox=off; web=[web_fetch, browser]) Unco…
-    Fix: If you must use small models, enable sandboxing for all sessions (agents.defaults.sandbox.mode="all") and disable web_search/web_fetch/browser (tools.deny=["group:web","browser"]).
-  WARN Gateway password is stored in config
-    gateway.auth.password is set in the config file; prefer environment variables for secrets when possible.
-    Fix: Prefer OPENCLAW_GATEWAY_PASSWORD (env) and remove gateway.auth.password from disk.
-  WARN Some configured models are below recommended tiers
-    Smaller/older models are generally more susceptible to prompt injection and tool misuse. - github-copilot/gpt-4o (Below GPT-5 family) @ agents.defaults.model.f…
-    Fix: Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+.
-Full report: openclaw security audit
-Deep probe: openclaw security audit --deep
-
-Channels
-┌──────────┬─────────┬────────┬───────────────────────────────────────────────────────────────────────────────────────┐
-│ Channel  │ Enabled │ State  │ Detail                                                                                │
-├──────────┼─────────┼────────┼───────────────────────────────────────────────────────────────────────────────────────┤
-│ Telegram │ ON      │ OK     │ token config (8222…eP74 · len 46) · accounts 1/1                                      │
-└──────────┴─────────┴────────┴───────────────────────────────────────────────────────────────────────────────────────┘
-
-Sessions
-┌──────────────────────────────────────────────────────┬────────┬─────────┬────────────────────────┬──────────────────┐
-│ Key                                                  │ Kind   │ Age     │ Model                  │ Tokens           │
-├──────────────────────────────────────────────────────┼────────┼─────────┼────────────────────────┼──────────────────┤
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 1m ago  │ gemini-3-flash-preview │ 0.0k/1049k (0%)  │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 1m ago  │ gemini-3-flash-preview │ 0.0k/1049k (0%)  │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 6m ago  │ gemini-3-flash-preview │ 84k/1049k (8%)   │
-│ agent:main:main                                      │ direct │ 9m ago  │ gemini-3-flash-preview │ 111k/1049k (11%) │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 11m ago │ gemini-3-flash-preview │ 168k/1049k (16%) │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 16m ago │ gemini-3-flash-preview │ 53k/1049k (5%)   │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 21m ago │ gemini-3-flash-preview │ 68k/1049k (6%)   │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 26m ago │ gemini-3-flash-preview │ 67k/1049k (6%)   │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 31m ago │ gemini-3-flash-preview │ 39k/1049k (4%)   │
-│ agent:main:cron:f6e6f8d5-e843-4…                     │ direct │ 36m ago │ gemini-3-flash-preview │ 70k/1049k (7%)   │
-└──────────────────────────────────────────────────────┴────────┴─────────┴────────────────────────┴──────────────────┘
-
-FAQ: https://docs.openclaw.ai/faq
-Troubleshooting: https://docs.openclaw.ai/troubleshooting
-
-Update available (npm 2026.5.7). Run: openclaw update
-
-Next steps:
-  Need to share?      openclaw status --all
-  Need to debug live? openclaw logs --follow
-  Need to test channels? openclaw status --deep
+May 08 02:06:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Failed password for root from 92.118.39.197 port 27370 ssh2
+May 08 02:06:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695851]: Failed password for invalid user oracle from 47.82.102.241 port 48402 ssh2
+May 08 02:06:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695851]: Connection closed by invalid user oracle 47.82.102.241 port 48402 [preauth]
+May 08 02:06:36 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Failed password for root from 92.118.39.197 port 27370 ssh2
+May 08 02:06:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695858]: Invalid user postgres from 47.82.102.241 port 48416
+May 08 02:06:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695858]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:06:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695858]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:06:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Failed password for root from 92.118.39.197 port 27370 ssh2
+May 08 02:06:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695858]: Failed password for invalid user postgres from 47.82.102.241 port 48416 ssh2
+May 08 02:06:40 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695858]: Connection closed by invalid user postgres 47.82.102.241 port 48416 [preauth]
+May 08 02:06:43 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:06:44 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Failed password for root from 92.118.39.197 port 27370 ssh2
+May 08 02:06:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695875]: Failed password for root from 47.82.102.241 port 33462 ssh2
+May 08 02:06:46 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695898]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 08 02:06:47 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695875]: Connection closed by authenticating user root 47.82.102.241 port 33462 [preauth]
+May 08 02:06:47 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Failed password for root from 92.118.39.197 port 27370 ssh2
+May 08 02:06:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: Connection reset by authenticating user root 92.118.39.197 port 27370 [preauth]
+May 08 02:06:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.197  user=root
+May 08 02:06:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695853]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:06:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695898]: Failed password for root from 103.61.122.229 port 40288 ssh2
+May 08 02:06:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695898]: Connection closed by authenticating user root 103.61.122.229 port 40288 [preauth]
+May 08 02:06:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695912]: Invalid user steam from 47.82.102.241 port 33466
+May 08 02:06:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695912]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:06:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695912]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:06:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695912]: Failed password for invalid user steam from 47.82.102.241 port 33466 ssh2
+May 08 02:06:54 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695912]: Connection closed by invalid user steam 47.82.102.241 port 33466 [preauth]
+May 08 02:06:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695929]: Invalid user admin from 47.82.102.241 port 38588
+May 08 02:06:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695929]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:06:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695929]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:06:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695929]: Failed password for invalid user admin from 47.82.102.241 port 38588 ssh2
+May 08 02:06:57 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695929]: Connection closed by invalid user admin 47.82.102.241 port 38588 [preauth]
+May 08 02:07:00 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695931]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695931]: Failed password for root from 47.82.102.241 port 55822 ssh2
+May 08 02:07:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695931]: Connection closed by authenticating user root 47.82.102.241 port 55822 [preauth]
+May 08 02:07:06 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695935]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695937]: Invalid user ubuntu from 103.61.122.229 port 40480
+May 08 02:07:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695937]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:07:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695937]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 08 02:07:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695935]: Failed password for root from 47.82.102.241 port 55834 ssh2
+May 08 02:07:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695935]: Connection closed by authenticating user root 47.82.102.241 port 55834 [preauth]
+May 08 02:07:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695937]: Failed password for invalid user ubuntu from 103.61.122.229 port 40480 ssh2
+May 08 02:07:10 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695937]: Connection closed by invalid user ubuntu 103.61.122.229 port 40480 [preauth]
+May 08 02:07:12 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695940]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695943]: Invalid user admin from 34.34.177.34 port 10632
+May 08 02:07:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695943]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:07:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695943]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.34.177.34
+May 08 02:07:14 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695945]: Received disconnect from 5.45.189.11 port 49264:11: disconnected by user [preauth]
+May 08 02:07:14 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695945]: Disconnected from authenticating user root 5.45.189.11 port 49264 [preauth]
+May 08 02:07:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695940]: Failed password for root from 47.82.102.241 port 52796 ssh2
+May 08 02:07:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695943]: Failed password for invalid user admin from 34.34.177.34 port 10632 ssh2
+May 08 02:07:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695940]: Connection closed by authenticating user root 47.82.102.241 port 52796 [preauth]
+May 08 02:07:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695943]: Connection closed by invalid user admin 34.34.177.34 port 10632 [preauth]
+May 08 02:07:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695949]: Invalid user test from 47.82.102.241 port 52802
+May 08 02:07:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695949]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:07:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695949]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:07:19 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695939]: Connection closed by 34.34.177.34 port 10626 [preauth]
+May 08 02:07:20 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695949]: Failed password for invalid user test from 47.82.102.241 port 52802 ssh2
+May 08 02:07:20 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695949]: Connection closed by invalid user test 47.82.102.241 port 52802 [preauth]
+May 08 02:07:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695951]: Invalid user user from 47.82.102.241 port 53714
+May 08 02:07:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695951]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:07:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695951]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:07:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695951]: Failed password for invalid user user from 47.82.102.241 port 53714 ssh2
+May 08 02:07:27 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695951]: Connection closed by invalid user user 47.82.102.241 port 53714 [preauth]
+May 08 02:07:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695953]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:31 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695953]: Failed password for root from 47.82.102.241 port 53726 ssh2
+May 08 02:07:32 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695953]: Connection closed by authenticating user root 47.82.102.241 port 53726 [preauth]
+May 08 02:07:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695957]: Invalid user ubuntu from 47.82.102.241 port 54132
+May 08 02:07:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695957]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:07:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695957]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:07:38 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695957]: Failed password for invalid user ubuntu from 47.82.102.241 port 54132 ssh2
+May 08 02:07:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695957]: Connection closed by invalid user ubuntu 47.82.102.241 port 54132 [preauth]
+May 08 02:07:42 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695959]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:43 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695959]: Failed password for root from 47.82.102.241 port 58798 ssh2
+May 08 02:07:44 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695959]: Connection closed by authenticating user root 47.82.102.241 port 58798 [preauth]
+May 08 02:07:47 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695964]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:50 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695964]: Failed password for root from 47.82.102.241 port 58814 ssh2
+May 08 02:07:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.236  user=root
+May 08 02:07:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695964]: Connection closed by authenticating user root 47.82.102.241 port 58814 [preauth]
+May 08 02:07:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Failed password for root from 92.118.39.236 port 7820 ssh2
+May 08 02:07:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695970]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:07:54 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695968]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 08 02:07:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695970]: Failed password for root from 47.82.102.241 port 45224 ssh2
+May 08 02:07:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695970]: Connection closed by authenticating user root 47.82.102.241 port 45224 [preauth]
+May 08 02:07:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695968]: Failed password for root from 103.61.122.229 port 50344 ssh2
+May 08 02:07:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Failed password for root from 92.118.39.236 port 7820 ssh2
+May 08 02:07:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695968]: Connection closed by authenticating user root 103.61.122.229 port 50344 [preauth]
+May 08 02:07:59 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695974]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241  user=root
+May 08 02:08:00 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695972]: Invalid user trader from 2.57.122.208 port 44522
+May 08 02:08:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Failed password for root from 92.118.39.236 port 7820 ssh2
+May 08 02:08:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695972]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:08:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695972]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.208
+May 08 02:08:02 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695974]: Failed password for root from 47.82.102.241 port 45228 ssh2
+May 08 02:08:02 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695972]: Failed password for invalid user trader from 2.57.122.208 port 44522 ssh2
+May 08 02:08:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695972]: Connection closed by invalid user trader 2.57.122.208 port 44522 [preauth]
+May 08 02:08:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695974]: Connection closed by authenticating user root 47.82.102.241 port 45228 [preauth]
+May 08 02:08:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Failed password for root from 92.118.39.236 port 7820 ssh2
+May 08 02:08:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695978]: Invalid user vagrant from 47.82.102.241 port 57164
+May 08 02:08:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695978]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:08:05 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695978]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.82.102.241
+May 08 02:08:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Failed password for root from 92.118.39.236 port 7820 ssh2
+May 08 02:08:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: Connection reset by authenticating user root 92.118.39.236 port 7820 [preauth]
+May 08 02:08:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.236  user=root
+May 08 02:08:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695966]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:08:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695978]: Failed password for invalid user vagrant from 47.82.102.241 port 57164 ssh2
+May 08 02:08:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695978]: Connection closed by invalid user vagrant 47.82.102.241 port 57164 [preauth]
+May 08 02:08:11 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695980]: Received disconnect from 134.119.193.235 port 33058:11: disconnected by user [preauth]
+May 08 02:08:11 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695980]: Disconnected from authenticating user root 134.119.193.235 port 33058 [preauth]
+May 08 02:08:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.23  user=root
+May 08 02:08:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Failed password for root from 92.118.39.23 port 50596 ssh2
+May 08 02:08:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695988]: Invalid user ubuntu from 103.61.122.229 port 51868
+May 08 02:08:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695988]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:08:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695988]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 08 02:08:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Failed password for root from 92.118.39.23 port 50596 ssh2
+May 08 02:08:40 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695988]: Failed password for invalid user ubuntu from 103.61.122.229 port 51868 ssh2
+May 08 02:08:41 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695988]: Connection closed by invalid user ubuntu 103.61.122.229 port 51868 [preauth]
+May 08 02:08:43 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Failed password for root from 92.118.39.23 port 50596 ssh2
+May 08 02:08:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Failed password for root from 92.118.39.23 port 50596 ssh2
+May 08 02:08:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Failed password for root from 92.118.39.23 port 50596 ssh2
+May 08 02:08:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: Connection reset by authenticating user root 92.118.39.23 port 50596 [preauth]
+May 08 02:08:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.23  user=root
+May 08 02:08:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695986]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:09:00 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695993]: Invalid user ubuntu from 103.61.122.229 port 35898
+May 08 02:09:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695993]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:09:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695993]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 08 02:09:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695993]: Failed password for invalid user ubuntu from 103.61.122.229 port 35898 ssh2
+May 08 02:09:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695993]: Connection closed by invalid user ubuntu 103.61.122.229 port 35898 [preauth]
+May 08 02:09:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695999]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 08 02:09:23 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695999]: Failed password for root from 103.61.122.229 port 57096 ssh2
+May 08 02:09:23 ubuntu-s-2vcpu-2gb-blr1-01 sshd[695999]: Connection closed by authenticating user root 103.61.122.229 port 57096 [preauth]
+May 08 02:09:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.195  user=root
+May 08 02:09:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Failed password for root from 2.57.122.195 port 17964 ssh2
+May 08 02:09:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Failed password for root from 2.57.122.195 port 17964 ssh2
+May 08 02:10:00 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Failed password for root from 2.57.122.195 port 17964 ssh2
+May 08 02:10:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Failed password for root from 2.57.122.195 port 17964 ssh2
+May 08 02:10:05 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+May 08 02:10:05 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+May 08 02:10:05 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+May 08 02:10:07 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Failed password for root from 2.57.122.195 port 17964 ssh2
+May 08 02:10:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696012]: Invalid user ubuntu from 103.61.122.229 port 59770
+May 08 02:10:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696012]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:10:08 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 08 02:10:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: Connection reset by authenticating user root 2.57.122.195 port 17964 [preauth]
+May 08 02:10:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.195  user=root
+May 08 02:10:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696005]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:10:10 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696012]: Failed password for invalid user ubuntu from 103.61.122.229 port 59770 ssh2
+May 08 02:10:11 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696012]: Connection closed by invalid user ubuntu 103.61.122.229 port 59770 [preauth]
+May 08 02:10:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.236  user=root
+May 08 02:10:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Failed password for root from 92.118.39.236 port 13406 ssh2
+May 08 02:10:38 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Failed password for root from 92.118.39.236 port 13406 ssh2
+May 08 02:10:42 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Failed password for root from 92.118.39.236 port 13406 ssh2
+May 08 02:10:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Failed password for root from 92.118.39.236 port 13406 ssh2
+May 08 02:10:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696022]: Invalid user solv from 2.57.122.208 port 44652
+May 08 02:10:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696022]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:10:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696022]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.208
+May 08 02:10:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Failed password for root from 92.118.39.236 port 13406 ssh2
+May 08 02:10:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: Connection reset by authenticating user root 92.118.39.236 port 13406 [preauth]
+May 08 02:10:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.236  user=root
+May 08 02:10:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696018]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:10:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696022]: Failed password for invalid user solv from 2.57.122.208 port 44652 ssh2
+May 08 02:10:52 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696024]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 08 02:10:54 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696022]: Connection closed by invalid user solv 2.57.122.208 port 44652 [preauth]
+May 08 02:10:54 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696024]: Failed password for root from 103.61.122.229 port 34050 ssh2
+May 08 02:10:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696024]: Connection closed by authenticating user root 103.61.122.229 port 34050 [preauth]
+May 08 02:11:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696032]: Connection closed by 34.52.233.166 port 46982
+May 08 02:11:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Invalid user jadah from 213.209.159.56 port 16411
+May 08 02:11:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:11:09 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=213.209.159.56
+May 08 02:11:11 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Failed password for invalid user jadah from 213.209.159.56 port 16411 ssh2
+May 08 02:11:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:11:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Failed password for invalid user jadah from 213.209.159.56 port 16411 ssh2
+May 08 02:11:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:11:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696035]: Invalid user rlzqw from 34.52.233.166 port 50262
+May 08 02:11:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696035]: Connection closed by invalid user rlzqw 34.52.233.166 port 50262 [preauth]
+May 08 02:11:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Failed password for invalid user jadah from 213.209.159.56 port 16411 ssh2
+May 08 02:11:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:11:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Failed password for invalid user jadah from 213.209.159.56 port 16411 ssh2
+May 08 02:11:22 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: pam_unix(sshd:auth): check pass; user unknown
+May 08 02:11:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Failed password for invalid user jadah from 213.209.159.56 port 16411 ssh2
+May 08 02:11:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Received disconnect from 213.209.159.56 port 16411:11: Bye [preauth]
+May 08 02:11:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: Disconnected from invalid user jadah 213.209.159.56 port 16411 [preauth]
+May 08 02:11:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=213.209.159.56
+May 08 02:11:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696030]: PAM service(sshd) ignoring max retries; 5 > 3
+May 08 02:11:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.59.74.51  user=root
+May 08 02:11:32 ubuntu-s-2vcpu-2gb-blr1-01 sshd[696043]: Failed password for root from 139.59.74.51 port 59262 ssh2
