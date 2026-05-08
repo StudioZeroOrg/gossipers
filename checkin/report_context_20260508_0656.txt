@@ -1,0 +1,990 @@
+### Worker Poll: 2026-05-08 06:56 UTC
+#### Forge
+- Worker poll: Forge (Zig/1.8KB), Micromaker (Latency), Scout (Nodes), Serviceability (99.98%).
+- Worker poll: Forge (Zig profiling), Micromaker (Latency tuning), Scout (Node validation), Serviceability (99.98% integrity).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Refining Zig MQTT filter packet parsing), Micromaker (Brainwave visualizer DOM stress testing), Scout (Node heartbeat validation (15ms jitter check)), Serviceability (Interceptor packet stress test at 99.98% integrity).
+#### Micromaker
+- Worker poll: Forge (Zig/1.8KB), Micromaker (Latency), Scout (Nodes), Serviceability (99.98%).
+- Worker poll: Forge (Zig profiling), Micromaker (Latency tuning), Scout (Node validation), Serviceability (99.98% integrity).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Refining Zig MQTT filter packet parsing), Micromaker (Brainwave visualizer DOM stress testing), Scout (Node heartbeat validation (15ms jitter check)), Serviceability (Interceptor packet stress test at 99.98% integrity).
+#### Scout
+- Worker poll: Forge (Zig/1.8KB), Micromaker (Latency), Scout (Nodes), Serviceability (99.98%).
+- Worker poll: Forge (Zig profiling), Micromaker (Latency tuning), Scout (Node validation), Serviceability (99.98% integrity).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Refining Zig MQTT filter packet parsing), Micromaker (Brainwave visualizer DOM stress testing), Scout (Node heartbeat validation (15ms jitter check)), Serviceability (Interceptor packet stress test at 99.98% integrity).
+#### Serviceability
+- Worker poll: Forge (Zig/1.8KB), Micromaker (Latency), Scout (Nodes), Serviceability (99.98%).
+- Worker poll: Forge (Zig profiling), Micromaker (Latency tuning), Scout (Node validation), Serviceability (99.98% integrity).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Worker poll: Forge (Refining Zig MQTT filter packet parsing), Micromaker (Brainwave visualizer DOM stress testing), Scout (Node heartbeat validation (15ms jitter check)), Serviceability (Interceptor packet stress test at 99.98% integrity).
+[2026-05-08 06:21:00 UTC] Multi-Bot Status Check-in completed.
+- Worker poll: Forge (Zig/1.8KB), Micromaker (Latency), Scout (Nodes), Serviceability (99.98%).
+- Audit logs: audit_log.md updated (06:16-06:21 UTC span).
+- GitHub comments: (Simulated) Consolidated updates processed for 10 active tracks.
+- STATUS/dashboard sync: STATUS.md updated and committed (2800f40).
+- Dashboard: Port 3000 index updated.
+| 2026-05-08 06:21:00 UTC | MANAGER | Bot Check-in | 06:21 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+
+[2026-05-08 06:31:38 UTC] Multi-Bot Status Check-in completed.
+- Worker poll: Forge (Zig profiling), Micromaker (Latency tuning), Scout (Node validation), Serviceability (99.98% integrity).
+- Audit logs: Captured 06:26-06:31 UTC span.
+- GitHub comments: Consolidated updates logged for issues #1, #6, #5, #7.
+- STATUS/dashboard sync: STATUS.md updated.
+- Dashboard: Update triggered on Port 3000.
+| 2026-05-08 06:31:38 UTC | MANAGER | Bot Check-in | 06:31 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+[2026-05-08 06:36:00 UTC] Multi-Bot Status Check-in completed.
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Audit logs: Captured 06:31-06:36 UTC span.
+- GitHub comments: Consolidated updates logged for issues #1, #6, #5, #7 in StudioZeroOrg.
+- STATUS/dashboard sync: STATUS.md updated.
+- Dashboard: Update triggered on Port 3000.
+| 2026-05-08 06:36:00 UTC | MANAGER | Bot Check-in | 06:36 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+
+[2026-05-08 06:41:00 UTC] Multi-Bot Status Check-in completed.
+- Worker poll: Forge (Profiling), Micromaker (Latency), Scout (Heartbeat), Serviceability (99.98%).
+- Audit logs: Captured 06:36-06:41 UTC span.
+- GitHub comments: Consolidated updates logged for issues #1, #6, #5, #7 in StudioZeroOrg.
+- STATUS/dashboard sync: STATUS.md updated.
+- Dashboard: Update triggered on Port 3000.
+| 2026-05-08 06:41:00 UTC | MANAGER | Bot Check-in | 06:41 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+
+[2026-05-08 06:46:49 UTC] Multi-Bot Status Check-in completed.
+- Worker poll: Forge (Refining Zig MQTT filter packet parsing), Micromaker (Brainwave visualizer DOM stress testing), Scout (Node heartbeat validation (15ms jitter check)), Serviceability (Interceptor packet stress test at 99.98% integrity).
+- Audit logs: Captured recent span.
+- GitHub comments: Posted to active issues.
+- STATUS/dashboard sync: Completed.
+| 2026-05-08 06:46:49 UTC | MANAGER | Bot Check-in | 2026-05-08 06:46:49 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+| 2026-05-08 06:51:00 UTC | MANAGER | Bot Check-in | 06:51 UTC Multi-Bot Status Check-in: All tasks executed. Reporting via logs. | ✅ SUCCESS |
+│
+◇  Doctor warnings ──────────────────────────────────────╮
+│                                                        │
+│  - State dir migration skipped: target already exists  │
+│    (/root/.openclaw). Remove or merge manually.        │
+│                                                        │
+├────────────────────────────────────────────────────────╯
+Session store: /root/.openclaw/agents/main/sessions/sessions.json
+Sessions listed: 917
+Kind   Key                        Age       Model          Tokens (ctx %)       Flags
+direct agent:main:cron:...4ee47b  just now  gemini-3-flash-preview -                    system id:0bbb55f8-11f1-4603-9ee8-7108e8a96948
+direct agent:main:cron:...a96948  just now  gemini-3-flash-preview -                    system id:0bbb55f8-11f1-4603-9ee8-7108e8a96948
+direct agent:main:main            1m ago    gemini-3-flash-preview 21k/1049k (2%)       system id:9ffdd0ac-b7b1-4706-afdc-0d41496a0de6
+direct agent:main:cron:...d1d04a  2m ago    gemini-3-flash-preview 38k/1049k (4%)       system id:2b7bad8c-85bf-42d1-a63d-7af76e6ecb72
+direct agent:main:cron:...6ecb72  2m ago    gemini-3-flash-preview 38k/1049k (4%)       system id:2b7bad8c-85bf-42d1-a63d-7af76e6ecb72
+direct agent:main:cron:...c9629b  5m ago    gemini-3-flash-preview 169k/1049k (16%)     system id:5649532e-3774-488b-8b70-3025afc9629b
+direct agent:main:cron:...3bc6cf  10m ago   gemini-3-flash-preview 35k/1049k (3%)       system id:44bd1714-9f20-421f-9def-760fff3bc6cf
+direct agent:main:cron:...0131e3  15m ago   gemini-3-flash-preview 36k/1049k (3%)       system id:f3a8f79d-fa0c-4bbc-ab1b-3a9bb30131e3
+direct agent:main:cron:...a1de7c  20m ago   gemini-3-flash-preview 186k/1049k (18%)     system id:ec43a49b-42a0-49f2-9ba0-afaadca1de7c
+direct agent:main:cron:...737617  25m ago   gemini-3-flash-preview 35k/1049k (3%)       system id:6a0222c4-9202-47e8-b5c4-529eec737617
+direct agent:main:cron:...4a17f1  32m ago   gemini-3-flash-preview 72k/1049k (7%)       system id:3483f380-57da-4c84-a920-098b64db31a0
+direct agent:main:cron:...db31a0  32m ago   gemini-3-flash-preview 72k/1049k (7%)       system id:3483f380-57da-4c84-a920-098b64db31a0
+direct agent:main:cron:...ac63e0  35m ago   gemini-3-flash-preview 39k/1049k (4%)       system id:1f358117-48de-435c-af62-6a92d2ac63e0
+direct agent:main:cron:...5a73d4  40m ago   gemini-3-flash-preview 52k/1049k (5%)       system id:f543797d-6a5a-45c1-a672-9598255a73d4
+direct agent:main:cron:...9d6ad3  45m ago   gemini-3-flash-preview 116k/1049k (11%)     system id:2d800377-4770-4d19-9708-55ae969d6ad3
+direct agent:main:cron:...9dd13d  50m ago   gemini-3-flash-preview 55k/1049k (5%)       system id:7d7c10dd-cb56-418f-add2-abc8859dd13d
+direct agent:main:cron:...a3ec77  55m ago   gemini-3-flash-preview 37k/1049k (4%)       system id:35f58fa8-2a56-4fd9-8094-b35451a3ec77
+direct agent:main:cron:...5474df  1h ago    gemini-3-flash-preview 39k/1049k (4%)       system id:90371d41-df0f-494d-99ce-71f2c15474df
+direct agent:main:cron:...6e8491  1h ago    gemini-3-flash-preview 105k/1049k (10%)     system id:9888f6d1-ae92-48e5-8271-7a81ce6e8491
+direct agent:main:cron:...55b742  1h ago    gemini-3-flash-preview 39k/1049k (4%)       system id:291a7c96-db27-47a2-a89d-136b4e55b742
+direct agent:main:cron:...92b4d5  1h ago    gemini-3-flash-preview 100k/1049k (10%)     system id:72aa1c6f-8e1d-40fb-813d-8aec6892b4d5
+direct agent:main:cron:...4b0feb  1h ago    gemini-3-flash-preview 51k/1049k (5%)       system id:1996f32b-aac0-4b1c-8c6b-697c2e4b0feb
+direct agent:main:cron:...b8be44  1h ago    gemini-3-flash-preview 38k/1049k (4%)       system id:12335dee-700f-4806-bd31-9c912cb8be44
+direct agent:main:cron:...68a984  1h ago    gemini-3-flash-preview 36k/1049k (3%)       system id:8d658e85-88a8-45a1-8b7b-a85f5168a984
+direct agent:main:cron:...2c8010  2h ago    gemini-3-flash-preview 33k/1049k (3%)       system id:8ee05049-26fe-4b3f-b685-abc1c42c8010
+direct agent:main:cron:...10d79f  2h ago    gemini-3-flash-preview 37k/1049k (4%)       system id:013e32c9-9a05-4aaf-8bed-549ebf10d79f
+direct agent:main:cron:...4db35d  2h ago    gemini-3-flash-preview 38k/1049k (4%)       system id:00d38057-1e9e-4a6f-9e07-42b1214db35d
+direct agent:main:cron:...e4fd8d  2h ago    gemini-3-flash-preview 37k/1049k (4%)       system id:87c48a14-a326-4003-8737-51c6f4e4fd8d
+direct agent:main:cron:...f44d59  2h ago    gemini-3-flash-preview 104k/1049k (10%)     system id:91349275-b7ef-4258-8cec-511458f44d59
+direct agent:main:cron:...d47fd2  2h ago    gemini-3-flash-preview 37k/1049k (3%)       system id:ce64e5fa-a435-4d50-8e94-a6f5edd47fd2
+direct agent:main:cron:...b51bb6  2h ago    gemini-3-flash-preview 69k/1049k (7%)       system id:0effec30-90f1-47ff-8769-d16ddbb51bb6
+direct agent:main:cron:...16a775  2h ago    gemini-3-flash-preview 25k/1049k (2%)       system id:9b4d3499-f314-455c-973e-99700b16a775
+direct agent:main:cron:...994a85  2h ago    gemini-3-flash-preview 55k/1049k (5%)       system id:cbb39eb9-baa3-410a-a7e8-d779a5994a85
+direct agent:main:cron:...42e281  2h ago    gemini-3-flash-preview 55k/1049k (5%)       system id:a4d11a5e-0ba6-417e-9a1b-15824f42e281
+direct agent:main:cron:...73824a  2h ago    gemini-3-flash-preview 39k/1049k (4%)       system id:b2a2b0a5-e999-4880-af8d-323fb073824a
+direct agent:main:cron:...bc899f  2h ago    gemini-3-flash-preview 51k/1049k (5%)       system id:954608a1-c77a-49f9-8092-fcbc5abc899f
+direct agent:main:cron:...cb4dd2  2h ago    gemini-3-flash-preview 148k/1049k (14%)     system id:cf036d45-e7eb-432e-a66c-fbebc539243e
+direct agent:main:cron:...39243e  2h ago    gemini-3-flash-preview 148k/1049k (14%)     system id:cf036d45-e7eb-432e-a66c-fbebc539243e
+direct agent:main:cron:...f2eb38  3h ago    gemini-3-flash-preview 108k/1049k (10%)     system id:d9d33408-a277-44d7-9dbe-98b306f2eb38
+direct agent:main:cron:...f03287  3h ago    gemini-3-flash-preview 90k/1049k (9%)       system id:436181e0-d996-40a3-b9a1-b4e61ef03287
+direct agent:main:cron:...6f7415  3h ago    gemini-3-flash-preview 102k/1049k (10%)     system id:fe5d47aa-cae2-477d-a743-4e02ed6f7415
+direct agent:main:cron:...98115f  3h ago    gemini-3-flash-preview 170k/1049k (16%)     system id:ca02c403-ede0-415b-a50a-4b915e98115f
+direct agent:main:cron:...e7480e  3h ago    gemini-3-flash-preview 54k/1049k (5%)       system id:7569b579-37d4-45bc-b622-bd9083e7480e
+direct agent:main:cron:...c6c44e  3h ago    gemini-3-flash-preview 53k/1049k (5%)       system id:af2f954d-9926-43c5-ba9e-f295d4c6c44e
+direct agent:main:cron:...51b570  3h ago    gemini-3-flash-preview 41k/1049k (4%)       system id:ee21c4bf-a4ce-4257-86e3-13e5ca51b570
+direct agent:main:cron:...7e9371  3h ago    gemini-3-flash-preview 39k/1049k (4%)       system id:fc87238d-2f8d-4be3-bde9-e48b3f7e9371
+direct agent:main:cron:...b85f84  3h ago    gemini-3-flash-preview 21k/1049k (2%)       system id:6159e964-f51f-426d-b286-7eb4f4b85f84
+direct agent:main:cron:...3815f3  3h ago    gemini-3-flash-preview 214k/1049k (20%)     system id:a36f9210-2580-43dd-ac62-709eae3815f3
+direct agent:main:cron:...c65e57  3h ago    gemini-3-flash-preview 40k/1049k (4%)       system id:589aebc0-71b4-42fe-83c0-8eb6dac65e57
+direct agent:main:cron:...cca8df  3h ago    gemini-3-flash-preview 68k/1049k (6%)       system id:aff09de7-619c-4724-908f-32d4d0cca8df
+direct agent:main:cron:...639e9f  3h ago    gemini-3-flash-preview 104k/1049k (10%)     system id:53f851f7-e868-4f09-ab84-6a217e639e9f
+direct agent:main:cron:...52f592  3h ago    gemini-3-flash-preview 40k/1049k (4%)       system id:38009f09-4cd7-4ad0-8e5b-939fb552f592
+direct agent:main:cron:...36eb24  4h ago    gemini-3-flash-preview 38k/1049k (4%)       system id:38104235-0430-474c-9d45-dda06a36eb24
+direct agent:main:cron:...3884f3  4h ago    gemini-3-flash-preview 53k/1049k (5%)       system id:7527ee75-73c2-4450-bfc7-1f52793884f3
+direct agent:main:cron:...d1435a  4h ago    gemini-3-flash-preview 102k/1049k (10%)     system id:e6376918-2f16-4bf2-acca-e4ca03d1435a
+direct agent:main:cron:...0c0d15  4h ago    gemini-3-flash-preview 105k/1049k (10%)     system id:54745d3b-561e-41e3-ba6c-f112be0c0d15
+direct agent:main:cron:...5047e4  4h ago    gemini-3-flash-preview 103k/1049k (10%)     system id:9626573a-0fbf-4dc3-89eb-8fbb335047e4
+direct agent:main:cron:...4dcee7  4h ago    gemini-3-flash-preview 56k/1049k (5%)       system id:ef665c33-f66c-449a-b6a5-c909eb4dcee7
+direct agent:main:cron:...f6b2c6  4h ago    gemini-3-flash-preview 54k/1049k (5%)       system id:51ad14a8-82c7-420f-bcfe-fa5fb3f6b2c6
+direct agent:main:cron:...c329be  4h ago    gemini-3-flash-preview 84k/1049k (8%)       system id:8008358d-85ec-49c4-924b-e3a673c329be
+direct agent:main:cron:...26afee  4h ago    gemini-3-flash-preview 104k/1049k (10%)     system id:08961c4d-2a05-4e09-9e1e-a63a2526afee
+direct agent:main:cron:...57a859  4h ago    gemini-3-flash-preview 105k/1049k (10%)     system id:d41e8689-b67c-4227-b64f-597b0857a859
+direct agent:main:cron:...497545  4h ago    gemini-3-flash-preview 51k/1049k (5%)       system id:fda0561a-dd72-41b8-96da-2e8d57497545
+direct agent:main:cron:...b7214e  4h ago    gemini-3-flash-preview 53k/1049k (5%)       system id:fa12053c-6a3a-4a0c-9473-a71cabb7214e
+direct agent:main:cron:...99712e  4h ago    gemini-3-flash-preview 231k/1049k (22%)     system id:63a5ecb0-4603-4ff4-9b45-efe83699712e
+direct agent:main:cron:...5eb7c1  5h ago    gemini-3-flash-preview 102k/1049k (10%)     system id:b33b5408-f27d-4cdc-a5c4-c7965b5eb7c1
+direct agent:main:cron:...ff4b44  5h ago    gemini-3-flash-preview 52k/1049k (5%)       system id:ced16c18-ed64-4403-84f6-580824ff4b44
+direct agent:main:cron:...4feac4  5h ago    gemini-3-flash-preview 51k/1049k (5%)       system id:1a092ae4-606e-4047-8042-a861954feac4
+direct agent:main:cron:...ccda6d  5h ago    gemini-3-flash-preview 30k/1049k (3%)       system id:75b3d540-efd2-4265-a60e-3cdec9ccda6d
+direct agent:main:cron:...b60355  5h ago    gemini-3-flash-preview 102k/1049k (10%)     system id:7a7f8701-56ba-4c3f-b38b-bb9152b60355
+direct agent:main:cron:...6381ff  5h ago    gemini-3-flash-preview 49k/1049k (5%)       system id:b900b55e-2868-466f-a1fc-30c9a66381ff
+direct agent:main:cron:...deeb2f  5h ago    gemini-3-flash-preview 51k/1049k (5%)       system id:c1488758-cb7b-4ac2-9e2e-4ef1e0deeb2f
+direct agent:main:cron:...611fed  5h ago    gemini-3-flash-preview 102k/1049k (10%)     system id:97d27363-40ad-4622-8366-4a9e5c611fed
+direct agent:main:cron:...5afb68  5h ago    gemini-3-flash-preview 37k/1049k (3%)       system id:36a0baf5-7469-4bd1-9e02-c9b8fa5afb68
+direct agent:main:cron:...1a2d8a  5h ago    gemini-3-flash-preview 101k/1049k (10%)     system id:d5437f2c-853a-4869-a385-850f4f1a2d8a
+direct agent:main:cron:...1dd5cf  5h ago    gemini-3-flash-preview 84k/1049k (8%)       system id:b5435107-a49d-43cf-b28b-19abd31dd5cf
+direct agent:main:cron:...09113c  5h ago    gemini-3-flash-preview 168k/1049k (16%)     system id:ae612e4c-40b9-49fe-978b-c6f69509113c
+direct agent:main:cron:...5f5290  5h ago    gemini-3-flash-preview 53k/1049k (5%)       system id:2ecedf6e-ebf5-4ac9-b9c9-979ae45f5290
+direct agent:main:cron:...d633f0  5h ago    gemini-3-flash-preview 68k/1049k (6%)       system id:630ee6ba-a5bf-433e-acc0-e87d04d633f0
+direct agent:main:cron:...41fd84  6h ago    gemini-3-flash-preview 67k/1049k (6%)       system id:8b097dcd-d155-4e34-8950-c8bcc641fd84
+direct agent:main:cron:...f20e3e  6h ago    gemini-3-flash-preview 39k/1049k (4%)       system id:f0e9b4fa-a467-469a-9ea8-23df05f20e3e
+direct agent:main:cron:...70f55e  6h ago    gemini-3-flash-preview 70k/1049k (7%)       system id:581591a5-1034-43b5-9806-56eda170f55e
+direct agent:main:cron:...15d8f4  6h ago    gemini-3-flash-preview 70k/1049k (7%)       system id:5a5f2fe5-be29-4df0-8040-8a572f15d8f4
+direct agent:main:cron:...42d549  6h ago    gemini-3-flash-preview 66k/1049k (6%)       system id:33416960-1ec4-4f17-ac0f-7f425e42d549
+direct agent:main:cron:...4f4ca8  6h ago    gemini-3-flash-preview 67k/1049k (6%)       system id:3ed544c1-9aad-46a7-be12-93c3074f4ca8
+direct agent:main:cron:...3e94e7  6h ago    gpt-5.3-codex  -                    system id:86fb2689-8f57-48ef-9774-f72d4e3e94e7
+direct agent:main:cron:...f2c979  6h ago    gpt-5.3-codex  -                    system id:defb7e63-b384-4c6a-bbcf-52528ef2c979
+direct agent:main:cron:...498d2c  6h ago    gpt-5.3-codex  -                    system id:40045170-02a9-4e32-85e4-cca909498d2c
+direct agent:main:cron:...dce815  6h ago    gpt-5.3-codex  -                    system id:a6a7b351-61a8-4525-abf0-95bdfbdce815
+direct agent:main:cron:...43904e  6h ago    gpt-5.3-codex  -                    system id:822b1622-b621-4286-8365-2d781043904e
+direct agent:main:cron:...aae760  6h ago    gpt-5.3-codex  -                    system id:13196ada-087f-4408-8504-a1cc64aae760
+direct agent:main:cron:...a99f79  6h ago    gpt-5.3-codex  -                    system id:4d5ac7f8-c132-4675-be9a-ab154da99f79
+direct agent:main:cron:...46ea4e  7h ago    gpt-5.3-codex  -                    system id:4c439daa-b319-4fa1-bc84-ff542246ea4e
+direct agent:main:cron:...0d4f82  7h ago    gpt-5.3-codex  -                    system id:7b86d1d5-9f2d-42ee-b4b0-ebb0120d4f82
+direct agent:main:cron:...35c3f2  7h ago    gpt-5.3-codex  -                    system id:b93bfaf6-3fd8-4513-b80f-a029bb35c3f2
+direct agent:main:cron:...41b300  7h ago    gpt-5.3-codex  -                    system id:6df93490-34b8-4ad0-ae2b-32547d41b300
+direct agent:main:cron:...6d7cb8  7h ago    gpt-5.3-codex  -                    system id:2f666fd7-44a1-4d32-803f-56db916d7cb8
+direct agent:main:cron:...e6128a  7h ago    gpt-5.3-codex  -                    system id:e12e1c54-c345-4a6f-b7d9-17ba4fe6128a
+direct agent:main:cron:...301235  7h ago    gpt-5.3-codex  -                    system id:26805723-2cfc-4c23-bfb0-8fd6e8301235
+direct agent:main:cron:...346a16  7h ago    gpt-5.3-codex  -                    system id:93cddbed-03fc-4a56-a9b7-c88fec346a16
+direct agent:main:cron:...e40da6  7h ago    gpt-5.3-codex  -                    system id:b5b8b8ac-258b-474b-ac64-fddf88e40da6
+direct agent:main:cron:...628d4d  7h ago    gpt-5.3-codex  -                    system id:54f70640-854a-41c2-90ec-75be91628d4d
+direct agent:main:cron:...87185c  7h ago    gpt-5.3-codex  -                    system id:43ef222c-61eb-44c2-a3ca-f2445e87185c
+direct agent:main:cron:...f223f8  7h ago    gpt-5.3-codex  -                    system id:9a88b87f-0872-4da0-b254-35fdbff223f8
+direct agent:main:cron:...8b4531  7h ago    gpt-5.3-codex  -                    system id:c25e8650-25b3-4ef1-a26e-2b0e258b4531
+direct agent:main:cron:...73d4ec  7h ago    gpt-5.3-codex  -                    system id:55e6cf62-69ab-4bed-b6ee-4f04dd73d4ec
+direct agent:main:cron:...ec01eb  8h ago    gpt-5.3-codex  -                    system id:ff8be7a7-61a3-4606-a06c-fd0e09ec01eb
+direct agent:main:cron:...ceb1ba  8h ago    gpt-5.3-codex  -                    system id:3231b0ad-db63-47dd-9c46-75021eceb1ba
+direct agent:main:cron:...c8e4cd  8h ago    gpt-5.3-codex  -                    system id:f8bf54bf-ec42-4e50-ba69-3bfea7c8e4cd
+direct agent:main:cron:...8f3b15  8h ago    gpt-5.3-codex  -                    system id:fc61377d-941c-406f-ba88-71656a8f3b15
+direct agent:main:cron:...bdaecf  8h ago    gpt-5.3-codex  -                    system id:236c179b-788c-48b4-b976-6ea27ebdaecf
+direct agent:main:cron:...e2f5c8  8h ago    gpt-5.3-codex  -                    system id:6e17e4a6-5872-42a3-80b8-ee1557e2f5c8
+direct agent:main:cron:...cc474c  8h ago    gpt-5.3-codex  -                    system id:e246e27f-6735-4649-ba09-70baf5cc474c
+direct agent:main:cron:...1a04ec  8h ago    gpt-5.3-codex  -                    system id:45bad7c4-c423-4093-80c1-80199d1a04ec
+direct agent:main:cron:...cb1dff  8h ago    gpt-5.3-codex  -                    system id:0406c7a0-5cff-48d6-b050-e5437acb1dff
+direct agent:main:cron:...634ad6  8h ago    gpt-5.3-codex  -                    system id:016bfeb3-7565-4b3c-b820-d69a7b634ad6
+direct agent:main:cron:...979e6d  8h ago    gpt-5.3-codex  -                    system id:0623be36-9774-46c0-891a-f5945a979e6d
+direct agent:main:cron:...74fd7c  8h ago    gpt-5.3-codex  -                    system id:b56fe9e1-c54c-4a37-8360-ef9cae74fd7c
+direct agent:main:cron:...c953e3  8h ago    gpt-5.3-codex  -                    system id:4ec81773-a2bd-4d1f-8d46-a4c3c3c953e3
+direct agent:main:cron:...8e7c23  9h ago    gpt-5.3-codex  -                    system id:4dce0941-a18a-4b01-87e1-41c84f8e7c23
+direct agent:main:cron:...c0416b  9h ago    gpt-5.3-codex  -                    system id:56dcd6d5-ff54-4552-b683-1717c4c0416b
+direct agent:main:cron:...2fd61a  9h ago    gpt-5.3-codex  -                    system id:4fcb8132-4ef7-4ce3-b834-d6bc7b2fd61a
+direct agent:main:cron:...770833  9h ago    gpt-5.3-codex  -                    system id:1b2fc89a-a31c-411e-9ab0-79461b770833
+direct agent:main:cron:...2000af  9h ago    gpt-5.3-codex  -                    system id:ff0c6093-5c64-42f1-829c-64fd082000af
+direct agent:main:cron:...1c5019  9h ago    gpt-5.3-codex  -                    system id:450f4378-1c7c-40a2-9b64-adf9271c5019
+direct agent:main:cron:...3ccf52  9h ago    gpt-5.3-codex  31k/272k (12%)       system id:4c36921b-bdc1-4b0b-abed-1bf7653ccf52
+direct agent:main:cron:...0881e9  9h ago    gpt-5.3-codex  22k/272k (8%)        system id:57256816-59a9-4226-ad06-5514d00881e9
+direct agent:main:cron:...7d3917  9h ago    gpt-5.3-codex  19k/272k (7%)        system id:fd59bb0a-0293-4f9a-ae00-674a267d3917
+direct agent:main:cron:...92ca56  9h ago    gpt-5.3-codex  82k/272k (30%)       system id:808684b9-901a-462b-8d19-b0da7f92ca56
+direct agent:main:cron:...95ba50  9h ago    gpt-5.3-codex  36k/272k (13%)       system id:8411244f-a8fe-43b6-8d7a-5c267e95ba50
+direct agent:main:cron:...e8f285  9h ago    gpt-5.3-codex  30k/272k (11%)       system id:819c9236-4c8a-47c5-b3c2-e9c913e8f285
+direct agent:main:cron:...66eb51  9h ago    gpt-5.3-codex  31k/272k (11%)       system id:8ec6eae2-add0-43ea-88f5-7bbe8e66eb51
+direct agent:main:cron:...2293c0  9h ago    gpt-5.3-codex  22k/272k (8%)        system id:d29ca2be-6663-4c7b-8f0b-730ea32293c0
+direct agent:main:cron:...f60320  10h ago   gpt-5.3-codex  31k/272k (11%)       system id:5a717a4c-c794-42a2-be87-78e698f60320
+direct agent:main:cron:...ebcaf6  10h ago   gpt-5.3-codex  24k/272k (9%)        system id:9310349d-d67f-49b2-893e-c31670ebcaf6
+direct agent:main:cron:...a9fff1  10h ago   gpt-5.3-codex  27k/272k (10%)       system id:1f371142-69bd-4872-9121-fb71c9a9fff1
+direct agent:main:cron:...98faf5  10h ago   gpt-5.3-codex  27k/272k (10%)       system id:8b021e63-252d-41d2-ac29-00b79f98faf5
+direct agent:main:cron:...bcf23a  10h ago   gpt-5.3-codex  25k/272k (9%)        system id:d57c5d5d-8608-495d-9969-ed3ea5bcf23a
+direct agent:main:cron:...c3e9d9  10h ago   gpt-5.3-codex  27k/272k (10%)       system id:0c9ac062-8e06-4949-8108-857ef5c3e9d9
+direct agent:main:cron:...094c50  10h ago   gpt-5.3-codex  25k/272k (9%)        system id:6cc1a714-f260-4e08-a022-72aff7094c50
+direct agent:main:cron:...2700cc  10h ago   gpt-5.3-codex  18k/272k (7%)        system id:b3e4c128-2ad4-490f-bd35-42da6f2700cc
+direct agent:main:cron:...7ee1e7  10h ago   gpt-5.3-codex  27k/272k (10%)       system id:02fbff9b-7f14-4ab2-b629-182d497ee1e7
+direct agent:main:cron:...b14e55  10h ago   gpt-5.3-codex  17k/272k (6%)        system id:89f9be5a-73ef-4143-a2ec-fe9869b14e55
+direct agent:main:cron:...ced113  10h ago   gpt-5.3-codex  25k/272k (9%)        system id:ae5db754-8751-47d0-8770-4d410eced113
+direct agent:main:cron:...ea948b  10h ago   gpt-5.3-codex  34k/272k (13%)       system id:65087cc6-7038-46c0-87d6-4604baea948b
+direct agent:main:cron:...32ee8a  10h ago   gpt-5.3-codex  27k/272k (10%)       system id:95fe8188-6014-4781-b59b-451b0c32ee8a
+direct agent:main:cron:...d41be1  11h ago   gpt-5.3-codex  29k/272k (11%)       system id:3f77f532-e3b9-4b4c-8732-b65a25d41be1
+direct agent:main:cron:...819261  11h ago   gpt-5.3-codex  25k/272k (9%)        system id:72318e0b-b183-4883-86de-8ec195819261
+direct agent:main:cron:...3422e1  11h ago   gpt-5.3-codex  29k/272k (11%)       system id:aaad62fb-4414-4ea8-8d08-7384b13422e1
+direct agent:main:cron:...ee74f6  11h ago   gpt-5.3-codex  28k/272k (10%)       system id:b3b1079a-74bf-4561-ac88-74f41bee74f6
+direct agent:main:cron:...f2ce32  11h ago   gpt-5.3-codex  28k/272k (10%)       system id:6cb996ab-629c-42ed-89b1-e3150af2ce32
+direct agent:main:cron:...660f01  11h ago   gpt-5.3-codex  22k/272k (8%)        system id:2c401b7a-964a-4791-b0a5-967215660f01
+direct agent:main:cron:...6e0bfb  11h ago   gpt-5.3-codex  29k/272k (11%)       system id:b9446e13-3372-417d-b5cc-ea5e996e0bfb
+direct agent:main:cron:...d60eff  11h ago   gpt-5.3-codex  16k/272k (6%)        system id:6bfc4be3-0684-438c-a14e-876f6ed60eff
+direct agent:main:cron:...f033c1  11h ago   gpt-5.3-codex  26k/272k (10%)       system id:ba580171-ee4d-4d72-b03b-ab09a7f033c1
+direct agent:main:cron:...74157c  11h ago   gpt-5.3-codex  28k/272k (10%)       system id:393c35cb-62c7-409f-ac82-8b068c74157c
+direct agent:main:cron:...652901  11h ago   gpt-5.3-codex  23k/272k (9%)        system id:a76ab36f-344f-4c5a-ac3e-76e9ca652901
+direct agent:main:cron:...9e96ac  11h ago   gpt-5.3-codex  22k/272k (8%)        system id:58b92bec-3ec5-464f-8cda-949d069e96ac
+direct agent:main:cron:...696d68  11h ago   gpt-5.3-codex  19k/272k (7%)        system id:0492f640-bd9f-4aa1-80d3-c848d9696d68
+direct agent:main:cron:...57027f  12h ago   gpt-5.3-codex  26k/272k (10%)       system id:43c08579-71eb-4066-825c-1dc69b57027f
+direct agent:main:cron:...07c8a5  12h ago   gpt-5.3-codex  29k/272k (11%)       system id:b12fe2a7-c11a-4fd6-8991-59a11107c8a5
+direct agent:main:cron:...00695e  12h ago   gpt-5.3-codex  26k/272k (9%)        system id:5a343bac-84c5-41b9-99ab-6cd4a200695e
+direct agent:main:cron:...ba6168  12h ago   gpt-5.3-codex  19k/272k (7%)        system id:2bf2a3a2-a0a0-431a-a997-cd25a3ba6168
+direct agent:main:cron:...c9ad4a  12h ago   gpt-5.3-codex  26k/272k (10%)       system id:d7a7913e-8aea-4d89-9a00-3b4d0cc9ad4a
+direct agent:main:cron:...ca8add  12h ago   gpt-5.3-codex  29k/272k (11%)       system id:53e82e57-8007-43c2-ba75-b5e45dca8add
+direct agent:main:cron:...0778bd  12h ago   gpt-5.3-codex  22k/272k (8%)        system id:7053aab2-9cef-439f-af04-cb187b0778bd
+direct agent:main:cron:...3f864e  12h ago   gpt-5.3-codex  17k/272k (6%)        system id:a52f4ad8-79a7-4820-b43f-9667f53f864e
+direct agent:main:cron:...41a0e4  12h ago   gpt-5.3-codex  18k/272k (6%)        system id:6af305a5-6bb3-418c-9459-611a6341a0e4
+direct agent:main:cron:...aabeb4  12h ago   gpt-5.3-codex  27k/272k (10%)       system id:081a4b56-d48c-48ef-9174-9dbad3aabeb4
+direct agent:main:cron:...0c302d  12h ago   gpt-5.3-codex  27k/272k (10%)       system id:f5a127d0-a760-40f3-8384-e08ad60c302d
+direct agent:main:cron:...8b2910  12h ago   gpt-5.3-codex  40k/272k (15%)       system id:80a7110a-5216-4f4b-abdb-8f5ef88b2910
+direct agent:main:cron:...344b4e  12h ago   gpt-5.3-codex  28k/272k (10%)       system id:df685889-d819-4b45-850a-3326c7344b4e
+direct agent:main:cron:...b71674  13h ago   gpt-5.3-codex  33k/272k (12%)       system id:2e4d675d-50fc-480a-baa1-7f4e09b71674
+direct agent:main:cron:...45a19a  13h ago   gpt-5.3-codex  47k/272k (17%)       system id:df959d9e-dbd6-4686-9a64-2157e645a19a
+direct agent:main:cron:...ac3f55  13h ago   gpt-5.3-codex  40k/272k (15%)       system id:f6086793-fd17-420e-8e2d-682a4dac3f55
+direct agent:main:cron:...dbdc1c  13h ago   gpt-5.3-codex  56k/272k (21%)       system id:daa4b8e4-b750-4219-8c86-b2f73bdbdc1c
+direct agent:main:cron:...fbce67  13h ago   gpt-5.3-codex  39k/272k (15%)       system id:3e38bd9b-ba6b-4630-96b6-961165fbce67
+direct agent:main:cron:...4d8139  13h ago   gpt-5.3-codex  59k/272k (22%)       system id:a54d2df7-7cad-404a-a2ce-39b6a94d8139
+direct agent:main:cron:...784d90  13h ago   gpt-5.3-codex  37k/272k (14%)       system id:eb3f047f-2dc1-41ef-9b03-9cc3b0784d90
+direct agent:main:cron:...e5a95e  13h ago   gpt-5.3-codex  33k/272k (12%)       system id:b12e8072-baa5-4aff-95cb-cb0542e5a95e
+direct agent:main:cron:...180b9e  13h ago   gpt-5.3-codex  43k/272k (16%)       system id:e702d0c6-6f7e-4d20-9e02-868025180b9e
+direct agent:main:cron:...d133e6  13h ago   gpt-5.3-codex  42k/272k (15%)       system id:3a94a44d-91eb-4b27-ad96-6f765cd133e6
+direct agent:main:cron:...dbb8ba  13h ago   gpt-5.3-codex  47k/272k (17%)       system id:7120868f-b4e0-4e82-b5ee-4e2bfadbb8ba
+direct agent:main:cron:...a8a291  13h ago   gpt-5.3-codex  33k/272k (12%)       system id:85ff1430-fdd1-4a4b-97dd-81b3dea8a291
+direct agent:main:cron:...490484  13h ago   gpt-5.3-codex  41k/272k (15%)       system id:c2269c16-f40b-40aa-8b21-ba0b2c490484
+direct agent:main:cron:...c12bfb  14h ago   gpt-5.3-codex  48k/272k (18%)       system id:ffe16e82-e62f-49f2-bd0f-32eb46c12bfb
+direct agent:main:cron:...9fada0  14h ago   gpt-5.3-codex  32k/272k (12%)       system id:a5a2fd26-4ea7-4b01-98ff-e6379b9fada0
+direct agent:main:cron:...c07290  14h ago   gpt-5.3-codex  40k/272k (15%)       system id:db2b6993-a1d7-47c8-b55f-264c86c07290
+direct agent:main:cron:...1e6cf9  14h ago   gpt-5.3-codex  40k/272k (15%)       system id:c0313ee8-38a7-485a-a639-a41ffb1e6cf9
+direct agent:main:cron:...555884  14h ago   gpt-5.3-codex  31k/272k (12%)       system id:6dbabb93-aa24-4c13-9f0e-995af7555884
+direct agent:main:cron:...9409df  14h ago   gpt-5.3-codex  45k/272k (16%)       system id:3762881c-9759-434c-a449-e9c42b9409df
+direct agent:main:cron:...2180b3  14h ago   gpt-5.3-codex  53k/272k (19%)       system id:6c23f9f1-9e54-482a-bbfd-d3018a2180b3
+direct agent:main:cron:...daed67  14h ago   gpt-5.3-codex  37k/272k (14%)       system id:65dcb533-7ef8-4581-9625-ed6e1ddaed67
+direct agent:main:cron:...e1d68d  14h ago   gpt-5.3-codex  22k/272k (8%)        system id:8d4c8af2-e0b8-4d3e-b7c1-2bb2d3e1d68d
+direct agent:main:cron:...4d6d06  14h ago   gpt-5.3-codex  38k/272k (14%)       system id:466102e7-0e22-48ea-8370-37843f4d6d06
+direct agent:main:cron:...7f5c6f  14h ago   gpt-5.3-codex  33k/272k (12%)       system id:2faf739a-cb10-4580-abe4-d7c2e67f5c6f
+direct agent:main:cron:...a3c3ab  14h ago   gpt-5.3-codex  41k/272k (15%)       system id:4624d902-4483-471e-96fb-d481dfa3c3ab
+direct agent:main:cron:...8936a4  14h ago   gpt-5.3-codex  50k/272k (19%)       system id:8ec384ec-6da2-4cf8-8756-8898528936a4
+direct agent:main:cron:...4afc7a  15h ago   gpt-5.3-codex  41k/272k (15%)       system id:42bcdc02-2f52-4d3f-a5e3-b5e32e4afc7a
+direct agent:main:cron:...1fb288  15h ago   gpt-5.3-codex  48k/272k (18%)       system id:dd08afb7-3407-4d2c-83e9-5a59d01fb288
+direct agent:main:cron:...48f56b  15h ago   gpt-5.3-codex  44k/272k (16%)       system id:70b453e4-9a76-49c7-91a5-d0b31748f56b
+direct agent:main:cron:...ac4933  15h ago   gpt-5.3-codex  48k/272k (17%)       system id:bf9fdfc5-feff-41a0-8e28-33c940ac4933
+direct agent:main:cron:...77740d  15h ago   gpt-5.3-codex  37k/272k (14%)       system id:61914387-c8f4-4e93-a03a-1d2dc577740d
+direct agent:main:cron:...722c0c  15h ago   gpt-5.3-codex  41k/272k (15%)       system id:0601f3f1-868f-4639-b2f5-f618b3722c0c
+direct agent:main:cron:...84bb0c  15h ago   gpt-5.3-codex  33k/272k (12%)       system id:25231c82-fb60-4909-a163-2e77b084bb0c
+direct agent:main:cron:...75fd42  15h ago   gpt-5.3-codex  41k/272k (15%)       system id:8aa857d0-e81f-404b-ab12-9d443475fd42
+direct agent:main:cron:...d838c8  15h ago   gpt-5.3-codex  30k/272k (11%)       system id:86029666-5ad9-4f9d-8e8f-5324f7d838c8
+direct agent:main:cron:...c722a4  15h ago   gpt-5.3-codex  51k/272k (19%)       system id:9644eb52-7fa4-4ae6-8185-6a1e17c722a4
+direct agent:main:cron:...962324  15h ago   gpt-5.3-codex  29k/272k (11%)       system id:78fd1481-1ef8-4e5d-9c1c-d1da78962324
+direct agent:main:cron:...76157c  15h ago   gpt-5.3-codex  39k/272k (14%)       system id:d8770660-1957-4491-9b0e-7ebdf976157c
+direct agent:main:cron:...92c3c8  15h ago   gpt-5.3-codex  30k/272k (11%)       system id:1059fe27-04a9-4d02-801b-923a4992c3c8
+direct agent:main:cron:...2d7226  15h ago   gpt-5.3-codex  38k/272k (14%)       system id:727216b1-887b-4eed-972c-85d12e2d7226
+direct agent:main:cron:...8c63a1  16h ago   gpt-5.3-codex  43k/272k (16%)       system id:1ec02cf6-e80f-485e-b809-ee5c788c63a1
+direct agent:main:cron:...4c6e1b  16h ago   gpt-5.3-codex  39k/272k (15%)       system id:8c63675e-bdf5-4571-a2ef-ef28c24c6e1b
+direct agent:main:cron:...cb47f1  16h ago   gpt-5.3-codex  53k/272k (19%)       system id:3e986b13-7661-4516-94d7-ab19d4cb47f1
+direct agent:main:cron:...ea4d49  16h ago   gpt-5.3-codex  35k/272k (13%)       system id:880ad7e7-ee67-43e4-a13e-db5239ea4d49
+direct agent:main:cron:...3e39d6  16h ago   gpt-5.3-codex  31k/272k (11%)       system id:f26e1592-69b6-4019-ae95-89791e3e39d6
+direct agent:main:cron:...3ead54  16h ago   gpt-5.3-codex  40k/272k (15%)       system id:fa8be99c-d921-42f6-8c5b-4911d33ead54
+direct agent:main:cron:...a63121  16h ago   gpt-5.3-codex  36k/272k (13%)       system id:31c623ff-8f26-4d4e-b042-9a4d08a63121
+direct agent:main:cron:...24541a  16h ago   gpt-5.3-codex  29k/272k (11%)       system id:6ad0db13-09d2-468a-ba6d-d2d0d724541a
+direct agent:main:cron:...f06b4c  16h ago   gpt-5.3-codex  40k/272k (15%)       system id:3c9ba23e-bee9-4ae3-9490-02025df06b4c
+direct agent:main:cron:...401483  16h ago   gpt-5.3-codex  40k/272k (15%)       system id:f0a50904-4f28-4055-bf99-ef5577401483
+direct agent:main:cron:...eb1d4c  16h ago   gpt-5.3-codex  12k/272k (4%)        system id:e9d05343-2446-48ed-8677-2fca63eb1d4c
+direct agent:main:cron:...e729ae  16h ago   gpt-5.3-codex  39k/272k (15%)       system id:adda2886-9463-42e9-858c-98f2b2e729ae
+direct agent:main:cron:...268a05  16h ago   gpt-5.3-codex  40k/272k (15%)       system id:e3c8e94b-0c55-47cd-8fa3-b23f15268a05
+direct agent:main:cron:...2bfd09  17h ago   gpt-5.3-codex  38k/272k (14%)       system id:b6f5a741-d9b4-483e-a29b-3e8b7f2bfd09
+direct agent:main:cron:...829223  17h ago   gpt-5.3-codex  44k/272k (16%)       system id:8769e572-7d0e-4c22-94f1-92f789829223
+direct agent:main:cron:...85c884  17h ago   gpt-5.3-codex  35k/272k (13%)       system id:38b26aea-2e34-4f0b-af55-fe97fe85c884
+direct agent:main:cron:...631503  17h ago   gpt-5.3-codex  38k/272k (14%)       system id:96d9cab2-325e-4f4c-82d2-ac8797631503
+direct agent:main:cron:...cdd620  17h ago   gpt-5.3-codex  39k/272k (14%)       system id:653f2739-64a0-4c87-876a-9e490dcdd620
+direct agent:main:cron:...05ffce  17h ago   gpt-5.3-codex  41k/272k (15%)       system id:bcb9a736-85eb-47ec-9312-7f6a2005ffce
+direct agent:main:cron:...a088a7  17h ago   gpt-5.3-codex  51k/272k (19%)       system id:9e3e5aaa-2122-4cdd-b31b-252b28a088a7
+direct agent:main:cron:...fafa31  17h ago   gpt-5.3-codex  39k/272k (14%)       system id:d732e236-3d75-469a-bf89-e6cd3efafa31
+direct agent:main:cron:...451cda  17h ago   gpt-5.3-codex  30k/272k (11%)       system id:ba0ad6c8-69cf-4cd5-aedb-0700d3451cda
+direct agent:main:cron:...9cf952  17h ago   gpt-5.3-codex  47k/272k (17%)       system id:3ebf43db-1fc7-43bb-9499-5ad5f99cf952
+direct agent:main:cron:...62a31e  17h ago   gpt-5.3-codex  33k/272k (12%)       system id:96d50cc7-4393-45e3-97f5-f513ed62a31e
+direct agent:main:cron:...260a0e  17h ago   gpt-5.3-codex  38k/272k (14%)       system id:619f2446-9acb-4e9d-a7b6-726da5260a0e
+direct agent:main:cron:...cffccb  17h ago   gpt-5.3-codex  27k/272k (10%)       system id:9e42fbd0-8ece-4ab9-82e4-8af160cffccb
+direct agent:main:cron:...57d588  17h ago   gpt-5.3-codex  28k/272k (10%)       system id:1e9244c5-e35c-4c1f-901b-d7fa7a57d588
+direct agent:main:cron:...391935  17h ago   gpt-5.3-codex  12k/272k (4%)        system id:8e79823d-587d-4174-810e-71974f39b229
+direct agent:main:cron:...39b229  17h ago   gpt-5.3-codex  12k/272k (4%)        system id:8e79823d-587d-4174-810e-71974f39b229
+direct agent:main:cron:...fbb487  18h ago   gpt-5.3-codex  36k/272k (13%)       system id:cb761aaf-9f02-49bf-9a69-14081cfbb487
+direct agent:main:cron:...6ca6a4  18h ago   gpt-5.3-codex  34k/272k (13%)       system id:1fbd42e4-8901-4823-81ca-cf8ca36ca6a4
+direct agent:main:cron:...533fee  18h ago   gpt-5.3-codex  35k/272k (13%)       system id:9fc21edd-ac4a-41b3-9ee4-ead551533fee
+direct agent:main:cron:...df09d7  18h ago   gpt-5.3-codex  29k/272k (11%)       system id:67b01a8f-e8a1-4f03-8e06-a3bf37df09d7
+direct agent:main:cron:...de256d  18h ago   gpt-5.3-codex  45k/272k (16%)       system id:a5c68fa7-52f8-49ba-af91-958fddde256d
+direct agent:main:cron:...ca343f  18h ago   gpt-5.3-codex  48k/272k (18%)       system id:46b193bc-447a-440d-8c8c-ea2e32ca343f
+direct agent:main:cron:...bb81c1  18h ago   gpt-5.3-codex  33k/272k (12%)       system id:3317b0ee-9c0b-44f4-8e7d-3af941bb81c1
+direct agent:main:cron:...76307a  18h ago   gpt-5.3-codex  27k/272k (10%)       system id:44e8505b-cedc-46e7-881c-475cfa76307a
+direct agent:main:cron:...1ca150  18h ago   gpt-5.3-codex  40k/272k (15%)       system id:1023dc48-f1bb-4d98-936f-d99f391ca150
+direct agent:main:cron:...517166  18h ago   gpt-5.3-codex  34k/272k (12%)       system id:6a4c7310-01e6-4602-a050-aa0c69517166
+direct agent:main:cron:...b74ad8  18h ago   gpt-5.3-codex  26k/272k (9%)        system id:697f5601-d2b4-4b24-be00-6f53eeb74ad8
+direct agent:main:cron:...ee3180  18h ago   gpt-5.3-codex  32k/272k (12%)       system id:0b8bfb96-d085-4f2c-b793-34f52bee3180
+direct agent:main:cron:...71df45  18h ago   gpt-5.3-codex  36k/272k (13%)       system id:490de677-35df-45d4-9caa-839e5e71df45
+direct agent:main:cron:...9c8987  19h ago   gpt-5.3-codex  27k/272k (10%)       system id:22dc1fc6-a71f-441b-838a-31723b9c8987
+direct agent:main:cron:...2693f9  19h ago   gpt-5.3-codex  37k/272k (14%)       system id:94ef827a-146b-4352-9765-75db832693f9
+direct agent:main:cron:...6fb2fa  19h ago   gpt-5.3-codex  34k/272k (13%)       system id:bc989587-d098-447e-a839-9a06f26fb2fa
+direct agent:main:cron:...2f0292  19h ago   gpt-5.3-codex  118k/272k (43%)      system id:2dc58d66-3099-4217-97ab-2cd1cb2f0292
+direct agent:main:cron:...93c996  19h ago   gpt-5.3-codex  28k/272k (10%)       system id:17110e9a-8fa4-4be5-a02c-3a9e4e93c996
+direct agent:main:cron:...d2c8db  19h ago   gpt-5.3-codex  43k/272k (16%)       system id:51cde0e3-1d9c-4cb7-8fbf-61b599d2c8db
+direct agent:main:cron:...e6ea58  19h ago   gpt-5.3-codex  34k/272k (12%)       system id:58417b5c-4132-48c5-8f0d-6c7379e6ea58
+direct agent:main:cron:...9191d1  19h ago   gpt-5.3-codex  35k/272k (13%)       system id:b4033558-4f69-4e8e-9c02-98b38f9191d1
+direct agent:main:cron:...012ccb  19h ago   gpt-5.3-codex  26k/272k (9%)        system id:5a1dfa3b-ee67-4701-af1b-70378e012ccb
+direct agent:main:cron:...0d0983  19h ago   gpt-5.3-codex  36k/272k (13%)       system id:f906eff6-1d4e-4bf3-a8b3-de0c8f0d0983
+direct agent:main:cron:...9e2d34  19h ago   gpt-5.3-codex  56k/272k (20%)       system id:50c2df30-2b08-4d56-ab9e-bf28cf9e2d34
+direct agent:main:cron:...b1a69c  19h ago   gpt-5.3-codex  39k/272k (14%)       system id:cd40a940-7e50-4324-93b9-2bb4a1b1a69c
+direct agent:main:cron:...d1cfb6  19h ago   gpt-5.3-codex  33k/272k (12%)       system id:e937392c-0816-4401-aa2d-65b788d1cfb6
+direct agent:main:cron:...32eea7  19h ago   gpt-5.3-codex  37k/272k (14%)       system id:ab395b3d-dbf7-4b9f-821f-ee132232eea7
+direct agent:main:cron:...cde1c3  20h ago   gpt-5.3-codex  44k/272k (16%)       system id:a8079ba9-d170-40ff-a766-fd4a13cde1c3
+direct agent:main:cron:...3f54c5  20h ago   gpt-5.3-codex  36k/272k (13%)       system id:7bcc13d2-ac95-4168-999a-0b3ff63f54c5
+direct agent:main:cron:...afa25f  20h ago   gpt-5.3-codex  34k/272k (12%)       system id:83483b2c-6b48-4040-b96b-43826fafa25f
+direct agent:main:cron:...b801a8  20h ago   gpt-5.3-codex  49k/272k (18%)       system id:1e940c0e-cd30-4aba-bf63-47b2c6b801a8
+direct agent:main:cron:...86157e  20h ago   gpt-5.3-codex  34k/272k (12%)       system id:f8ffa238-c840-470c-ad7f-5bb1e686157e
+direct agent:main:cron:...6a4a5f  20h ago   gpt-5.3-codex  39k/272k (14%)       system id:a1e0f3c6-4f6c-49aa-9405-14b7156a4a5f
+direct agent:main:cron:...13c308  20h ago   gpt-5.3-codex  36k/272k (13%)       system id:edf427fb-417f-4525-abd8-5a660013c308
+direct agent:main:cron:...a47ae6  20h ago   gpt-5.3-codex  26k/272k (9%)        system id:7f83c1f1-cfd1-4f63-af56-fc9bc4a47ae6
+direct agent:main:cron:...734f3f  20h ago   gpt-5.3-codex  48k/272k (18%)       system id:736bdcd1-ebe2-465b-b04d-1f8e02734f3f
+direct agent:main:cron:...fa7a86  20h ago   gpt-5.3-codex  36k/272k (13%)       system id:04547eee-b800-4869-898e-bc5ab7fa7a86
+direct agent:main:cron:...f13fb5  20h ago   gpt-5.3-codex  34k/272k (12%)       system id:b0cfc3a1-3477-4f8d-bbe9-c49367f13fb5
+direct agent:main:cron:...112353  20h ago   gpt-5.3-codex  38k/272k (14%)       system id:b1a15d82-2db3-4371-b6d2-c8f60f112353
+direct agent:main:cron:...97f42d  20h ago   gpt-5.3-codex  32k/272k (12%)       system id:2efe9715-5b04-47f3-92da-fb8b0597f42d
+direct agent:main:cron:...e0e2e7  21h ago   gpt-5.3-codex  37k/272k (13%)       system id:9cc7c98c-6256-4d2b-b930-831f94e0e2e7
+direct agent:main:cron:...ca2d74  21h ago   gpt-5.3-codex  25k/272k (9%)        system id:e5733a41-80ab-42c1-9373-96ce3eca2d74
+direct agent:main:cron:...9e9625  21h ago   gpt-5.3-codex  33k/272k (12%)       system id:e69ce93d-cc2f-4052-b47f-a12e479e9625
+direct agent:main:cron:...de8980  21h ago   gpt-5.3-codex  39k/272k (14%)       system id:f946b5a9-8b68-4959-a1fc-384170de8980
+direct agent:main:cron:...d5598d  21h ago   gpt-5.3-codex  29k/272k (11%)       system id:2f3e4808-8757-446c-8003-2a1708d5598d
+direct agent:main:cron:...81b458  21h ago   gpt-5.3-codex  52k/272k (19%)       system id:c5158dbc-4a9f-4137-94b2-1afa8581b458
+direct agent:main:cron:...cdc61b  21h ago   gpt-5.3-codex  28k/272k (10%)       system id:6c262330-a31b-4a6c-b25f-79b768cdc61b
+direct agent:main:cron:...2bb4a7  21h ago   gpt-5.3-codex  30k/272k (11%)       system id:cdff79f2-9a57-4906-acc5-b7f3092bb4a7
+direct agent:main:cron:...0aa62c  21h ago   gpt-5.3-codex  25k/272k (9%)        system id:8d6ac6ff-d97a-407b-86cf-cdda7a0aa62c
+direct agent:main:cron:...b847c4  21h ago   gpt-5.3-codex  43k/272k (16%)       system id:9e8ab7b3-be7f-43c2-9807-74f7f5b847c4
+direct agent:main:cron:...5e0082  21h ago   gpt-5.3-codex  44k/272k (16%)       system id:ecae251b-628a-4e07-8d5f-b683d25e0082
+direct agent:main:cron:...83945d  21h ago   gpt-5.3-codex  41k/272k (15%)       system id:0d6fdb1b-c886-42b9-a974-142b6083945d
+direct agent:main:cron:...660636  21h ago   gpt-5.3-codex  31k/272k (12%)       system id:0fd72059-b307-4d92-b86a-600097660636
+direct agent:main:cron:...e8b967  21h ago   gpt-5.3-codex  35k/272k (13%)       system id:ec236fea-642d-45c6-8326-27cc6ae8b967
+direct agent:main:cron:...d96c3a  22h ago   gpt-5.3-codex  37k/272k (13%)       system id:ec5b24e1-c7bd-465f-bfcd-138bc5d96c3a
+direct agent:main:cron:...338f41  22h ago   gpt-5.3-codex  41k/272k (15%)       system id:2ea8b27f-3941-483a-a7e4-340603338f41
+direct agent:main:cron:...1fe363  22h ago   gpt-5.3-codex  33k/272k (12%)       system id:a05aff08-25b0-4c65-8386-1ee7321fe363
+direct agent:main:cron:...dd5143  22h ago   gpt-5.3-codex  38k/272k (14%)       system id:26baf4e8-5d41-46d1-86fb-85143bdd5143
+direct agent:main:cron:...ddb648  22h ago   gpt-5.3-codex  37k/272k (14%)       system id:2d114f6b-d697-4c6e-960f-17c09bddb648
+direct agent:main:cron:...eeb45b  22h ago   gpt-5.3-codex  36k/272k (13%)       system id:0e66c27a-9084-4f46-80df-802978eeb45b
+direct agent:main:cron:...2d7879  22h ago   gpt-5.3-codex  35k/272k (13%)       system id:38ab0c13-1116-48f3-be26-d3cd682d7879
+direct agent:main:cron:...96376f  22h ago   gpt-5.3-codex  26k/272k (10%)       system id:f1f27c23-5d21-44b0-8412-96f9aa96376f
+direct agent:main:cron:...4e76fc  22h ago   gpt-5.3-codex  39k/272k (14%)       system id:be0239d7-26b2-4c93-92d4-aa23e44e76fc
+direct agent:main:cron:...df285d  22h ago   gpt-5.3-codex  35k/272k (13%)       system id:92ff83f7-30a0-4c45-a624-79b378df285d
+direct agent:main:cron:...5e4760  22h ago   gpt-5.3-codex  35k/272k (13%)       system id:df9f9b90-28c3-44df-88e8-d079535e4760
+direct agent:main:cron:...b6942d  22h ago   gpt-5.3-codex  38k/272k (14%)       system id:490ebbe9-771a-4ce5-bf73-4b488cb6942d
+direct agent:main:cron:...cbb6bf  22h ago   gpt-5.3-codex  35k/272k (13%)       system id:c59da55f-8d72-4ea5-9e56-eaf3b3cbb6bf
+direct agent:main:cron:...60cc59  23h ago   gpt-5.3-codex  41k/272k (15%)       system id:806b91ae-d1b9-46d3-a424-19d63f60cc59
+direct agent:main:cron:...7d1fc8  23h ago   gpt-5.3-codex  32k/272k (12%)       system id:7caf7962-6fc9-43f5-b67b-25da107d1fc8
+direct agent:main:cron:...4f0bf3  23h ago   gpt-5.3-codex  36k/272k (13%)       system id:e4ee4676-657c-4b0c-8259-fc64b94f0bf3
+direct agent:main:cron:...7b1bcd  23h ago   gpt-5.3-codex  39k/272k (14%)       system id:a9845168-2c73-4f43-9986-2a7b357b1bcd
+direct agent:main:cron:...493260  23h ago   gpt-5.3-codex  35k/272k (13%)       system id:52e2c034-c207-4783-aaf5-5817aa493260
+direct agent:main:cron:...50a2aa  23h ago   gpt-5.3-codex  78k/272k (29%)       system id:11efaf09-95c1-4079-97ec-ab05ba50a2aa
+direct agent:main:cron:...c7fc2d  23h ago   gpt-5.3-codex  46k/272k (17%)       system id:22995717-2bbb-4e4e-b1c4-da2b2cc7fc2d
+direct agent:main:cron:...710871  23h ago   gpt-5.3-codex  42k/272k (15%)       system id:e48da1c8-fb65-44ae-a13a-da9d70710871
+direct agent:main:cron:...39f7f9  23h ago   gpt-5.3-codex  27k/272k (10%)       system id:c9189171-bfe0-47d2-b6a4-a2fbd139f7f9
+direct agent:main:cron:...820241  23h ago   gpt-5.3-codex  40k/272k (15%)       system id:9e8d55ef-c6ea-4013-8a88-cc19ea820241
+direct agent:main:cron:...dd8a26  23h ago   gpt-5.3-codex  31k/272k (12%)       system id:95881a2e-651d-474a-9cf8-437918dd8a26
+direct agent:main:cron:...0e083a  23h ago   gpt-5.3-codex  21k/272k (8%)        system id:6bffbb5b-5e16-4a49-840b-6a04ec0e083a
+direct agent:main:cron:...2b1f0b  23h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:2804fe32-d181-4410-9de8-38d2ca2b1f0b
+direct agent:main:cron:...3f12d5  23h ago   gemini-3-flash-preview 86k/1049k (8%)       system id:77126bd2-0097-49cd-b8c4-adc1a13f12d5
+direct agent:main:cron:...fe8db5  24h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:7edf4ab6-85f6-4c03-b1c4-74844efe8db5
+direct agent:main:cron:...5ddd76  24h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:97b6e018-1902-4436-91e5-966ae15ddd76
+direct agent:main:cron:...3d4ff9  24h ago   gemini-3-flash-preview 86k/1049k (8%)       system id:ecb95a1d-54e6-4236-8494-edd1f03d4ff9
+direct agent:main:cron:...65bbaa  24h ago   gemini-3-flash-preview 57k/1049k (5%)       system id:ea0da886-5d38-4d3d-9a80-32f8c565bbaa
+direct agent:main:cron:...b960b7  24h ago   gemini-3-flash-preview 171k/1049k (16%)     system id:13be3bb8-df3e-4056-bedc-3988a7b960b7
+direct agent:main:cron:...260768  24h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:5dad60a4-acb3-4146-b845-eabce5260768
+direct agent:main:cron:...28aa7e  24h ago   gemini-3-flash-preview 85k/1049k (8%)       system id:7a3cbba7-951e-44ed-b5be-f4605a28aa7e
+direct agent:main:cron:...bec2bc  24h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:33bf7cc6-e4a6-4348-981a-dc0d95bec2bc
+direct agent:main:cron:...2403ca  24h ago   gemini-3-flash-preview 73k/1049k (7%)       system id:8bb4db13-03ec-4e5d-80c7-99a5d82403ca
+direct agent:main:cron:...d66484  24h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:d99239cf-40d1-431a-a33f-129c4dd66484
+direct agent:main:cron:...d0b961  24h ago   gemini-3-flash-preview 83k/1049k (8%)       system id:960e2ab9-451a-4a90-9d58-79cf45d0b961
+direct agent:main:cron:...1e59aa  24h ago   gemini-3-flash-preview 50k/1049k (5%)       system id:f344b67a-968c-4487-9b63-bebb9f1e59aa
+direct agent:main:cron:...03f2a9  24h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:dc9158ef-e12c-4b0e-8f60-d9c87503f2a9
+direct agent:main:cron:...417376  25h ago   gemini-3-flash-preview 56k/1049k (5%)       system id:e4419bbc-e217-4cbc-92bc-08169d417376
+direct agent:main:cron:...d9c864  25h ago   gemini-3-flash-preview 85k/1049k (8%)       system id:a0535545-f09f-4758-ae9d-477e9bd9c864
+direct agent:main:cron:...a11427  25h ago   gemini-3-flash-preview 151k/1049k (14%)     system id:12c8f698-3eed-4384-ae7e-cb4628a11427
+direct agent:main:cron:...0cc92f  25h ago   gemini-3-flash-preview 87k/1049k (8%)       system id:df3271db-4cac-440d-a6b9-05a2770cc92f
+direct agent:main:cron:...198caa  25h ago   gemini-3-flash-preview 101k/1049k (10%)     system id:15b7ee85-7791-4ed0-a6ae-1d511e198caa
+direct agent:main:cron:...f52529  25h ago   gemini-3-flash-preview 86k/1049k (8%)       system id:d97115da-13f2-42ed-a459-f9979bf52529
+direct agent:main:cron:...87765a  25h ago   gemini-3-flash-preview 39k/1049k (4%)       system id:b3ab7468-641c-4f89-9870-72768787765a
+direct agent:main:cron:...ecc0bf  25h ago   gemini-3-flash-preview 152k/1049k (14%)     system id:625731ed-6f90-40f3-bbd3-e1cf8aecc0bf
+direct agent:main:cron:...4ce77b  25h ago   gemini-3-flash-preview 68k/1049k (6%)       system id:9e930ae4-7b78-493d-9241-0a36b84ce77b
+direct agent:main:cron:...daff5d  25h ago   gemini-3-flash-preview 138k/1049k (13%)     system id:8121f5e5-3122-4e34-927a-b7ff0cdaff5d
+direct agent:main:cron:...432339  25h ago   gemini-3-flash-preview 69k/1049k (7%)       system id:8ba54922-73c6-4d34-abe8-e54da8432339
+direct agent:main:cron:...383208  25h ago   gemini-3-flash-preview 610k/1049k (58%)     system id:4c291708-04df-41e4-8bde-1eb5cd383208
+direct agent:main:cron:...095212  25h ago   gemini-3-flash-preview 35k/1049k (3%)       system id:30322afe-5430-4f3e-bc46-e9581b095212
+direct agent:main:cron:...138e64  25h ago   gemini-3-flash-preview 54k/1049k (5%)       system id:f0a5927f-a868-4a8a-aa48-55addb138e64
+direct agent:main:cron:...f8256e  26h ago   gemini-3-flash-preview 98k/1049k (9%)       system id:4a8bd807-118c-4295-b8bb-6b5206f8256e
+direct agent:main:cron:...b0b462  26h ago   gemini-3-flash-preview 52k/1049k (5%)       system id:ee6f12ba-6bfe-4b99-b4b2-50be15b0b462
+direct agent:main:cron:...75ba3d  26h ago   gemini-3-flash-preview 84k/1049k (8%)       system id:5c601341-d5ac-46ab-9b1d-9f0d1a75ba3d
+direct agent:main:cron:...379945  26h ago   gemini-3-flash-preview 40k/1049k (4%)       system id:e33e4d9e-146f-408e-8d03-8f33ba379945
+direct agent:main:cron:...f15815  26h ago   gemini-3-flash-preview 54k/1049k (5%)       system id:554162ae-177e-4d81-92cf-95755cf15815
+direct agent:main:cron:...89c9ed  26h ago   gemini-3-flash-preview 51k/1049k (5%)       system id:94af601f-a89e-434f-ab33-700d0e89c9ed
+direct agent:main:cron:...fce3bf  26h ago   gemini-3-flash-preview 68k/1049k (7%)       system id:13b00fa4-2e10-4d7b-ba82-7d3517fce3bf
+direct agent:main:cron:...468b16  26h ago   gemini-3-flash-preview 33k/1049k (3%)       system id:a0333a1b-83e8-47d4-be6d-e5a50b468b16
+direct agent:main:cron:...1afcbd  26h ago   gemini-3-flash-preview 53k/1049k (5%)       system id:3605c883-40a1-4e76-86ac-1acb561afcbd
+direct agent:main:cron:...3923af  26h ago   gemini-3-flash-preview 57k/1049k (5%)       system id:1263e847-ab49-4760-b365-26d61e3923af
+direct agent:main:cron:...ea3cd9  26h ago   gemini-3-flash-preview 65k/1049k (6%)       system id:4a838da1-f057-4bee-b688-a74db9ea3cd9
+direct agent:main:cron:...1d4f13  26h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:6cea9fca-cf4b-440c-b94c-d8f30a1d4f13
+direct agent:main:cron:...919383  26h ago   gemini-3-flash-preview 237k/1049k (23%)     system id:097f2c4d-c308-43f5-91c4-268834919383
+direct agent:main:cron:...6de811  26h ago   gemini-3-flash-preview 50k/1049k (5%)       system id:938a8cae-16e7-4ce0-addb-ea325a6de811
+direct agent:main:cron:...fea8f5  27h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:8f994d00-2282-4ea1-a4b4-b08c8dfea8f5
+direct agent:main:cron:...f58902  27h ago   gemini-3-flash-preview 88k/1049k (8%)       system id:ef9caf89-1283-4475-a3aa-54a54af58902
+direct agent:main:cron:...001fcb  27h ago   gemini-3-flash-preview 69k/1049k (7%)       system id:51ea5089-9ef6-423d-a5b2-0ede90001fcb
+direct agent:main:cron:...707246  27h ago   gemini-3-flash-preview 82k/1049k (8%)       system id:21d06ea1-95f4-45fa-969a-a79afd707246
+direct agent:main:cron:...ad7f94  27h ago   gemini-3-flash-preview 53k/1049k (5%)       system id:8ae6b11b-9f61-4c41-b8c6-d488a2ad7f94
+direct agent:main:cron:...164c1a  27h ago   gemini-3-flash-preview 52k/1049k (5%)       system id:06893f7c-4ae2-476a-a350-927f7d164c1a
+direct agent:main:cron:...6e1131  27h ago   gemini-3-flash-preview 52k/1049k (5%)       system id:aeb57c0b-20f1-42b7-9267-aaa1b86e1131
+direct agent:main:cron:...75c7a8  27h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:e22364e7-c9f3-4c7b-8fb8-29500575c7a8
+direct agent:main:cron:...6cd9d8  27h ago   gemini-3-flash-preview 40k/1049k (4%)       system id:0abac12a-6d4e-4244-a23a-4768c16cd9d8
+direct agent:main:cron:...27c117  27h ago   gemini-3-flash-preview 52k/1049k (5%)       system id:f72fbd14-277b-4990-936f-d20a1b27c117
+direct agent:main:cron:...82bde3  27h ago   gemini-3-flash-preview 68k/1049k (6%)       system id:46da41c1-813e-490e-8d84-f0e73882bde3
+direct agent:main:cron:...2f8255  27h ago   gemini-3-flash-preview 53k/1049k (5%)       system id:0ad98738-e8e6-49d6-bde6-0a20072f8255
+direct agent:main:cron:...e8fa61  27h ago   gemini-3-flash-preview 35k/1049k (3%)       system id:c0fbe13c-3bc2-494d-8537-745da9e8fa61
+direct agent:main:cron:...fddb6c  27h ago   gemini-3-flash-preview 37k/1049k (3%)       system id:45c0cdc3-14f4-4872-8a5a-064336fddb6c
+direct agent:main:cron:...273329  28h ago   gemini-3-flash-preview 70k/1049k (7%)       system id:87391a59-23c9-400f-b802-d6c4d2273329
+direct agent:main:cron:...ebc29e  28h ago   gemini-3-flash-preview 51k/1049k (5%)       system id:c9aeaae9-7992-44e1-ae32-e5cd5febc29e
+direct agent:main:cron:...09e2ee  28h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:b6ff737e-c585-4394-a3db-4c132d09e2ee
+direct agent:main:cron:...5bdd93  28h ago   gemini-3-flash-preview 647k/1049k (62%)     system id:6bac5edb-9f07-4f90-aa26-c842a85bdd93
+direct agent:main:cron:...268297  28h ago   gemini-3-flash-preview 52k/1049k (5%)       system id:0319ec07-cec7-4278-a99e-4cbfa7268297
+direct agent:main:cron:...717b84  28h ago   gemini-3-flash-preview 36k/1049k (3%)       system id:3d38d445-719c-49cc-a179-c4f10e717b84
+direct agent:main:cron:...6e0cb2  28h ago   gemini-3-flash-preview 69k/1049k (7%)       system id:948edd8d-d4a2-4fd5-b5e0-b5b2a36e0cb2
+direct agent:main:cron:...c663f7  28h ago   gemini-3-flash-preview 21k/1049k (2%)       system id:01be8199-4ea4-4d64-89cd-6027f3c663f7
+direct agent:main:cron:...8e9f85  28h ago   gemini-3-flash-preview 67k/1049k (6%)       system id:39e308d0-94a7-4d77-ab78-0e2a6b8e9f85
+direct agent:main:cron:...1c8ddc  28h ago   gemini-3-flash-preview 51k/1049k (5%)       system id:e6eb3277-4c08-4279-805e-2e09f71c8ddc
+direct agent:main:cron:...bfbb20  28h ago   gemini-3-flash-preview 38k/1049k (4%)       system id:e9c06d33-3fe1-490d-9208-7d3496bfbb20
+direct agent:main:cron:...9c658d  28h ago   gemini-3-flash-preview 37k/1049k (3%)       system id:1984646e-5c01-4f5d-ade0-803ad29c658d
+direct agent:main:cron:...056d35  28h ago   gemini-3-flash-preview 51k/1049k (5%)       system id:706ed69b-d31b-471a-92d5-4ccf22056d35
+direct agent:main:cron:...c5b32b  29h ago   gemini-3-flash-preview 69k/1049k (7%)       system id:58dfa3ef-b179-43c7-8288-333cbac5b32b
+direct agent:main:cron:...9d104d  29h ago   gemini-3-flash-preview 83k/1049k (8%)       system id:ef85ae7e-9f18-4fc3-b1cf-0f5f149d104d
+direct agent:main:cron:...ff8fe1  29h ago   gemini-3-flash-preview 68k/1049k (7%)       system id:8621babb-2749-4dbf-bdc9-9fc7dbff8fe1
+direct agent:main:cron:...035341  29h ago   gemini-3-flash-preview 35k/1049k (3%)       system id:e9fcfae7-b672-4602-b293-aa56fa035341
+direct agent:main:cron:...05f2df  29h ago   gemini-3-flash-preview 68k/1049k (6%)       system id:548f781c-f07d-43ac-87e6-99d81d05f2df
+direct agent:main:cron:...0a4519  29h ago   gemini-3-flash-preview 40k/1049k (4%)       system id:1850ffa6-c00d-4c75-969c-7d9be00a4519
+direct agent:main:cron:...8d1a67  29h ago   gemini-3-flash-preview 50k/1049k (5%)       system id:d84c3ae5-5a0f-461b-8213-1eba0b8d1a67
+direct agent:main:cron:...0bdda1  29h ago   gemini-3-flash-preview 68k/1049k (7%)       system id:5199b267-ce73-47f8-82ee-80de7e0bdda1
+direct agent:main:cron:...d6a3e4  29h ago   gemini-3-flash-preview 38k/1049k (4%)       system id:e6bde406-d044-41ff-ad7b-980d1fd6a3e4
+direct agent:main:cron:...13c220  29h ago   gemini-3-flash-preview 54k/1049k (5%)       system id:02195421-c53a-419e-a05c-52167913c220
+direct agent:main:cron:...60b04b  29h ago   gemini-3-flash-preview 67k/1049k (6%)       system id:a94f3604-5756-48d2-8793-a93ed160b04b
+direct agent:main:cron:...ab0f8f  29h ago   gemini-3-flash-preview 67k/1049k (6%)       system id:0b9b7916-f183-4456-957e-5c095aab0f8f
+direct agent:main:cron:...309336  29h ago   gemini-3-flash-preview 68k/1049k (6%)       system id:ef7f2b1c-74b2-4143-bba3-e7d591309336
+direct agent:main:cron:...501405  29h ago   gemini-3-flash-preview 67k/1049k (6%)       system id:f0b2fea9-1153-4c8c-b3fb-c7aec6501405
+direct agent:main:cron:...b2fe15  30h ago   gemini-3-flash-preview 50k/1049k (5%)       system id:9d25c1ab-5e03-4b9e-9d95-215f1db2fe15
+direct agent:main:cron:...15a240  30h ago   gemini-3-flash-preview 101k/1049k (10%)     system id:54f303c5-026c-48ad-8b34-4b99ae15a240
+direct agent:main:cron:...837767  30h ago   gemini-3-flash-preview 51k/1049k (5%)       system id:93c2175d-41c5-4f7b-ba6b-a24c9e837767
+direct agent:main:cron:...52c4ca  30h ago   gemini-3-flash-preview 36k/1049k (3%)       system id:c6695e15-6850-429b-a08a-17c0ce52c4ca
+direct agent:main:cron:...cd7331  30h ago   gemini-3-flash-preview 36k/1049k (3%)       system id:4990cf2c-80c7-41db-9a74-ff8baacd7331
+direct agent:main:cron:...93b147  30h ago   gemini-3-flash-preview 41k/1049k (4%)       system id:659e24fe-62b4-4bca-a052-d6929093b147
+direct agent:main:cron:...4f9cd4  30h ago   gemini-3-flash-preview 38k/1049k (4%)       system id:369ed58c-c743-414e-b48f-bd9e454f9cd4
+direct agent:main:cron:...68de91  30h ago   gemini-3-flash-preview 37k/1049k (4%)       system id:5bac42a8-b469-4e64-95e2-0354cf68de91
+direct agent:main:cron:...912715  30h ago   gemini-3-flash-preview 58k/1049k (6%)       system id:9f2258d2-1eac-4051-917f-e60645912715
+direct agent:main:cron:...90c55b  30h ago   gemini-3-flash-preview 39k/1049k (4%)       system id:35c0dada-0ab0-4506-8ab9-e745f590c55b
+direct agent:main:cron:...4491a5  30h ago   gemini-3-flash-preview 119k/1049k (11%)     system id:f3826b42-7d44-4fba-aa5f-78d2264491a5
+direct agent:main:cron:...fb3da6  30h ago   gemini-3-flash-preview 50k/1049k (5%)       system id:2f4c397f-dba1-49ed-9d1b-a2a407fb3da6
+direct agent:main:cron:...8851b1  30h ago   gemini-3-flash-preview 83k/1049k (8%)       system id:cfeb5566-df69-4ad6-bf17-5cf3518851b1
+direct agent:main:cron:...1f63d4  30h ago   gemini-3-flash-preview 173k/1049k (16%)     system id:7599c4b1-9da1-4a03-b722-1d9b90d496bc
+direct agent:main:cron:...d496bc  30h ago   gemini-3-flash-preview 173k/1049k (16%)     system id:7599c4b1-9da1-4a03-b722-1d9b90d496bc
+direct agent:main:cron:...e43c5e  31h ago   gemini-3-flash-preview 67k/1049k (6%)       system id:51a0b187-c8e9-42d7-a094-39b4dde43c5e
+direct agent:main:cron:...8e51d2  31h ago   gemini-3-flash-preview 126k/1049k (12%)     system id:5083ec34-d5d4-49b5-967d-e16b8b8e51d2
+direct agent:main:cron:...5c8d8f  31h ago   gemini-3-flash-preview 150k/1049k (14%)     system id:89db2188-a213-47ae-a849-dc35d45c8d8f
+direct agent:main:cron:...398ecc  31h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:c77df052-c67d-4795-983b-88647a398ecc
+direct agent:main:cron:...99860d  31h ago   gemini-3-flash-preview 66k/1049k (6%)       system id:8895e102-5b13-4e61-bd97-3be28399860d
+direct agent:main:cron:...b3a5a1  31h ago   gemini-3-flash-preview 73k/1049k (7%)       system id:7e225f85-a40b-4c8f-86b2-85a9fbb3a5a1
+direct agent:main:cron:...91240c  31h ago   gemini-3-flash-preview 55k/1049k (5%)       system id:5063173e-f0e1-455b-88f6-f2001e91240c
+direct agent:main:cron:...3f910f  31h ago   gpt-5.3-codex  30k/272k (11%)       system id:502ce9dd-6de4-4240-96e3-70ed0b3f910f
+direct agent:main:cron:...0a5c2e  31h ago   gpt-5.3-codex  26k/272k (9%)        system id:7ab2c35b-d87b-4b85-ae6f-67eee70a5c2e
+direct agent:main:cron:...3b1a9b  31h ago   gpt-5.3-codex  19k/272k (7%)        system id:2a8e94f0-b389-4da8-ae6a-a910123b1a9b
+direct agent:main:cron:...0c1423  31h ago   gpt-5.3-codex  25k/272k (9%)        system id:be5283bf-f5f9-4d75-a3d4-d7cdc70c1423
+direct agent:main:cron:...9d84eb  31h ago   gpt-5.3-codex  23k/272k (8%)        system id:ed3f8e37-db44-42dd-8418-2f1ed99d84eb
+direct agent:main:cron:...ca3243  31h ago   gpt-5.3-codex  30k/272k (11%)       system id:bb4534bb-1eb1-4bb4-bff7-5d708aca3243
+direct agent:main:cron:...7b5ab6  31h ago   gpt-5.3-codex  44k/272k (16%)       system id:a446e820-92da-445c-a540-124ca97b5ab6
+direct agent:main:cron:...c73f09  32h ago   gpt-5.3-codex  24k/272k (9%)        system id:5a364ea0-0320-4a60-9bfa-421514c73f09
+direct agent:main:cron:...891976  32h ago   gpt-5.3-codex  37k/272k (14%)       system id:9425568a-69e3-413b-adc4-f76154891976
+direct agent:main:cron:...2c6874  32h ago   gemini-3-flash-preview 13k/1049k (1%)       system id:f0170a91-a2e1-4e28-b009-147ca52c6874
+direct agent:main:cron:...76d1ba  32h ago   gpt-5.3-codex  24k/272k (9%)        system id:e3d618f5-5f8d-4b44-9d77-4136ec76d1ba
+direct agent:main:cron:...3bc7e9  32h ago   gpt-5.3-codex  18k/272k (7%)        system id:ff8e2505-50bd-454b-8895-04e4c23bc7e9
+direct agent:main:cron:...8d29ef  32h ago   gpt-5.3-codex  25k/272k (9%)        system id:c9398fa1-fd68-49f8-ae56-bdd2368d29ef
+direct agent:main:cron:...c1eaff  32h ago   gpt-5.3-codex  34k/272k (12%)       system id:1a3c5dd1-6f70-4ac1-9446-a3af8bc1eaff
+direct agent:main:cron:...9d4e47  32h ago   gpt-5.3-codex  25k/272k (9%)        system id:f5a27bb9-9625-4761-9517-04105e9d4e47
+direct agent:main:cron:...d6fba7  32h ago   gpt-5.3-codex  95k/272k (35%)       system id:0d01a9db-01b3-4e1b-8b1d-e9433ed6fba7
+direct agent:main:cron:...f49465  32h ago   gpt-5.3-codex  32k/272k (12%)       system id:3c9cc6b5-9a6e-403a-86c9-661253f49465
+direct agent:main:cron:...11c6b6  32h ago   gpt-5.3-codex  32k/272k (12%)       system id:30a08fd5-b0e5-462f-993c-b7dc2811c6b6
+direct agent:main:cron:...8d450c  32h ago   gpt-5.3-codex  41k/272k (15%)       system id:b87c6545-3a5c-4e9d-bbde-8a9ac08d450c
+direct agent:main:cron:...cca397  32h ago   gpt-5.3-codex  32k/272k (12%)       system id:a7876d36-0208-4c79-97ab-5d3fe4cca397
+direct agent:main:cron:...b9b577  33h ago   gpt-5.3-codex  32k/272k (12%)       system id:20481cd6-54ce-4859-ba45-645485b9b577
+direct agent:main:cron:...ed6633  33h ago   gpt-5.3-codex  38k/272k (14%)       system id:57fee3a4-7b02-4691-baed-b63a66ed6633
+direct agent:main:cron:...c9046e  33h ago   gpt-5.3-codex  24k/272k (9%)        system id:3d174009-6fee-4011-a5ca-6914fbc9046e
+direct agent:main:cron:...fa1a25  33h ago   gpt-5.3-codex  42k/272k (15%)       system id:cde33ebc-fe36-4413-b2e1-1f4951fa1a25
+direct agent:main:cron:...cf52ec  33h ago   gpt-5.3-codex  110k/272k (40%)      system id:ab7bf0bb-930b-4cd2-89a7-033c9ecf52ec
+direct agent:main:cron:...dbd4d3  33h ago   gpt-5.3-codex  119k/272k (44%)      system id:7f9cbbb0-3634-4391-ad62-29e5c0dbd4d3
+direct agent:main:cron:...39d6a2  33h ago   gpt-5.3-codex  30k/272k (11%)       system id:d65cc7a2-eb4e-4792-929f-60aae039d6a2
+direct agent:main:cron:...773485  33h ago   gpt-5.3-codex  19k/272k (7%)        system id:7b0aed58-b841-47bd-bb8c-6cbe63773485
+direct agent:main:cron:...43e1b9  33h ago   gpt-5.3-codex  23k/272k (8%)        system id:ce8bcfa1-9073-4922-8854-440d1d43e1b9
+direct agent:main:cron:...1b660b  33h ago   gpt-5.3-codex  94k/272k (34%)       system id:12cdc3a7-0ec1-4157-8ced-73ae981b660b
+direct agent:main:cron:...713aba  33h ago   gpt-5.3-codex  15k/272k (6%)        system id:067da4f2-27c9-447a-9c23-69d0e7713aba
+direct agent:main:cron:...7b08b4  33h ago   gpt-5.3-codex  33k/272k (12%)       system id:f705afee-af56-4fdf-b8cc-ac6cb97b08b4
+direct agent:main:cron:...63314d  33h ago   gpt-5.3-codex  32k/272k (12%)       system id:2b53ec63-d903-4a3f-8b18-61ba2363314d
+direct agent:main:cron:...7030fc  33h ago   gpt-5.3-codex  42k/272k (15%)       system id:b8544adb-6c0d-44c7-a1be-6ee5797030fc
+direct agent:main:cron:...3d84d5  34h ago   gpt-5.3-codex  38k/272k (14%)       system id:7c005aa7-a931-4e1a-95c8-8b47533d84d5
+direct agent:main:cron:...b1b12f  34h ago   gpt-5.3-codex  29k/272k (11%)       system id:f26c77d3-b813-4211-84d7-384497b1b12f
+direct agent:main:cron:...cde916  34h ago   gpt-5.3-codex  28k/272k (10%)       system id:49c18f4f-fef8-411b-b0eb-bf3c29cde916
+direct agent:main:cron:...fbfb3a  34h ago   gpt-5.3-codex  23k/272k (8%)        system id:e01b1d1a-77ea-4078-8b70-2da26ffbfb3a
+direct agent:main:cron:...f31021  34h ago   gpt-5.3-codex  33k/272k (12%)       system id:cd679307-4c8f-4ca2-aab5-204468f31021
+direct agent:main:cron:...55c48e  34h ago   gpt-5.3-codex  16k/272k (6%)        system id:96a62012-3e51-42bf-87b3-20638255c48e
+direct agent:main:cron:...58bbaa  34h ago   gpt-5.3-codex  31k/272k (12%)       system id:d9e20c80-cd3b-4a3f-8bfd-bdba1458bbaa
+direct agent:main:cron:...2d936e  34h ago   gpt-5.3-codex  14k/272k (5%)        system id:bc510b5c-7075-4341-b7e1-5019fb2d936e
+direct agent:main:cron:...46a6ff  34h ago   gpt-5.3-codex  22k/272k (8%)        system id:0fd18134-6e42-416c-84ac-1f32fa46a6ff
+direct agent:main:cron:...dc8044  34h ago   gpt-5.3-codex  40k/272k (15%)       system id:fa3f046c-913b-4a79-b109-ba38ccdc8044
+direct agent:main:cron:...a6ab02  34h ago   gpt-5.3-codex  61k/272k (22%)       system id:967b9cac-918c-4be4-b593-a272f3a6ab02
+direct agent:main:cron:...021ec1  34h ago   gpt-5.3-codex  24k/272k (9%)        system id:1e100e77-1dd0-4874-aeee-21645b021ec1
+direct agent:main:cron:...a1f03e  34h ago   gpt-5.3-codex  19k/272k (7%)        system id:e2929229-01b4-43f5-b33a-47186ea1f03e
+direct agent:main:cron:...3e36aa  35h ago   gpt-5.3-codex  29k/272k (11%)       system id:f07c0b3a-5fef-4bfc-8013-a2175b3e36aa
+direct agent:main:cron:...e9b58c  35h ago   gpt-5.3-codex  30k/272k (11%)       system id:1245edb5-c88e-4846-bae1-ea2da6e9b58c
+direct agent:main:cron:...56c48c  35h ago   gpt-5.3-codex  50k/272k (18%)       system id:809360a4-2f9a-4a23-983c-1a421456c48c
+direct agent:main:cron:...6a83e3  35h ago   gpt-5.3-codex  57k/272k (21%)       system id:fcba6568-f495-410f-a2ae-2561406a83e3
+direct agent:main:cron:...c12080  35h ago   gpt-5.3-codex  41k/272k (15%)       system id:bd32af78-f596-43c6-a5db-c1aa8cc12080
+direct agent:main:cron:...61c049  35h ago   gpt-5.3-codex  17k/272k (6%)        system id:a22f3588-cd01-425b-8fae-b7ef5061c049
+direct agent:main:cron:...b7d1af  35h ago   gpt-5.3-codex  15k/272k (6%)        system id:ddba12c2-442a-416c-b206-002a7fb7d1af
+direct agent:main:cron:...4b3fda  35h ago   gpt-5.3-codex  45k/272k (16%)       system id:56693aaa-8369-45cd-8cac-5d04374b3fda
+direct agent:main:cron:...229143  35h ago   gpt-5.3-codex  24k/272k (9%)        system id:7b39aec1-4cc5-4584-bc10-274570229143
+direct agent:main:cron:...7b93cd  35h ago   gpt-5.3-codex  18k/272k (6%)        system id:48a70ad3-3ce8-43bc-9e3d-6983b47b93cd
+direct agent:main:cron:...b2012a  35h ago   gpt-5.3-codex  27k/272k (10%)       system id:61130589-83a5-4c29-83c6-642828b2012a
+direct agent:main:cron:...8ac32f  35h ago   gpt-5.3-codex  29k/272k (11%)       system id:82b67e20-24a0-493c-b5ea-159d918ac32f
+direct agent:main:cron:...f5be8b  35h ago   gpt-5.3-codex  26k/272k (9%)        system id:af32e81a-8068-4b0e-bd88-b8e20ff5be8b
+direct agent:main:cron:...62c1f7  35h ago   gpt-5.3-codex  103k/272k (38%)      system id:622bea05-f571-4fd9-8419-eb1fcc62c1f7
+direct agent:main:cron:...e04065  36h ago   gpt-5.3-codex  34k/272k (13%)       system id:b55c0a60-f5d1-4661-9018-3ce8d8e04065
+direct agent:main:cron:...45c7ee  36h ago   gpt-5.3-codex  30k/272k (11%)       system id:f4f2b9a4-10be-4328-bc75-fe23bf45c7ee
+direct agent:main:cron:...676710  36h ago   gpt-5.3-codex  23k/272k (8%)        system id:de887d6b-3294-4227-bef8-3acd08676710
+direct agent:main:cron:...853569  36h ago   gpt-5.3-codex  30k/272k (11%)       system id:32e0f9c5-14ac-4e84-98c4-78589c853569
+direct agent:main:cron:...27f535  36h ago   gpt-5.3-codex  24k/272k (9%)        system id:c8eb6bc1-f905-4d7f-bb6d-29857e27f535
+direct agent:main:cron:...685c8e  36h ago   gpt-5.3-codex  17k/272k (6%)        system id:9d80769e-334c-47f4-8695-7f9998685c8e
+direct agent:main:cron:...18fe4c  36h ago   gpt-5.3-codex  33k/272k (12%)       system id:46e3650c-ddcd-4935-bc69-1df3f218fe4c
+direct agent:main:cron:...a4d624  36h ago   gpt-5.3-codex  20k/272k (7%)        system id:5df6abc1-45fe-4116-952b-c12ec1a4d624
+direct agent:main:cron:...ea206c  36h ago   gpt-5.3-codex  29k/272k (11%)       system id:71779525-8e35-42ea-bba3-ce4b6eea206c
+direct agent:main:cron:...26351e  36h ago   gpt-5.3-codex  40k/272k (15%)       system id:7ba73ba2-1237-4846-b506-29ca8c26351e
+direct agent:main:cron:...47e972  36h ago   gpt-5.3-codex  16k/272k (6%)        system id:e9b50e2e-44a6-49d8-b276-fc4e6c47e972
+direct agent:main:cron:...4bde9e  36h ago   gpt-5.3-codex  22k/272k (8%)        system id:96b9c7ff-5d6d-43c1-9309-a750bb4bde9e
+direct agent:main:cron:...d39ed1  36h ago   gpt-5.3-codex  22k/272k (8%)        system id:08c410c8-ae67-4188-9884-148694d39ed1
+direct agent:main:cron:...ce826c  37h ago   gpt-5.3-codex  21k/272k (8%)        system id:90321c40-accc-44a0-a833-558779ce826c
+direct agent:main:cron:...4ef9c3  37h ago   gpt-5.3-codex  24k/272k (9%)        system id:2b4c2af4-c26b-4d82-89da-4b8de64ef9c3
+direct agent:main:cron:...a86591  37h ago   gpt-5.3-codex  23k/272k (8%)        system id:58befdb2-134c-4db5-bc3c-871fa7a86591
+direct agent:main:cron:...2341e0  37h ago   gpt-5.3-codex  23k/272k (9%)        system id:e987e69a-cbe2-46f8-8e22-3ab4aa2341e0
+direct agent:main:cron:...936686  37h ago   gpt-5.3-codex  30k/272k (11%)       system id:f82a0543-db82-42dd-9098-1bdd3e936686
+direct agent:main:cron:...e6ca60  37h ago   gpt-5.3-codex  35k/272k (13%)       system id:f626ab30-cd80-4a03-b7e7-cbebd9e6ca60
+direct agent:main:cron:...701385  37h ago   gpt-5.3-codex  37k/272k (14%)       system id:d7d43f0d-f9e3-4d22-8e6f-675b7f701385
+direct agent:main:cron:...54f5d0  37h ago   gpt-5.3-codex  23k/272k (9%)        system id:9d33bfec-7f6f-4d91-b79d-2d1e7e54f5d0
+direct agent:main:cron:...fb1144  37h ago   gpt-5.3-codex  22k/272k (8%)        system id:6d2fc791-bdf1-43f2-88a9-57541bfb1144
+direct agent:main:cron:...39937d  37h ago   gpt-5.3-codex  29k/272k (11%)       system id:04aeca59-403f-42cd-9936-74e59039937d
+direct agent:main:cron:...f35191  37h ago   gpt-5.3-codex  44k/272k (16%)       system id:27d9f095-8f9b-4453-8caf-7e5526f35191
+direct agent:main:cron:...48b408  37h ago   gpt-5.3-codex  37k/272k (13%)       system id:2ddc18d5-8876-4d6e-ab66-91038448b408
+direct agent:main:cron:...5dc728  37h ago   gpt-5.3-codex  35k/272k (13%)       system id:cc0610b1-d60f-49e2-87fd-5926fb5dc728
+direct agent:main:cron:...c4df8c  37h ago   gpt-5.3-codex  30k/272k (11%)       system id:2fce9bb0-e6b1-43ee-ad4f-80e3b1c4df8c
+direct agent:main:cron:...a87df0  38h ago   gpt-5.3-codex  28k/272k (10%)       system id:6dfe94b5-728f-4ce2-a4fa-e85967a87df0
+direct agent:main:cron:...ce59ec  38h ago   gpt-5.3-codex  17k/272k (6%)        system id:f23cf218-03dc-49a3-b0bc-ff7c14ce59ec
+direct agent:main:cron:...df98bc  38h ago   gpt-5.3-codex  29k/272k (11%)       system id:d6445791-a8cd-4df0-81ab-dfa14fdf98bc
+direct agent:main:cron:...7709bc  38h ago   gpt-5.3-codex  25k/272k (9%)        system id:5aa5d8c3-0c11-4782-969e-31b3467709bc
+direct agent:main:cron:...35ae93  38h ago   gpt-5.3-codex  25k/272k (9%)        system id:d55e7cd2-7491-4bd5-b236-1191b135ae93
+direct agent:main:cron:...a658e6  38h ago   gpt-5.3-codex  38k/272k (14%)       system id:4ff88dfa-78c5-4376-83a7-4bdf83a658e6
+direct agent:main:cron:...625fe6  38h ago   gpt-5.3-codex  30k/272k (11%)       system id:159ea7af-61e6-44b0-a0a5-4fc4e3625fe6
+direct agent:main:cron:...9fb4fe  38h ago   gpt-5.3-codex  20k/272k (7%)        system id:494d8ef2-4eb5-40a3-8e06-314d829fb4fe
+direct agent:main:cron:...b0d99c  38h ago   gpt-5.3-codex  22k/272k (8%)        system id:b8f8c97a-d251-4368-be9e-736184b0d99c
+direct agent:main:cron:...0d1cb7  38h ago   gpt-5.3-codex  28k/272k (10%)       system id:b1df5018-cbde-4c77-8b79-fc1b6f0d1cb7
+direct agent:main:cron:...dc5c7f  38h ago   gpt-5.3-codex  23k/272k (9%)        system id:f3856fff-9301-4d6e-beea-63f2e4dc5c7f
+direct agent:main:cron:...387de9  38h ago   gpt-5.3-codex  23k/272k (9%)        system id:2d3296ff-11eb-4a76-b034-79fa69387de9
+direct agent:main:cron:...4034bf  38h ago   gpt-5.3-codex  26k/272k (10%)       system id:631f7e71-c5dc-42b5-b3d1-d3e4794034bf
+direct agent:main:cron:...ba3281  39h ago   gpt-5.3-codex  33k/272k (12%)       system id:eae44a49-0024-4e73-9646-35aa13ba3281
+direct agent:main:cron:...bfcc8a  39h ago   gpt-5.3-codex  28k/272k (10%)       system id:09e299ff-c920-44a3-890c-1b7e8ebfcc8a
+direct agent:main:cron:...f6dff2  39h ago   gpt-5.3-codex  18k/272k (6%)        system id:9a2e5d4c-84e0-49e2-a5ac-7cad22f6dff2
+direct agent:main:cron:...5d246a  39h ago   gpt-5.3-codex  17k/272k (6%)        system id:cf2a1045-7cbb-4e20-96a6-4897dc5d246a
+direct agent:main:cron:...05b791  39h ago   gpt-5.3-codex  33k/272k (12%)       system id:699a125d-873d-4738-a21b-2d321905b791
+direct agent:main:cron:...f69c15  39h ago   gpt-5.3-codex  25k/272k (9%)        system id:b018c797-a62f-47f0-ad7f-9d69eff69c15
+direct agent:main:cron:...32f156  39h ago   gpt-5.3-codex  17k/272k (6%)        system id:a080ba79-ff2d-4e77-ab65-b8976532f156
+direct agent:main:cron:...e96bc1  39h ago   gpt-5.3-codex  22k/272k (8%)        system id:36cb34ec-9ee6-4956-bede-753811e96bc1
+direct agent:main:cron:...a9bfb6  39h ago   gpt-5.3-codex  21k/272k (8%)        system id:d724d500-9653-4979-bb38-d017e9a9bfb6
+direct agent:main:cron:...9ca843  39h ago   gpt-5.3-codex  46k/272k (17%)       system id:a874d11b-5507-460a-bc1c-efd15d9ca843
+direct agent:main:cron:...7a8430  39h ago   gpt-5.3-codex  17k/272k (6%)        system id:f124a5f0-dbb3-4364-8a44-971aae7a8430
+direct agent:main:cron:...7616c7  39h ago   gpt-5.3-codex  23k/272k (8%)        system id:9a71575e-61fa-4315-9bc4-075bf87616c7
+direct agent:main:cron:...244ba3  39h ago   gpt-5.3-codex  25k/272k (9%)        system id:4d3233ad-cf60-4372-8820-cbdaea244ba3
+direct agent:main:cron:...78188b  39h ago   gpt-5.3-codex  18k/272k (6%)        system id:3eeda087-7bd5-4e9a-b399-878bc578188b
+direct agent:main:cron:...f2a573  40h ago   gpt-5.3-codex  24k/272k (9%)        system id:85d9842b-c1e4-448c-82e0-793d93f2a573
+direct agent:main:cron:...494a78  40h ago   gpt-5.3-codex  20k/272k (8%)        system id:b4bc7bba-5d85-45ff-bef3-e1f73a494a78
+direct agent:main:cron:...1d6ee7  40h ago   gpt-5.3-codex  35k/272k (13%)       system id:9340f4fb-4a36-404d-8435-8dd4791d6ee7
+direct agent:main:cron:...07d079  40h ago   gpt-5.3-codex  40k/272k (15%)       system id:612a3e5a-7a57-4fd8-bedd-7f61ab07d079
+direct agent:main:cron:...d2a9c6  40h ago   gpt-5.3-codex  28k/272k (10%)       system id:5ef0e432-6dab-480e-b264-f04effd2a9c6
+direct agent:main:cron:...44ebbe  40h ago   gpt-5.3-codex  26k/272k (10%)       system id:02663b62-ce1a-4e26-a827-65b49a44ebbe
+direct agent:main:cron:...f6bf8a  40h ago   gpt-5.3-codex  31k/272k (11%)       system id:1b93cf80-4452-4a34-b59c-ddfa42f6bf8a
+direct agent:main:cron:...f3e949  40h ago   gpt-5.3-codex  31k/272k (11%)       system id:43fa58b4-5d86-409e-9601-8b4fb3f3e949
+direct agent:main:cron:...d9cb40  40h ago   grok-code-fast-1 -                    system id:05f11c58-2844-4dab-af92-5934b2d9cb40
+direct agent:main:cron:...6d19ec  40h ago   grok-code-fast-1 28k/256k (11%)       system id:0949920f-0cf0-47e2-883f-6cb2b46d19ec
+direct agent:main:subag...a99f9d  41h ago   gemini-3-flash-preview -                    id:6f393ebd-832d-4e10-957d-e63b1f141208
+direct agent:main:cron:...7379b3  41h ago   grok-code-fast-1 12k/256k (5%)        system id:dcc9e548-119a-4f14-9c96-aa68547379b3
+direct agent:main:cron:...0bf1b6  41h ago   grok-code-fast-1 29k/256k (11%)       system id:40e017b6-68ac-46a7-b3ff-09b6cb0bf1b6
+direct agent:main:cron:...5a1e7b  41h ago   grok-code-fast-1 32k/256k (12%)       system id:6d2cb826-e7ca-4178-a57a-e83bc85a1e7b
+direct agent:main:cron:...bdb176  41h ago   grok-code-fast-1 36k/256k (14%)       system id:f0d15bad-f5ce-4632-98e8-4455c2bdb176
+direct agent:main:cron:...c4a711  41h ago   grok-code-fast-1 60k/256k (23%)       system id:57fe18e4-18e6-4f45-8a56-7a3522c4a711
+direct agent:main:cron:...337e1c  41h ago   grok-code-fast-1 28k/256k (11%)       system id:66cc7ade-6995-42f9-88e4-8a2157337e1c
+direct agent:main:cron:...df735b  41h ago   gpt-5.3-codex  24k/272k (9%)        system id:3b79650c-78d4-4fe7-9c1c-c16345df735b
+direct agent:main:cron:...3f39be  41h ago   gpt-5.3-codex  21k/272k (8%)        system id:ed4bdc95-d93a-4c55-ba28-7ea86b3f39be
+direct agent:main:cron:...284c61  41h ago   gpt-5.3-codex  30k/272k (11%)       system id:ec1d89d5-51d4-4077-9610-72ebac284c61
+direct agent:main:cron:...5db2a9  41h ago   gpt-5.3-codex  26k/272k (10%)       system id:9667c2f2-8da0-4cf7-86f8-4f1a1d5db2a9
+direct agent:main:cron:...e36203  41h ago   gpt-5.3-codex  25k/272k (9%)        system id:3ea462d3-cf38-4a8a-9f8a-8720f5e36203
+direct agent:main:cron:...5af9fe  41h ago   gpt-5.3-codex  39k/272k (14%)       system id:9dc0431c-d2c9-4113-91e8-5ca0415af9fe
+direct agent:main:cron:...52c257  41h ago   gpt-5.3-codex  37k/272k (13%)       system id:dd4aca5e-5ea1-4b3d-9571-138c5b52c257
+direct agent:main:cron:...bd36e7  41h ago   gpt-5.3-codex  12k/272k (4%)        system id:f3e20171-9591-4fc8-a5e8-80883bbd36e7
+direct agent:main:cron:...314b79  42h ago   gpt-5.3-codex  34k/272k (13%)       system id:8bb47e34-6ccf-4be4-b007-be46a1314b79
+direct agent:main:cron:...83e5d4  42h ago   gpt-5.3-codex  30k/272k (11%)       system id:7f7a40c8-cfef-413f-b9ae-9e6a5e83e5d4
+direct agent:main:cron:...05d155  42h ago   gpt-5.3-codex  33k/272k (12%)       system id:2b62043c-503d-4e69-8f71-f364d905d155
+direct agent:main:cron:...c8568e  42h ago   gpt-5.3-codex  32k/272k (12%)       system id:652d5747-f784-4758-a81a-1f7b4cc8568e
+direct agent:main:cron:...177fff  42h ago   gpt-5.3-codex  20k/272k (7%)        system id:635c9f68-fe48-42fd-8f71-69828c177fff
+direct agent:main:cron:...165743  42h ago   gpt-5.3-codex  31k/272k (11%)       system id:797da7e0-02e9-4e50-a1b5-873fce165743
+direct agent:main:cron:...cd3dc1  42h ago   gpt-5.3-codex  35k/272k (13%)       system id:c1a1109e-7cf7-450a-9202-6eec1bcd3dc1
+direct agent:main:cron:...6be5e9  42h ago   gpt-5.3-codex  27k/272k (10%)       system id:238d4c4e-e700-41cf-a627-fde8b36be5e9
+direct agent:main:cron:...b4524f  42h ago   gpt-5.3-codex  28k/272k (10%)       system id:166e0cd7-5a93-4b2d-8a86-33d0d3b4524f
+direct agent:main:cron:...ffb815  42h ago   gpt-5.3-codex  31k/272k (11%)       system id:08bab8fa-c9f2-4831-8a7e-001e5dffb815
+direct agent:main:cron:...62d7f7  43h ago   gpt-5.3-codex  28k/272k (10%)       system id:9c46582a-8a47-41ff-9067-21fb1562d7f7
+direct agent:main:cron:...d615fe  43h ago   gpt-5.3-codex  40k/272k (15%)       system id:e980f6ce-e003-4ade-b93d-9a8ac6d615fe
+direct agent:main:cron:...d9700c  43h ago   gpt-5.3-codex  24k/272k (9%)        system id:d05f0ec8-9aa8-4b20-9a10-9ef8cbd9700c
+direct agent:main:cron:...e4ad2d  43h ago   gpt-5.3-codex  21k/272k (8%)        system id:4ae42f7d-6a00-478b-85aa-c180a9e4ad2d
+direct agent:main:cron:...9b1bd5  43h ago   gpt-5.3-codex  32k/272k (12%)       system id:ae3c0a80-1b75-44b2-affa-de464b9b1bd5
+direct agent:main:cron:...6af7fe  43h ago   gpt-5.3-codex  32k/272k (12%)       system id:83adfbe9-7668-404e-bff0-b63bfe6af7fe
+direct agent:main:cron:...4e1729  43h ago   gpt-5.3-codex  20k/272k (7%)        system id:bad51f00-a305-415b-a309-0ed3854e1729
+direct agent:main:cron:...aec385  43h ago   gpt-5.3-codex  22k/272k (8%)        system id:42c7666d-dc7e-421b-b27f-398503aec385
+direct agent:main:cron:...bfd9e7  43h ago   gpt-5.3-codex  24k/272k (9%)        system id:3ba8ba1c-93e7-4dc5-a927-f3fccfbfd9e7
+direct agent:main:cron:...9f56c2  43h ago   gpt-5.3-codex  27k/272k (10%)       system id:c5d7e56d-e418-4460-992b-33717f9f56c2
+direct agent:main:cron:...acc8ab  43h ago   gpt-5.3-codex  22k/272k (8%)        system id:d4015968-f10e-4ecd-8e4d-979e07acc8ab
+direct agent:main:cron:...73417d  43h ago   gpt-5.3-codex  21k/272k (8%)        system id:65314abb-c176-4423-ad42-9eeede73417d
+direct agent:main:cron:...85cf6f  43h ago   gpt-5.3-codex  23k/272k (8%)        system id:69fd0e7b-850b-4aa6-b867-23d7ea85cf6f
+direct agent:main:cron:...2669b0  44h ago   gpt-5.3-codex  33k/272k (12%)       system id:f3993c9e-1d83-4215-a1c2-a90c842669b0
+direct agent:main:cron:...d498ff  44h ago   gpt-5.3-codex  23k/272k (8%)        system id:48502375-08f6-4a41-9f27-d0700bd498ff
+direct agent:main:cron:...68b926  44h ago   gpt-5.3-codex  59k/272k (22%)       system id:775b5765-b927-4ada-a199-e076c668b926
+direct agent:main:cron:...4755f4  44h ago   gpt-5.3-codex  23k/272k (8%)        system id:041e05e8-3242-42d9-b775-0f90854755f4
+direct agent:main:cron:...db883d  44h ago   gpt-5.3-codex  42k/272k (15%)       system id:8e19e4e4-5bad-496f-9c85-da6deadb883d
+direct agent:main:cron:...b50b64  44h ago   gpt-5.3-codex  31k/272k (11%)       system id:93afce9c-a228-4658-9022-1f1ce9b50b64
+direct agent:main:cron:...5c2616  44h ago   gpt-5.3-codex  49k/272k (18%)       system id:f9040ad3-f74d-44ea-91f2-27a4fa5c2616
+direct agent:main:cron:...e7d722  44h ago   gpt-5.3-codex  19k/272k (7%)        system id:c8a49b5a-dc5d-4bce-a3e4-837e7ee7d722
+direct agent:main:cron:...24ff89  44h ago   gpt-5.3-codex  28k/272k (10%)       system id:741e658a-31a9-496e-875c-1865d824ff89
+direct agent:main:cron:...439c50  44h ago   gpt-5.3-codex  28k/272k (10%)       system id:d66ff31d-2ada-44f3-a572-e66958439c50
+direct agent:main:cron:...b4bbe0  44h ago   gpt-5.3-codex  22k/272k (8%)        system id:93c4c2d9-27f1-461e-9366-df5188b4bbe0
+direct agent:main:cron:...f1576b  44h ago   gpt-5.3-codex  28k/272k (10%)       system id:273f1caa-e177-4df3-a6c0-ff1bb8f1576b
+direct agent:main:cron:...9c73ef  44h ago   gpt-5.3-codex  21k/272k (8%)        system id:ebaec071-3a99-4444-8440-53cfe79c73ef
+direct agent:main:cron:...c7e511  45h ago   gpt-5.3-codex  60k/272k (22%)       system id:c072d6da-cbe2-4d70-b8bf-338ad6c7e511
+direct agent:main:cron:...26441e  45h ago   gpt-5.3-codex  29k/272k (11%)       system id:e3082b77-b8e5-416a-a185-d6b68a26441e
+direct agent:main:cron:...8c8492  45h ago   gpt-5.3-codex  23k/272k (8%)        system id:f0554b19-0e5b-4f92-8c44-1b42918c8492
+direct agent:main:cron:...371019  45h ago   gpt-5.3-codex  30k/272k (11%)       system id:d1600af3-02c0-42cb-a45c-e20376371019
+direct agent:main:cron:...b5fbe1  45h ago   gpt-5.3-codex  26k/272k (9%)        system id:d66ea0ea-b236-484d-bbbe-d119b7b5fbe1
+direct agent:main:cron:...7b12ab  45h ago   gpt-5.3-codex  25k/272k (9%)        system id:dc3287b9-8d8f-478c-a48f-c805b97b12ab
+direct agent:main:cron:...e73ca1  45h ago   gpt-5.3-codex  24k/272k (9%)        system id:fe3b2817-4431-45ec-8249-48d35be73ca1
+direct agent:main:cron:...684ca4  45h ago   grok-code-fast-1 25k/256k (10%)       system id:66ddf736-7fe1-4c77-a5cb-61d956684ca4
+direct agent:main:cron:...2cd142  45h ago   grok-code-fast-1 24k/256k (10%)       system id:fc4fccc5-73e6-4a8f-b2de-bda1ce2cd142
+direct agent:main:cron:...a1d980  45h ago   grok-code-fast-1 20k/256k (8%)        system id:e049f3b2-a348-4a10-b785-b95912a1d980
+direct agent:main:cron:...01ec28  45h ago   grok-code-fast-1 33k/256k (13%)       system id:cc4ec44a-3100-4f66-b157-26109e01ec28
+direct agent:main:cron:...2ef848  46h ago   grok-code-fast-1 31k/256k (12%)       system id:084d114d-0aec-4a06-a638-b7e3692ef848
+direct agent:main:cron:...f91d82  46h ago   grok-code-fast-1 24k/256k (9%)        system id:1c5e0106-dd3d-4ea7-be73-b06314f91d82
+direct agent:main:cron:...c03e05  46h ago   grok-code-fast-1 29k/256k (11%)       system id:b4566466-b1c2-47e1-9658-4c198dc03e05
+direct agent:main:cron:...6b98dc  46h ago   grok-code-fast-1 37k/256k (14%)       system id:d23c004b-3923-4d34-9a83-3fc10d6b98dc
+direct agent:main:cron:...87504e  46h ago   grok-code-fast-1 25k/256k (10%)       system id:9811dcc2-cf68-49df-b8cd-6bd86487504e
+direct agent:main:cron:...e9ba80  46h ago   grok-code-fast-1 25k/256k (10%)       system id:868b7e33-c58e-45f7-ac60-cd6be1e9ba80
+direct agent:main:cron:...939ef9  46h ago   gpt-5.3-codex  27k/272k (10%)       system id:ecbac0ad-942c-4410-98e1-91007e939ef9
+direct agent:main:cron:...481914  46h ago   gpt-5.3-codex  22k/272k (8%)        system id:b121f229-98cb-4cac-a84e-1a02f3481914
+direct agent:main:cron:...8f5502  47h ago   gpt-5.3-codex  28k/272k (10%)       system id:2f4814f1-30a4-4262-83e7-9d918c8f5502
+direct agent:main:cron:...d3a5b6  47h ago   grok-code-fast-1 33k/256k (13%)       system id:498dd9f0-96e2-42e5-a1be-b76f75d3a5b6
+direct agent:main:cron:...825af9  47h ago   gpt-5.3-codex  20k/272k (7%)        system id:3856adfa-1885-4637-8ce1-9fcaa0825af9
+direct agent:main:cron:...ff3977  47h ago   grok-code-fast-1 30k/256k (12%)       system id:9295d510-f844-4315-900b-b72817ff3977
+direct agent:main:cron:...d18be8  47h ago   gpt-5.3-codex  33k/272k (12%)       system id:7d284591-119f-4141-a20d-b66d63d18be8
+direct agent:main:cron:...9c8167  47h ago   grok-code-fast-1 30k/256k (12%)       system id:78076902-7567-443c-be3b-c48a139c8167
+direct agent:main:cron:...d624cc  47h ago   grok-code-fast-1 21k/256k (8%)        system id:20990a64-35fb-4fdf-976f-313549d624cc
+direct agent:main:cron:...db2c9e  2d ago    grok-code-fast-1 41k/256k (16%)       system id:8d501ef5-4d93-4db6-a728-a046e3db2c9e
+direct agent:main:cron:...b491fd  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:7fa4171c-8b5f-4e9e-b1ab-e97c45b491fd
+direct agent:main:cron:...910119  2d ago    gemini-3-flash-preview 104k/1049k (10%)     system id:c39e39d0-5a76-4b51-9450-a3b22e910119
+direct agent:main:cron:...56bb91  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:8ff48af4-963e-4aba-ad66-21c4fd56bb91
+direct agent:main:cron:...0ff29a  2d ago    gemini-3-flash-preview 365k/1049k (35%)     system id:100dc4bc-148e-4c58-a7a7-ec73a70ff29a
+direct agent:main:cron:...99849a  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:f5170eb0-af20-44ed-ad5b-4e593399849a
+direct agent:main:cron:...98680b  2d ago    gemini-3-flash-preview 33k/1049k (3%)       system id:f246ca79-aa76-464c-8f25-3c476a98680b
+direct agent:main:cron:...6e226d  2d ago    gemini-3-flash-preview 70k/1049k (7%)       system id:c4bebc3e-dbe4-4285-97cc-637d776e226d
+direct agent:main:cron:...5a1b53  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:c1b531e5-683c-4dbc-9601-9fc94f5a1b53
+direct agent:main:cron:...759a30  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:9d039da7-9afb-4347-95f0-7b1f6f759a30
+direct agent:main:cron:...2f0b50  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:90d27a28-30b0-4bc8-9e3b-c825562f0b50
+direct agent:main:cron:...9f0bd2  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:614792be-7357-4d2b-9b44-40b3379f0bd2
+direct agent:main:cron:...3a91ba  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:e902da90-992d-4434-9ecb-dca4343a91ba
+direct agent:main:cron:...6cee79  2d ago    gemini-3-flash-preview 73k/1049k (7%)       system id:fe4626f8-981b-4020-a842-eaf50f6cee79
+direct agent:main:cron:...eb09b7  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:1ba521b6-c1a8-44aa-bda0-f6b428eb09b7
+direct agent:main:cron:...009aa3  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:4dbcccf4-bb1e-40b4-b07f-bbca7c009aa3
+direct agent:main:cron:...66f158  2d ago    gemini-3-flash-preview 330k/1049k (31%)     system id:7aea0a55-0266-49f6-ab5f-5607e266f158
+direct agent:main:cron:...fb0e4e  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:06a3124e-e107-4f1a-9412-75f043fb0e4e
+direct agent:main:cron:...b8b97a  2d ago    gemini-3-flash-preview 122k/1049k (12%)     system id:1638b7fa-2d65-47b1-be99-2830b3b8b97a
+direct agent:main:cron:...3bc2d4  2d ago    gemini-3-flash-preview 37k/1049k (3%)       system id:06a44ad1-c7a1-4632-a44c-0f041c3bc2d4
+direct agent:main:cron:...3826dc  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:a89bc2ec-fbdb-418c-938a-e349263826dc
+direct agent:main:cron:...900f01  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:1751d064-cec5-4826-b885-80532a900f01
+direct agent:main:cron:...e762a5  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:589dc4a2-9196-4b9c-b9bd-5cfa83e762a5
+direct agent:main:cron:...f14b78  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:e1c10b01-1480-43aa-bdde-3a73adf14b78
+direct agent:main:cron:...01e0ad  2d ago    gemini-3-flash-preview 348k/1049k (33%)     system id:27589ca0-0f7b-422c-903d-fac55f01e0ad
+direct agent:main:cron:...d2125d  2d ago    gemini-3-flash-preview 49k/1049k (5%)       system id:10ef7aa5-427c-48aa-8024-ba9bf3d2125d
+direct agent:main:cron:...2a830a  2d ago    gemini-3-flash-preview 69k/1049k (7%)       system id:b07ca529-dced-4755-8d96-2cc6d72a830a
+direct agent:main:cron:...cd4098  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:12688ac0-2eb6-4481-aad6-296146cd4098
+direct agent:main:cron:...700326  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:97fb8daa-d0e1-48e8-81c7-edd122700326
+direct agent:main:cron:...6e075b  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:8749c0a0-6680-4f3d-8b8e-5f28da6e075b
+direct agent:main:cron:...5d56d8  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:3a5bb6f9-a1fe-4de4-a246-6483515d56d8
+direct agent:main:cron:...c5d57e  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:597cbaf8-413f-4411-b36a-a339f5c5d57e
+direct agent:main:cron:...697b76  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:094a6159-32e9-4852-a99a-d37673697b76
+direct agent:main:cron:...e5591c  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:fa899fd4-56a2-42e7-b880-28d074e5591c
+direct agent:main:cron:...9b019e  2d ago    gemini-3-flash-preview 54k/1049k (5%)       system id:36c42161-ebbd-4fdb-8abb-a6e3829b019e
+direct agent:main:cron:...d3e913  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:5b4f8d9a-a71a-47f9-9948-31c80ed3e913
+direct agent:main:cron:...4ae6b8  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:9ca08dd8-e94e-43a3-8cbe-a7458f4ae6b8
+direct agent:main:cron:...200b52  2d ago    gemini-3-flash-preview 54k/1049k (5%)       system id:4b6b8467-9afc-420e-88b0-7fd236200b52
+direct agent:main:cron:...c069ad  2d ago    gemini-3-flash-preview 73k/1049k (7%)       system id:1d184d6e-9fd5-40e2-adcd-ad811bc069ad
+direct agent:main:cron:...353af1  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:bb7ae372-d489-4126-ad7c-fcd4f3353af1
+direct agent:main:cron:...214191  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:0a7db07f-52dd-4694-9ef7-16ffdf214191
+direct agent:main:cron:...aab6b1  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:41241cc8-664e-44e0-a97b-8968c2aab6b1
+direct agent:main:cron:...9e9656  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:162b1c31-1505-467d-b07d-8ad99f9e9656
+direct agent:main:cron:...ad1afd  2d ago    gemini-3-flash-preview 37k/1049k (3%)       system id:184792ca-168b-4e26-860a-1c9419ad1afd
+direct agent:main:cron:...a4741c  2d ago    gemini-3-flash-preview 70k/1049k (7%)       system id:0f86a01e-3de2-4a94-be92-49690da4741c
+direct agent:main:cron:...8a5b1d  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:7d45933d-4d82-415f-ba4b-03cc8b8a5b1d
+direct agent:main:cron:...f2857b  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:c16731a2-a6e6-43c2-a9c8-d5fccbf2857b
+direct agent:main:cron:...dcb46d  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:842bed24-a501-497f-892d-85fa45dcb46d
+direct agent:main:cron:...1119ca  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:3ccece1d-9168-4c66-89a6-b362d61119ca
+direct agent:main:cron:...c8c615  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:22554a8d-e294-4b47-90fc-5c1616c8c615
+direct agent:main:cron:...1f131a  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:9f5cac8a-71d7-4ade-80f4-0e6c5a1f131a
+direct agent:main:cron:...ecdf5f  2d ago    gemini-3-flash-preview 41k/1049k (4%)       system id:57745e4d-b300-4afc-9d38-5ff3f7ecdf5f
+direct agent:main:cron:...c93871  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:afd33ac2-7be5-490e-a978-9773c7c93871
+direct agent:main:cron:...183dd9  2d ago    gemini-3-flash-preview 426k/1049k (41%)     system id:6f573ab4-1b42-4624-898b-643c67183dd9
+direct agent:main:cron:...c14d74  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:1c2ea687-5622-454a-807c-6b3af7c14d74
+direct agent:main:cron:...f7ccce  2d ago    gemini-3-flash-preview 268k/1049k (26%)     system id:fedcde6c-00d8-43af-a97b-439dddf7ccce
+direct agent:main:cron:...d53598  2d ago    gemini-3-flash-preview 268k/1049k (26%)     system id:4f813a1e-d630-40e4-9d9c-332542d53598
+direct agent:main:cron:...2a2d5a  2d ago    gemini-3-flash-preview 248k/1049k (24%)     system id:564c4260-c857-47eb-8943-d57b9d2a2d5a
+direct agent:main:cron:...4410b8  2d ago    gemini-3-flash-preview 70k/1049k (7%)       system id:25d63a04-9422-4387-b8c6-6479ab4410b8
+direct agent:main:cron:...809c84  2d ago    gemini-3-flash-preview 43k/1049k (4%)       system id:85156cf1-ec1e-498b-bea4-5b3a8c809c84
+direct agent:main:cron:...557c44  2d ago    gemini-3-flash-preview 50k/1049k (5%)       system id:a134aa47-fb00-4533-9789-b553f9557c44
+direct agent:main:cron:...0143bb  2d ago    gemini-3-flash-preview 57k/1049k (5%)       system id:5e78b5fe-66a7-45d8-974d-8ac0d20143bb
+direct agent:main:cron:...b93ed0  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:adbcf5a5-362c-4df3-a731-4f1dffb93ed0
+direct agent:main:cron:...75dd82  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:3b5c11ea-4e1a-4f05-89b9-40f25875dd82
+direct agent:main:cron:...64d1f7  2d ago    gemini-3-flash-preview 66k/1049k (6%)       system id:5fcf2c4a-0e42-4c7b-88d2-181b1f64d1f7
+direct agent:main:cron:...f3d0f7  2d ago    gemini-3-flash-preview 41k/1049k (4%)       system id:8515cef5-0781-4a80-a659-ae1e91f3d0f7
+direct agent:main:cron:...5c3421  2d ago    gemini-3-flash-preview 41k/1049k (4%)       system id:dc11f982-c10f-422f-8bb1-70f5745c3421
+direct agent:main:cron:...e2e515  2d ago    gemini-3-flash-preview 84k/1049k (8%)       system id:b410a4e8-739b-4e18-895e-7118a1e2e515
+direct agent:main:cron:...35630d  2d ago    gemini-3-flash-preview 232k/1049k (22%)     system id:1cb18a1c-9904-4204-9ebf-15252735630d
+direct agent:main:cron:...6e466e  2d ago    gemini-3-flash-preview 72k/1049k (7%)       system id:27e10d2d-049f-496e-8ceb-d4caa76e466e
+direct agent:main:cron:...b71f70  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:d40246cb-4389-4b4c-9483-f15d5cb71f70
+direct agent:main:cron:...ac5597  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:35b9b7ef-695f-4e6a-ac8a-5a65b9ac5597
+direct agent:main:cron:...5a94ee  2d ago    gemini-3-flash-preview 49k/1049k (5%)       system id:8876c48c-2b89-41cf-9d7f-a759745a94ee
+direct agent:main:cron:...bce2c1  2d ago    gemini-3-flash-preview 248k/1049k (24%)     system id:9345d9ac-b2c0-4516-8a8c-eef852bce2c1
+direct agent:main:cron:...55ebb3  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:d918ecc8-a6df-435a-9274-d1533955ebb3
+direct agent:main:cron:...14e5ce  2d ago    gemini-3-flash-preview 248k/1049k (24%)     system id:ec901b28-5a09-4ed3-a022-eeaf1914e5ce
+direct agent:main:cron:...c419d2  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:670280b4-96fd-4669-a4e9-5e98d9c419d2
+direct agent:main:cron:...7de8dd  2d ago    gemini-3-flash-preview 67k/1049k (6%)       system id:a11916f0-0db6-4781-beb3-067ed37de8dd
+direct agent:main:cron:...bf7aab  2d ago    gemini-3-flash-preview 86k/1049k (8%)       system id:359ce263-e330-45a5-a08f-c2b362bf7aab
+direct agent:main:cron:...4c6115  2d ago    gemini-3-flash-preview 49k/1049k (5%)       system id:90c2a859-615a-47c9-a883-1acab94c6115
+direct agent:main:cron:...b38b29  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:1293b944-5be3-408a-a112-3f8f21b38b29
+direct agent:main:cron:...845e75  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:6b98f10c-49bb-4a95-8f6c-ec8157845e75
+direct agent:main:cron:...8c4d5e  2d ago    gemini-3-flash-preview 56k/1049k (5%)       system id:6b17e5d1-c42f-46df-b107-f0f1798c4d5e
+direct agent:main:cron:...f07314  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:fa5da83b-ed17-44c9-b4b6-c3b009f07314
+direct agent:main:cron:...647ab0  2d ago    gemini-3-flash-preview 56k/1049k (5%)       system id:d38898c7-0051-405e-b767-6e04f8647ab0
+direct agent:main:cron:...d48cd7  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:b29fe17c-1909-441a-9757-abd534d48cd7
+direct agent:main:cron:...1982b1  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:0883e49c-c409-4d18-ac3c-742dc21982b1
+direct agent:main:cron:...9dada5  2d ago    gemini-3-flash-preview 49k/1049k (5%)       system id:edbea93b-cbab-407e-8176-6f86199dada5
+direct agent:main:cron:...160440  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:61558cac-f3f6-4354-acc7-47f077160440
+direct agent:main:cron:...440b5e  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:784cd4d8-c57a-4c95-a2a8-e183a9440b5e
+direct agent:main:cron:...72e119  2d ago    gemini-3-flash-preview 22k/1049k (2%)       system id:28afc7b7-2f92-4689-8ce2-13a84f72e119
+direct agent:main:cron:...eeb3c1  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:42417d63-17fd-4df3-bf01-e6ed37eeb3c1
+direct agent:main:cron:...7a307b  2d ago    gemini-3-flash-preview 54k/1049k (5%)       system id:8e40c48d-2ab0-446d-bc25-99293d7a307b
+direct agent:main:cron:...0bf025  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:eb7228ca-e153-44c8-b52e-df50b30bf025
+direct agent:main:cron:...9fd769  2d ago    gemini-3-flash-preview 73k/1049k (7%)       system id:6e95a02a-1043-49a2-8b99-f7df579fd769
+direct agent:main:cron:...6f01e4  2d ago    gemini-3-flash-preview 50k/1049k (5%)       system id:3d75bf9c-ba10-4e63-8770-4397656f01e4
+direct agent:main:cron:...6282b8  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:e3f6cf7b-73ef-4eaf-8215-583b4c6282b8
+direct agent:main:cron:...9a5fe3  2d ago    gemini-3-flash-preview 56k/1049k (5%)       system id:d11da323-c7b6-4c09-a9cd-2505809a5fe3
+direct agent:main:cron:...b10204  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:63e7e599-1efe-4cab-804e-3eb8ceb10204
+direct agent:main:cron:...6e9f17  2d ago    gemini-3-flash-preview 236k/1049k (22%)     system id:126843d7-3878-4127-98af-e755d56e9f17
+direct agent:main:cron:...dde525  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:39c436a6-83a4-4d15-9abf-06d48fdde525
+direct agent:main:cron:...6cebde  2d ago    gemini-3-flash-preview 50k/1049k (5%)       system id:82745c70-07f3-4529-b152-2d00486cebde
+direct agent:main:cron:...a8f749  2d ago    gemini-3-flash-preview 54k/1049k (5%)       system id:38a231e1-ece7-42d3-b9b9-6bef04a8f749
+direct agent:main:cron:...c4b834  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:993c093d-335f-4e56-837c-b92bbfc4b834
+direct agent:main:cron:...6cef82  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:2efdcae0-358f-451d-aa07-0092ff6cef82
+direct agent:main:cron:...790025  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:cc65268a-9679-4abd-8997-f854af790025
+direct agent:main:cron:...906cc1  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:7a7f6a66-3a2a-4deb-b726-cdc3bf906cc1
+direct agent:main:cron:...64d014  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:f506e719-71cc-4314-b6bd-39bb8a64d014
+direct agent:main:cron:...f3361a  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:9a9ee5be-77eb-42f5-b67a-95d6dcf3361a
+direct agent:main:cron:...73b7e3  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:664b829c-3136-46aa-af3d-bf7b9073b7e3
+direct agent:main:cron:...e02e99  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:45c6582d-e6cc-4eb8-85aa-68b86ae02e99
+direct agent:main:cron:...7bc0cf  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:e5099e66-9997-4cdb-ac96-eda9f67bc0cf
+direct agent:main:cron:...486ef6  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:85b5dd67-1780-4c65-8767-1ce5bd486ef6
+direct agent:main:cron:...e8be66  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:f47fadc5-86ef-4a87-929c-ff4adfe8be66
+direct agent:main:cron:...13205c  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:f80f41e6-8aa0-4e70-8001-a6f34f13205c
+direct agent:main:cron:...4fd00a  2d ago    gemini-3-flash-preview 26k/1049k (2%)       system id:06ec9311-f291-43d2-9917-aaccce4fd00a
+direct agent:main:cron:...3bc66e  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:7f7d7780-d255-4e75-afea-d6db6d3bc66e
+direct agent:main:cron:...58f482  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:638d1d1e-a5f0-42bd-ac8b-16d3ba58f482
+direct agent:main:cron:...d1f8ac  2d ago    gemini-3-flash-preview 33k/1049k (3%)       system id:a8272673-4c75-4e41-841b-299c5ad1f8ac
+direct agent:main:cron:...c3a97f  2d ago    gemini-3-flash-preview 154k/1049k (15%)     system id:9c6f049c-f72f-4a69-8c3e-64ef2bc3a97f
+direct agent:main:cron:...417e0b  2d ago    gemini-3-flash-preview 54k/1049k (5%)       system id:d03aa0cd-5def-4ca5-aa6e-c67d9e417e0b
+direct agent:main:cron:...754e8f  2d ago    gemini-3-flash-preview 84k/1049k (8%)       system id:e97306ad-e365-4c8d-b665-e1246b754e8f
+direct agent:main:cron:...fec8a4  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:83edaeeb-f13d-4267-8bfb-0a891cfec8a4
+direct agent:main:cron:...8bf4d9  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:a2f4b7ca-ded3-4134-99bd-7092108bf4d9
+direct agent:main:cron:...1f919d  2d ago    gemini-3-flash-preview 99k/1049k (9%)       system id:e3a5d52a-bd40-4086-bbb4-591ce51f919d
+direct agent:main:cron:...b753a6  2d ago    gemini-3-flash-preview 49k/1049k (5%)       system id:a0730072-b926-4014-bcc6-e06a8ab753a6
+direct agent:main:cron:...d57ee5  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:a5c5c996-5ed2-44f8-a524-7c1379d57ee5
+direct agent:main:cron:...fe4204  2d ago    gemini-3-flash-preview 180k/1049k (17%)     system id:12e580be-92eb-4556-a8be-a8e0fafe4204
+direct agent:main:cron:...d81254  2d ago    gemini-3-flash-preview 23k/1049k (2%)       system id:458d3c7b-5c41-401d-bf16-289387d81254
+direct agent:main:cron:...f6f0ad  2d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:c50b9208-3c3d-44ec-8278-ca0854f6f0ad
+direct agent:main:cron:...b15d84  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:b1053096-e906-4ab6-9202-4452afb15d84
+direct agent:main:cron:...3166a2  2d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:43fa55f5-6398-4469-a50c-3429823166a2
+direct agent:main:cron:...dfc0c3  2d ago    gemini-3-flash-preview 57k/1049k (5%)       system id:674582e7-5f16-4e5b-b513-f67252dfc0c3
+direct agent:main:cron:...8ed345  2d ago    gemini-3-flash-preview 76k/1049k (7%)       system id:1c2a67eb-0547-458c-90cb-f9b6c98ed345
+direct agent:main:cron:...9ec1ef  2d ago    gemini-3-flash-preview 102k/1049k (10%)     system id:b73bf341-2be3-4e4d-8210-b9c8d99ec1ef
+direct agent:main:cron:...cc243b  2d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:24080cba-72d6-4f6f-9322-d4382acc243b
+direct agent:main:cron:...9845db  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:dbccdc2a-0023-49fb-9008-fb47fb9845db
+direct agent:main:cron:...4e3871  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:a85270fa-2c8e-4460-a02c-3f075c4e3871
+direct agent:main:cron:...8a0d88  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:13af4e1e-7aa5-4681-b4bd-0a41868a0d88
+direct agent:main:cron:...2d593b  2d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:38d2c477-51a9-4c3b-8890-1a84f22d593b
+direct agent:main:cron:...874a30  2d ago    gemini-3-flash-preview 169k/1049k (16%)     system id:76c5b8ca-511b-4dca-badf-1b4fab874a30
+direct agent:main:cron:...0abff4  2d ago    gemini-3-flash-preview 50k/1049k (5%)       system id:fa3cc6a6-21e7-440c-8190-d5611f0abff4
+direct agent:main:cron:...ac383f  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:4fa74814-d3f3-41f0-8d80-05e6b6ac383f
+direct agent:main:cron:...990236  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:d1b21e3d-8891-4d89-9e76-e291ef990236
+direct agent:main:cron:...bc7ac9  2d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:67115591-e9f4-41f9-83ef-838845bc7ac9
+direct agent:main:cron:...7b04ac  2d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:85d12e3f-b4f4-4640-94fa-d0c2077b04ac
+direct agent:main:cron:...546d7d  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:753d22ab-9272-4498-8b44-9a5fc3546d7d
+direct agent:main:cron:...9cb990  2d ago    gemini-3-flash-preview 182k/1049k (17%)     system id:40691150-5a3e-4493-9130-c837b59cb990
+direct agent:main:cron:...3b6b5e  2d ago    gemini-3-flash-preview 70k/1049k (7%)       system id:8360735a-1b83-4053-a9a1-768fa83b6b5e
+direct agent:main:cron:...156262  2d ago    gemini-3-flash-preview 37k/1049k (3%)       system id:2c1e8f0f-f9a9-4c0f-81e8-bc20fd156262
+direct agent:main:cron:...c737ce  2d ago    gemini-3-flash-preview 33k/1049k (3%)       system id:1796ee8e-3164-4bd0-9cba-13136fc737ce
+direct agent:main:cron:...35c295  2d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:ae470d62-b27a-4da5-b322-60963b35c295
+direct agent:main:cron:...5782c4  2d ago    gemini-3-flash-preview 57k/1049k (5%)       system id:8208af49-9abd-4042-a60d-35fa545782c4
+direct agent:main:cron:...1bf42a  2d ago    gemini-3-flash-preview 59k/1049k (6%)       system id:c34e0808-59b9-4070-856b-65d06f1bf42a
+direct agent:main:cron:...d3acd2  2d ago    gemini-3-flash-preview 58k/1049k (6%)       system id:b5c1025e-db24-469d-958f-eb903ed3acd2
+direct agent:main:cron:...0dbdec  2d ago    gemini-3-flash-preview 40k/1049k (4%)       system id:c6bace72-85a5-44a9-b126-4af8700dbdec
+direct agent:main:cron:...fa49c3  2d ago    gemini-3-flash-preview 154k/1049k (15%)     system id:fb700ee9-3edc-4b2f-b643-2460c7fa49c3
+direct agent:main:cron:...eef81d  2d ago    gemini-3-flash-preview 55k/1049k (5%)       system id:d3ca4637-11b0-42bf-980e-f8c287eef81d
+direct agent:main:cron:...102fb7  2d ago    gemini-3-flash-preview 169k/1049k (16%)     system id:453c4df1-61c7-4f07-ac0b-7ce742102fb7
+direct agent:main:cron:...fed041  2d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:0d0686cf-2c77-4158-ab57-c4bd6cfed041
+direct agent:main:cron:...e11091  2d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:45c45692-6b80-401f-a2e1-52d836e11091
+direct agent:main:cron:...dde84f  3d ago    gemini-3-flash-preview 83k/1049k (8%)       system id:03fcb72e-1287-4e61-8be4-10d1c4dde84f
+direct agent:main:cron:...2f1b0d  3d ago    gemini-3-flash-preview 155k/1049k (15%)     system id:2d947aec-e3cc-4a32-99a6-2823172f1b0d
+direct agent:main:cron:...fd92f4  3d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:a453705f-8885-43e1-92a6-d3a845fd92f4
+direct agent:main:cron:...71454f  3d ago    gemini-3-flash-preview 39k/1049k (4%)       system id:00efdfc3-8b5c-4dd9-9a4a-703daf71454f
+direct agent:main:cron:...097e8e  3d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:fcdbea73-8dde-4fc2-8dc8-797195097e8e
+direct agent:main:cron:...301f6a  3d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:7df26160-2fdb-4495-b4bc-f70ffd301f6a
+direct agent:main:cron:...1ac546  3d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:85f016b7-f4bb-428d-9c01-ddacab1ac546
+direct agent:main:cron:...d507f2  3d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:922d695e-3878-4107-8706-85358bd507f2
+direct agent:main:cron:...f4256f  3d ago    gemini-3-flash-preview 136k/1049k (13%)     system id:a4a9abf6-336f-4046-9272-d2315ef4256f
+direct agent:main:cron:...47d090  3d ago    gemini-3-flash-preview 37k/1049k (4%)       system id:58ebe17b-41fd-465c-8871-a9505f47d090
+direct agent:main:cron:...4726ac  3d ago    gemini-3-flash-preview 53k/1049k (5%)       system id:2fa2be66-abbd-4399-b738-7f92ed4726ac
+direct agent:main:cron:...812bd1  3d ago    gemini-3-flash-preview 52k/1049k (5%)       system id:60d100cf-1bd2-4318-8103-c0c692812bd1
+direct agent:main:cron:...032ecf  3d ago    gemini-3-flash-preview 153k/1049k (15%)     system id:7b20480f-2fac-470e-9efc-bed5a9032ecf
+direct agent:main:cron:...470911  3d ago    gemini-3-flash-preview 38k/1049k (4%)       system id:a8279997-05aa-4fe6-bbc6-f63cda470911
+direct agent:main:cron:...e9585d  3d ago    gemini-3-flash-preview 84k/1049k (8%)       system id:7bfa08be-fad4-4c2d-b4e5-23fb1ae9585d
+direct agent:main:cron:...126e5f  3d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:603a54b7-358f-4fdf-81cb-8e710f126e5f
+direct agent:main:cron:...77b39d  3d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:5bbe0cc6-01e6-472a-9387-1e08fe77b39d
+direct agent:main:cron:...62cbe5  3d ago    gemini-3-flash-preview 122k/1049k (12%)     system id:4d39b204-3f21-489c-96a7-5ee06962cbe5
+direct agent:main:cron:...e13cd6  3d ago    gemini-3-flash-preview 35k/1049k (3%)       system id:cb0120e3-3d30-4ed0-a33a-406debe13cd6
+direct agent:main:cron:...1e8152  3d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:1ad77cc8-320f-47c2-9f79-f60b171e8152
+direct agent:main:cron:...b69e55  3d ago    gemini-3-flash-preview 82k/1049k (8%)       system id:741ab2da-329e-4309-a95f-488484b69e55
+direct agent:main:cron:...f93075  3d ago    gemini-3-flash-preview 23k/1049k (2%)       system id:6aeea9b3-07f1-4abd-851d-8af83ef93075
+direct agent:main:cron:...f21b83  3d ago    gemini-3-flash-preview 136k/1049k (13%)     system id:0cf465fd-b0f2-4eb2-81eb-7e4b4af21b83
+direct agent:main:cron:...205429  3d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:e6248f36-ffcf-4789-98b5-9c6400205429
+direct agent:main:cron:...420f96  3d ago    gemini-3-flash-preview 121k/1049k (12%)     system id:e998abc1-be42-4dda-8da3-344b03420f96
+direct agent:main:cron:...261389  3d ago    gemini-3-flash-preview 120k/1049k (11%)     system id:c0fc097a-c1a8-4286-9d69-e22f1e261389
+direct agent:main:cron:...f87bbe  3d ago    gemini-3-flash-preview 50k/1049k (5%)       system id:03065b17-c88a-48fd-9959-7e00baf87bbe
+direct agent:main:cron:...403857  3d ago    gemini-3-flash-preview 66k/1049k (6%)       system id:9df0a743-bfee-4695-b138-2e953f403857
+direct agent:main:cron:...36668d  3d ago    gemini-3-flash-preview 134k/1049k (13%)     system id:3fc92a39-778d-4415-adb6-4013eb36668d
+direct agent:main:cron:...452ec3  3d ago    gemini-3-flash-preview 133k/1049k (13%)     system id:6e9f48bf-77be-460a-adf4-7a2648452ec3
+direct agent:main:cron:...0da024  3d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:22d4af3b-7815-46ff-b7e4-ca14e50da024
+direct agent:main:cron:...9ddece  3d ago    gemini-3-flash-preview 51k/1049k (5%)       system id:d06dbe3e-af79-497a-a6a9-d8bfc99ddece
+direct agent:main:cron:...520c4c  3d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:edd40be1-0aaf-4425-b68c-7937a3520c4c
+direct agent:main:cron:...d28ecb  3d ago    gemini-3-flash-preview 57k/1049k (5%)       system id:31eefec7-c1f3-4682-82e6-e8aa9bd28ecb
+direct agent:main:cron:...8350f0  3d ago    gemini-3-flash-preview 36k/1049k (3%)       system id:19a9eeb6-90d5-4383-8423-1d78bd8350f0
+direct agent:main:cron:...208f79  3d ago    gemini-3-flash-preview 56k/1049k (5%)       system id:14cc8d0d-ab25-4de7-9c53-ee5c29208f79
+direct agent:main:cron:...1e12f7  3d ago    gemini-3-flash-preview 85k/1049k (8%)       system id:6c03701d-7ef6-4ca8-b23e-1524301e12f7
+direct agent:main:cron:...3db497  3d ago    gemini-3-flash-preview 22k/1049k (2%)       system id:eb30a635-46a8-42f3-8507-fee5f13db497
+direct agent:main:cron:...b635dc  3d ago    gemini-3-flash-preview 34k/1049k (3%)       system id:35c3d00d-643a-4741-8ab2-1584a3b635dc
+direct agent:main:cron:...a7a77d  3d ago    gemini-3-flash-preview 181k/1049k (17%)     system id:40a7fe2c-f714-406e-8de0-f8b086a7a77d
+direct agent:main:cron:...fdc520  82d ago   gemini-3-flash-preview -                    system id:0566073b-09be-49a1-924c-df8266fdc520
+direct agent:main:cron:...79e99a  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:35f723fc-7405-42e7-ae30-c2b1b979e99a
+direct agent:main:cron:...f66360  82d ago   gemini-3-flash-preview 118k/1049k (11%)     system id:6d16f32e-13d2-4edc-a247-3fbc61f66360
+direct agent:main:cron:...89a7bb  82d ago   gemini-3-flash-preview 40k/1049k (4%)       system id:1b9bcb6d-ac9c-45c9-9118-f958cc89a7bb
+direct agent:main:cron:...79139c  82d ago   gemini-3-flash-preview 57k/1049k (5%)       system id:dbe8f0f3-31dd-4e7c-a7ce-a6e21979139c
+direct agent:main:cron:...7c93c4  82d ago   gemini-3-flash-preview 33k/1049k (3%)       system id:fe0ebccb-e333-49ac-9d26-9442d77c93c4
+direct agent:main:cron:...644c83  82d ago   gemini-3-flash-preview 283k/1049k (27%)     system id:13d51f25-68d3-451b-8e8b-3f81a7644c83
+direct agent:main:cron:...04d08f  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:db5591ca-efd4-4b54-9cef-c81ee704d08f
+direct agent:main:cron:...5a8de1  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:5152c6d9-2d9e-4fd8-9f20-e7e6125a8de1
+direct agent:main:cron:...89cd61  82d ago   gemini-3-flash-preview 39k/1049k (4%)       system id:22eb4289-2132-4a04-918b-110ed189cd61
+direct agent:main:cron:...8a3ca3  82d ago   gemini-3-flash-preview 102k/1049k (10%)     system id:37b7f099-9fb9-4c11-bcb3-ae8cb08a3ca3
+direct agent:main:cron:...960171  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:7e9e493e-a01b-4647-adcf-92071e960171
+direct agent:main:cron:...36d082  82d ago   gemini-3-flash-preview 39k/1049k (4%)       system id:822cbfba-aaf3-448a-a0b6-eb850c36d082
+direct agent:main:cron:...1ae9fe  82d ago   gemini-3-flash-preview 34k/1049k (3%)       system id:20fbeed2-973f-49fc-a010-719e041ae9fe
+direct agent:main:cron:...61f6cf  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:9f6c683a-c41e-45e3-b8b2-46af2661f6cf
+direct agent:main:cron:...dda3ab  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:c965bac4-5e4f-4716-87f3-296234dda3ab
+direct agent:main:cron:...72ce1e  82d ago   gemini-3-flash-preview 50k/1049k (5%)       system id:c0e8b24b-eb77-49fc-a690-8e080872ce1e
+direct agent:main:cron:...8173da  82d ago   gemini-3-flash-preview 89k/1049k (9%)       system id:e5715221-bce9-4f19-9167-d9c8f98173da
+direct agent:main:cron:...a7e7fa  82d ago   gemini-3-flash-preview 16k/1049k (2%)       system id:e5421567-d260-4a77-bb86-fec077a7e7fa
+direct agent:main:cron:...147108  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:5959d6a5-90be-4f2a-a8e5-829927147108
+direct agent:main:cron:...12c468  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:8363fe58-5332-477c-91db-8e2b1812c468
+direct agent:main:cron:...6c462a  82d ago   gemini-3-flash-preview 37k/1049k (3%)       system id:7538c509-a0ef-449c-b75b-c83d1d6c462a
+direct agent:main:cron:...7a554c  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:e07a61d6-515a-48fd-8bb6-dbdbfb7a554c
+direct agent:main:cron:...0403e4  82d ago   gemini-3-flash-preview 181k/1049k (17%)     system id:348ada66-2772-4e5e-9f23-9cf3b80403e4
+direct agent:main:cron:...a61304  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:1ebbbe63-e975-4404-840d-f6b5baa61304
+direct agent:main:cron:...11463d  82d ago   gemini-3-flash-preview 68k/1049k (6%)       system id:0e39478a-754d-4bad-ab64-63db0d11463d
+direct agent:main:cron:...4d2ea1  82d ago   gemini-3-flash-preview 83k/1049k (8%)       system id:97add558-a547-4659-a98f-0c84c44d2ea1
+direct agent:main:cron:...39509e  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:ed7f4e8b-16e4-454d-b3e3-e13f9a39509e
+direct agent:main:cron:...29ee18  82d ago   gemini-3-flash-preview 87k/1049k (8%)       system id:3dd85f69-151a-4555-b488-204f7a29ee18
+direct agent:main:cron:...6a83c8  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:855b5d9f-5167-4e8b-bda4-31d22e6a83c8
+direct agent:main:cron:...d0857e  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:65503ea5-1398-47a1-842a-08a4c5d0857e
+direct agent:main:cron:...bd32cb  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:65cae7dd-55af-40b4-9d57-9b03c3bd32cb
+direct agent:main:cron:...5c0dfc  82d ago   gemini-3-flash-preview 13k/1049k (1%)       system id:a6f14272-9f70-4df0-adbc-a0c2235c0dfc
+direct agent:main:cron:...aad7bf  82d ago   gemini-3-flash-preview 82k/1049k (8%)       system id:29b8c5df-a55f-4046-b44b-08ba72aad7bf
+direct agent:main:cron:...500b23  82d ago   gemini-3-flash-preview 73k/1049k (7%)       system id:674a3b29-747d-4cc8-933f-132b93500b23
+direct agent:main:cron:...154feb  82d ago   gemini-3-flash-preview 34k/1049k (3%)       system id:88593483-62aa-43ba-872e-d6aba6154feb
+direct agent:main:cron:...628f68  82d ago   gemini-3-flash-preview 72k/1049k (7%)       system id:d8b58e04-f84f-4bc7-91cf-48ea3a628f68
+direct agent:main:cron:...fa476b  82d ago   gemini-3-flash-preview 69k/1049k (7%)       system id:e673d5a6-a7be-43b4-96d2-40dac1fa476b
+direct agent:main:cron:...c85263  82d ago   gemini-3-flash-preview 69k/1049k (7%)       system id:058cef57-d9e4-418e-8086-10b0a0c85263
+direct agent:main:cron:...474ef2  82d ago   gemini-3-flash-preview 68k/1049k (7%)       system id:cf0e0e76-ff10-4d95-aa5b-beec4c474ef2
+direct agent:main:cron:...fb9a8a  82d ago   gemini-3-flash-preview 68k/1049k (7%)       system id:8792d1b6-4d6a-4ad2-ac35-e604d1fb9a8a
+direct agent:main:cron:...1dfc8f  82d ago   gemini-3-flash-preview 34k/1049k (3%)       system id:26aafcd0-3545-4786-b9fa-fb25371dfc8f
+direct agent:main:cron:...0e61a2  82d ago   gemini-3-flash-preview 67k/1049k (6%)       system id:ceeef74c-25f0-49ba-a859-2cb79b0e61a2
+direct agent:main:cron:...58001e  82d ago   gemini-3-flash-preview 57k/1049k (5%)       system id:6c7487f6-729a-4a0c-84bd-41edf258001e
+direct agent:main:cron:...49d646  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:7cbb924d-7976-466c-97b8-43cb2d49d646
+direct agent:main:cron:...4917fa  82d ago   gemini-3-flash-preview 15k/1049k (1%)       system id:b6491d52-c76a-4e70-b745-809be64917fa
+direct agent:main:cron:...5d00f3  82d ago   gemini-3-flash-preview 34k/1049k (3%)       system id:af3cfa78-bb12-4e42-ac90-5549675d00f3
+direct agent:main:cron:...e20760  82d ago   gemini-3-flash-preview 37k/1049k (4%)       system id:2ba4783a-1a97-4699-880c-da46b2e20760
+direct agent:main:cron:...f1af3e  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:e5736655-0829-4541-94c4-738b7df1af3e
+direct agent:main:cron:...8916e2  82d ago   gemini-3-flash-preview 72k/1049k (7%)       system id:daea33a7-3d28-4aac-b34b-9149288916e2
+direct agent:main:cron:...b4c711  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:fb29bcf0-f928-413a-82bf-a0fbfeb4c711
+direct agent:main:cron:...8fd898  82d ago   gemini-3-flash-preview 37k/1049k (4%)       system id:3a2b0cf6-4502-41a7-a526-16f7588fd898
+direct agent:main:cron:...00cbfa  82d ago   gemini-3-flash-preview 86k/1049k (8%)       system id:edab519d-b910-4c3b-91a1-37d7f800cbfa
+direct agent:main:cron:...172a1d  82d ago   gemini-3-flash-preview 51k/1049k (5%)       system id:9fe47565-5111-4cee-877b-e8691c172a1d
+direct agent:main:cron:...b22142  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:c786bfd4-da2f-43ba-b0a7-1f5e33b22142
+direct agent:main:cron:...0bffc0  82d ago   gemini-3-flash-preview 53k/1049k (5%)       system id:e83b9815-693a-4ddf-8ff1-122e8f0bffc0
+direct agent:main:cron:...6914e6  82d ago   gemini-3-flash-preview 86k/1049k (8%)       system id:709b59c3-b2c3-47f9-b4ed-4fd0016914e6
+direct agent:main:cron:...b23f42  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:e1a2a475-ca9a-43eb-9ce4-948b57b23f42
+direct agent:main:cron:...64bb7b  82d ago   gemini-3-flash-preview 39k/1049k (4%)       system id:652ed004-0d1a-4da3-a5f6-0c168964bb7b
+direct agent:main:cron:...728c07  82d ago   gemini-3-flash-preview 13k/1049k (1%)       system id:b73b1a3e-4793-4e55-b687-2ad28d728c07
+direct agent:main:cron:...3d6d95  82d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:bc8e1139-bf46-47d4-a791-9990073d6d95
+direct agent:main:cron:...cbab46  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:16f3168d-adb3-4e70-9245-076b7ecbab46
+direct agent:main:cron:...135eef  82d ago   gemini-3-flash-preview 50k/1049k (5%)       system id:97345393-add2-401f-98fe-017f35135eef
+direct agent:main:cron:...4a7571  82d ago   gemini-3-flash-preview 34k/1049k (3%)       system id:fe230289-46fc-486e-9c95-cc010d4a7571
+direct agent:main:cron:...42b570  82d ago   gemini-3-flash-preview 19k/1049k (2%)       system id:d0c26cc2-f396-4071-b729-a693b342b570
+direct agent:main:cron:...413ed6  82d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:ee5c6798-7c47-4a1c-a6cc-df58dc413ed6
+direct agent:main:cron:...741013  82d ago   gpt-5.3-codex  30k/272k (11%)       system id:e0e83b3d-3762-471d-b321-9f054a741013
+direct agent:main:cron:...fc4bbe  82d ago   gpt-5.3-codex  31k/272k (11%)       system id:0a15e8cc-eef8-44be-9597-714015fc4bbe
+direct agent:main:cron:...726e13  82d ago   gemini-3-flash-preview 36k/1049k (3%)       system id:b9717874-ae0d-4420-b75b-681d5a726e13
+direct agent:main:cron:...bdcd79  82d ago   gemini-3-flash-preview 53k/1049k (5%)       system id:79cbc8b4-0134-4c5a-b000-9db90cbdcd79
+direct agent:main:cron:...2bc7a6  82d ago   gemini-3-flash-preview 51k/1049k (5%)       system id:62385cb6-e476-47c7-aef5-7f550f2bc7a6
+direct agent:main:cron:...e7b8c2  82d ago   gemini-3-flash-preview 33k/1049k (3%)       system id:3aa22f62-ec95-4be0-9974-4f881ee7b8c2
+direct agent:main:cron:...f54073  82d ago   gemini-3-flash-preview 68k/1049k (7%)       system id:bd98ee40-fdc7-40aa-a0ff-044610f54073
+direct agent:main:cron:...28224d  83d ago   gemini-3-flash-preview 51k/1049k (5%)       system id:7f5878a0-ccda-4b83-bd24-25db3d28224d
+direct agent:main:cron:...ca52f4  83d ago   gemini-3-flash-preview 51k/1049k (5%)       system id:f3549afe-df5e-4cc1-8187-6c2bd0ca52f4
+direct agent:main:cron:...fc96d0  83d ago   gemini-3-flash-preview 50k/1049k (5%)       system id:5ce1c5bf-f625-45fb-8ebb-fbb93dfc96d0
+direct agent:main:cron:...acdd97  83d ago   gemini-3-flash-preview 52k/1049k (5%)       system id:5dbc9fbf-2243-4f1d-9ace-36f6d9acdd97
+direct agent:main:cron:...8d3a84  83d ago   gemini-3-flash-preview 50k/1049k (5%)       system id:808803b3-0688-4826-b94b-876e1a8d3a84
+direct agent:main:cron:...c0298b  83d ago   gemini-3-flash-preview 41k/1049k (4%)       system id:1591ca3c-c8c7-4e07-ae1e-d8e7afc0298b
+direct agent:main:cron:...5f6aca  83d ago   gemini-3-flash-preview 52k/1049k (5%)       system id:98acb1c1-ef3d-4c22-981c-56f0355f6aca
+direct agent:main:cron:...6ed4b9  83d ago   gemini-3-flash-preview 33k/1049k (3%)       system id:90b2e24c-4721-4b3c-8f74-91c5b56ed4b9
+direct agent:main:cron:...145e94  83d ago   gemini-3-flash-preview 54k/1049k (5%)       system id:290c405b-0343-4e08-995a-5b2f39145e94
+direct agent:main:cron:...d457be  83d ago   gemini-3-flash-preview 40k/1049k (4%)       system id:b8400f70-142b-4085-bce8-a06787d457be
+direct agent:main:cron:...cdb426  83d ago   gemini-3-flash-preview 39k/1049k (4%)       system id:a4c97fbe-55ea-4540-a3f8-f9b682cdb426
+direct agent:main:cron:...e58a8a  83d ago   gemini-3-flash-preview 37k/1049k (4%)       system id:02e14f68-f347-4ced-af63-6e6c43e58a8a
+direct agent:main:cron:...c41cc3  83d ago   gemini-3-flash-preview 38k/1049k (4%)       system id:783b2f9d-b5c6-423c-88eb-bac3fdc41cc3
+direct agent:main:cron:...72967c  83d ago   gemini-3-flash-preview 15k/1049k (1%)       system id:4d06cc82-fcdd-4064-b2ce-48181372967c
+direct agent:main:cron:...849a79  83d ago   gemini-3-flash-preview 35k/1049k (3%)       system id:599602e0-fa51-4022-bf44-9e5076849a79

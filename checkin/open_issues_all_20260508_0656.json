@@ -1,0 +1,20 @@
+[
+  {
+    "body": "## Objective\\nDependency-free static site generator for apocalypse-grade status reporting.\\n\\n**RfE Source:** Spark\\n**Priority:** High",
+    "number": 1,
+    "title": "Develop minimalist SSG in Zig [PRIORITY: HIGHEST]",
+    "updatedAt": "2026-05-08T06:11:52Z"
+  },
+  {
+    "body": "## Objective\\nMap brainwave harmonics to real-time visual output using Canvas/Web Audio API.\\n\\n**RfE Source:** Void\\n**Priority:** Medium",
+    "number": 1,
+    "title": "Implement JS frequency visualizer",
+    "updatedAt": "2026-05-08T06:11:53Z"
+  },
+  {
+    "body": "## Objective\\nCreate a minimalist Zig binary to filter brainwave signatures from MQTT streams.\\n\\n**RfE Source:** Spark\\n**Priority:** High",
+    "number": 1,
+    "title": "Implement Zig-based MQTT interceptor",
+    "updatedAt": "2026-05-08T06:11:55Z"
+  }
+]
