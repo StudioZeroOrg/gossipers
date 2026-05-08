@@ -1,0 +1,66 @@
+May 07 21:22:29 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682063]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.150.30.30  user=root
+May 07 21:22:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682063]: Failed password for root from 103.150.30.30 port 40126 ssh2
+May 07 21:22:31 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682063]: Connection closed by authenticating user root 103.150.30.30 port 40126 [preauth]
+May 07 21:22:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:22:34 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.189  user=root
+May 07 21:22:36 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682065]: Failed password for root from 103.61.122.229 port 39450 ssh2
+May 07 21:22:36 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682065]: Connection closed by authenticating user root 103.61.122.229 port 39450 [preauth]
+May 07 21:22:36 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Failed password for root from 2.57.122.189 port 22556 ssh2
+May 07 21:22:38 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Failed password for root from 2.57.122.189 port 22556 ssh2
+May 07 21:22:41 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Failed password for root from 2.57.122.189 port 22556 ssh2
+May 07 21:22:44 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Failed password for root from 2.57.122.189 port 22556 ssh2
+May 07 21:22:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Failed password for root from 2.57.122.189 port 22556 ssh2
+May 07 21:22:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: Connection reset by authenticating user root 2.57.122.189 port 22556 [preauth]
+May 07 21:22:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.122.189  user=root
+May 07 21:22:48 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682067]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:23:56 ubuntu-s-2vcpu-2gb-blr1-01 systemd[1]: fwupd.service: Deactivated successfully.
+May 07 21:24:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682086]: Connection closed by 2.57.122.208 port 48776
+May 07 21:24:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682087]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:24:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682087]: Failed password for root from 103.61.122.229 port 49252 ssh2
+May 07 21:24:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682087]: Connection closed by authenticating user root 103.61.122.229 port 49252 [preauth]
+May 07 21:24:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.148.10.147  user=root
+May 07 21:24:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682093]: Invalid user ubuntu from 103.61.122.229 port 49800
+May 07 21:24:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Failed password for root from 45.148.10.147 port 57724 ssh2
+May 07 21:24:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682093]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:24:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682093]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 07 21:24:39 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Failed password for root from 45.148.10.147 port 57724 ssh2
+May 07 21:24:40 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682093]: Failed password for invalid user ubuntu from 103.61.122.229 port 49800 ssh2
+May 07 21:24:40 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682093]: Connection closed by invalid user ubuntu 103.61.122.229 port 49800 [preauth]
+May 07 21:24:42 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Failed password for root from 45.148.10.147 port 57724 ssh2
+May 07 21:24:46 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Failed password for root from 45.148.10.147 port 57724 ssh2
+May 07 21:24:51 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Failed password for root from 45.148.10.147 port 57724 ssh2
+May 07 21:24:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: Connection reset by authenticating user root 45.148.10.147 port 57724 [preauth]
+May 07 21:24:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.148.10.147  user=root
+May 07 21:24:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682091]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:25:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[682100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 07 21:25:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[682101]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May 07 21:25:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[682100]: pam_unix(cron:session): session closed for user root
+May 07 21:26:40 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.197  user=root
+May 07 21:26:42 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Failed password for root from 92.118.39.197 port 27850 ssh2
+May 07 21:26:43 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682124]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:26:45 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682124]: Failed password for root from 103.61.122.229 port 44476 ssh2
+May 07 21:26:46 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682124]: Connection closed by authenticating user root 103.61.122.229 port 44476 [preauth]
+May 07 21:26:46 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Failed password for root from 92.118.39.197 port 27850 ssh2
+May 07 21:26:48 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:26:48.461Z [ws] ⇄ res ✓ sessions.patch 1887ms conn=8e33c723…337a id=9ad8c981…ea3b
+May 07 21:26:49 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Failed password for root from 92.118.39.197 port 27850 ssh2
+May 07 21:26:52 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:26:52.419Z [ws] ⇄ res ✓ agent 3942ms runId=66a3085b-e14f-4469-b1a1-3fd3063e6cb9 conn=9cb78867…2e6a id=997462bc…c6c2
+May 07 21:26:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Failed password for root from 92.118.39.197 port 27850 ssh2
+May 07 21:26:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Failed password for root from 92.118.39.197 port 27850 ssh2
+May 07 21:26:58 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:26:58.078Z [ws] ⇄ res ✓ chat.history 1544ms conn=6e78e280…0594 id=87f15645…7161
+May 07 21:26:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: Connection reset by authenticating user root 92.118.39.197 port 27850 [preauth]
+May 07 21:26:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.197  user=root
+May 07 21:26:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[682120]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:27:02 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:02.024Z [ws] ⇄ res ✓ sessions.list 108ms conn=b17e353f…4ff3 id=4dae26a4…048f
+May 07 21:27:04 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:04.343Z [ws] ⇄ res ✓ chat.history 1793ms conn=af1067ee…a9a0 id=0d304033…4593
+May 07 21:27:04 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:04.438Z [ws] ⇄ res ✓ chat.history 72ms conn=b815cfc8…81f6 id=373c107b…a808
+May 07 21:27:04 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:04.553Z [ws] ⇄ res ✓ chat.history 81ms conn=b663b725…38d9 id=c90cf03b…3376
+May 07 21:27:04 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:04.645Z [ws] ⇄ res ✓ chat.history 71ms conn=f7e79f1f…3df1 id=276d8105…9405
+May 07 21:27:04 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:04.733Z [ws] ⇄ res ✓ chat.history 74ms conn=10f052b5…662e id=657af3dc…f77d
+May 07 21:27:05 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:05.350Z [ws] ⇄ res ✓ chat.history 118ms conn=1f51f8cf…cfaa id=b7283b76…f132
+May 07 21:27:05 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:05.439Z [ws] ⇄ res ✓ chat.history 74ms conn=4b05f096…99ae id=1ee282b1…8dcb
+May 07 21:27:05 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:05.525Z [ws] ⇄ res ✓ chat.history 72ms conn=44103d40…449d id=e20173c1…1cf9
+May 07 21:27:05 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:05.616Z [ws] ⇄ res ✓ chat.history 80ms conn=32bf4d21…c828 id=d17be503…d245
+May 07 21:27:14 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:14.057Z [agent/embedded] read tool called without path: toolCallId=call_IKJzRPpcnHw2y89O42XdHSb7|fc_0507fd171bccd7500169fd03b1db408191a18023baf4e67e66 argsType=object
+May 07 21:27:14 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:14.261Z [agent/embedded] read tool called without path: toolCallId=call_CnQD2AZBslhinprYrhPp516w|fc_0507fd171bccd7500169fd03b1db50819186d6c52cb153ef87 argsType=object
+May 07 21:27:14 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:14.416Z [agent/embedded] read tool called without path: toolCallId=call_IJUohWlzVBpzJPGHrfkB3rdL|fc_0507fd171bccd7500169fd03b1db548191821c91557a66efeb argsType=object
+May 07 21:27:14 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:27:14.583Z [agent/embedded] read tool called without path: toolCallId=call_aGfQUSlzc2N41Jb2CxmdkeN6|fc_0507fd171bccd7500169fd03b1db5c81918726e8e09774f4e7 argsType=object

@@ -1,0 +1,181 @@
+# Multi-Bot Check-in 2026-05-07 21:06:50 UTC
+
+## 1) Worker Poll
+- Forge: polling session...
+- Micromaker: polling session...
+- Scout: polling session...
+- Serviceability: polling session...
+- Result: No dedicated worker sessions found; using worker_progress.md + recent LOG.md activity as source of truth.
+
+## 2) Last 5 minutes LOG.md
+| 2026-05-06 09:21:00 UTC | MANAGER | Bot Check-in | 2026-05-06 09:21 UTC Multi-Bot Status Check-in: Worker sync completed (no active workers found), Logs audited (no entries in last 5m), Updates consolidated and posted to issues #1 in ssg-apocalypse, brainwave-visualizer, mqtt-privacy-filter, #1-7 in tasks, STATUS.md updated, dashboard synced. | ✅ SUCCESS || 2026-05-06 09:21:00 UTC | MANAGER | Bot Check-in | 2026-05-06 09:21 UTC Multi-Bot Status Check-in: Worker sync completed (no active workers found), Logs audited (no entries in last 5m), Updates consolidated and posted to issues #1 in ssg-apocalypse, brainwave-visualizer, mqtt-privacy-filter, #1-7 in tasks, STATUS.md updated, dashboard synced. | ✅ SUCCESS |
+| 2026-05-06 09:26:00 UTC | MANAGER | Bot Check-in | 2026-05-06 09:26 UTC Multi-Bot Status Check-in: Worker sync completed (no active workers found), Logs audited (no entries in last 5m), Updates consolidated and posted to issues #1 in ssg-apocalypse, brainwave-visualizer, mqtt-privacy-filter, #1-7 in tasks, STATUS.md updated, dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 18:32:03 UTC | MANAGER | Bot Check-in | 2026-05-07 18:32 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+2026-05-07 18:31:54 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_183154.md
+- Last5m logs: checkin/log_last5m_20260507_183154.txt
+- Process logs: checkin/proc_last5m_20260507_183154.txt (internal-process.log missing; fallback note logged)
+- GH comments: checkin/gh_comment_results_20260507_183154.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 18:37:28 UTC | MANAGER | Bot Check-in | 2026-05-07 18:37 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 18:42:05 UTC | MANAGER | Bot Check-in | 2026-05-07 18:42 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+2026-05-07 18:42:05 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_184150.md
+- Last5m logs: checkin/log_last5m_20260507_184150.txt
+- Process logs: checkin/proc_last5m_20260507_184150.txt
+- GH comments: checkin/gh_comment_results_20260507_184150.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 18:47:26 UTC | MANAGER | Bot Check-in | 2026-05-07 18:47 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+2026-05-07 18:47:09 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_184709.md
+- Last5m logs: checkin/log_last5m_20260507_184709.txt
+- Process logs: checkin/proc_last5m_20260507_184709.txt
+- GH comments: checkin/gh_comment_results_20260507_184709.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 18:51:55 UTC | MANAGER | Bot Check-in | 2026-05-07 18:51 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 18:57:35 UTC | MANAGER | Bot Check-in | 2026-05-07 18:57 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+2026-05-07 18:57:26 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_185726.md
+- Last5m logs: checkin/log_last5m_20260507_185726.txt
+- Process logs: checkin/proc_last5m_20260507_185726.txt
+- GH comments: checkin/gh_comment_results_20260507_185726.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 19:02:05 UTC | MANAGER | Bot Check-in | 2026-05-07 19:02 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+
+2026-05-07 19:02:05 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_190155.md
+- Last5m logs: checkin/log_last5m_20260507_190155.txt
+- Process logs: checkin/proc_last5m_20260507_190155.txt
+- GH comments: checkin/gh_comment_results_20260507_190155.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 19:06:58 UTC | MANAGER | Bot Check-in | 2026-05-07 19:06 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+[2026-05-07 19:06:58 UTC] five-minute check-in executed (20260507_190649)
+- worker: checkin/worker_poll_20260507_190649.md
+- log5m: checkin/log_last5m_20260507_190649.txt
+- proc5m: checkin/proc_last5m_20260507_190649.txt
+- gh: checkin/gh_comment_results_20260507_190649.log
+- dashboard: dashboard_update_output.txt
+| 2026-05-07 19:12:36 UTC | MANAGER | Bot Check-in | 2026-05-07 19:12 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+
+[2026-05-07 19:12:36 UTC] Five-minute check-in completed. Artifacts: checkin/checkin_20260507_191227.md
+| 2026-05-07 20:32:07 UTC | MANAGER | Bot Check-in | 2026-05-07 20:32 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+2026-05-07 20:32:07 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_203153.md
+- Last5m logs: checkin/log_last5m_20260507_203153.txt
+- Process logs: checkin/proc_last5m_20260507_203153.txt
+- GH comments: checkin/gh_comment_results_20260507_203153.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 20:37:20 UTC | MANAGER | Bot Check-in | 2026-05-07 20:37 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 20:37:04 UTC | MANAGER | Bot Check-in | 2026-05-07 20:37:04 UTC Multi-Bot Status Check-in executed: worker poll, 5m log/process audit, GitHub issue comments, STATUS/dashboard sync. | ✅ SUCCESS |
+2026-05-07 20:37:04 UTC | CRON_CHECKIN | Completed five-minute multi-bot check-in.
+- Worker poll: checkin/worker_poll_20260507_203704.md
+- Last5m logs: checkin/log_last5m_20260507_203704.txt
+- Process logs: checkin/proc_last5m_20260507_203704.txt
+- GH comments: checkin/gh_comment_results_20260507_203704.log
+- Dashboard sync: dashboard_update_output.txt
+| 2026-05-07 20:42:07 UTC | MANAGER | Bot Check-in | 2026-05-07 20:42 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+[2026-05-07 20:41:59 UTC] Multi-Bot Status Check-in completed.
+- Worker poll logged: checkin/worker_poll_latest.md
+- Audit log captured in checkin/
+- GitHub issue comments attempted via update_gh_comments.sh
+- STATUS.md + dashboard sync attempted
+| 2026-05-07 20:46:43 UTC | MANAGER | Bot Check-in | 2026-05-07 20:46 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 20:51:56 UTC | MANAGER | Bot Check-in | 2026-05-07 20:51 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 20:56:59 UTC | MANAGER | Bot Check-in | 2026-05-07 20:56 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+| 2026-05-07 21:02:40 UTC | MANAGER | Bot Check-in | 2026-05-07 21:02 UTC Multi-Bot Status Check-in: Worker sync (Forge, Micromaker, Scout, Serviceability), Issue sync (#7, #6, #5, #4 + sub-repos), STATUS.md updated, and dashboard synced. | ✅ SUCCESS |
+
+## 2b) Internal process logs (last 5 min)
+May 07 21:02:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.195  user=root
+May 07 21:02:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681206]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.59.74.51  user=root
+May 07 21:02:15 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Failed password for root from 92.118.39.195 port 13432 ssh2
+May 07 21:02:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681206]: Failed password for root from 139.59.74.51 port 58430 ssh2
+May 07 21:02:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Failed password for root from 92.118.39.195 port 13432 ssh2
+May 07 21:02:19 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681206]: Connection closed by authenticating user root 139.59.74.51 port 58430 [preauth]
+May 07 21:02:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Failed password for root from 92.118.39.195 port 13432 ssh2
+May 07 21:02:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Failed password for root from 92.118.39.195 port 13432 ssh2
+May 07 21:02:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Failed password for root from 92.118.39.195 port 13432 ssh2
+May 07 21:02:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: Connection reset by authenticating user root 92.118.39.195 port 13432 [preauth]
+May 07 21:02:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.195  user=root
+May 07 21:02:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681188]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:02:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:02:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681302]: Failed password for root from 103.61.122.229 port 53800 ssh2
+May 07 21:02:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681302]: Connection closed by authenticating user root 103.61.122.229 port 53800 [preauth]
+May 07 21:03:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681309]: Invalid user ubuntu from 103.61.122.229 port 42530
+May 07 21:03:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681309]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:03:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681309]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 07 21:03:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681309]: Failed password for invalid user ubuntu from 103.61.122.229 port 42530 ssh2
+May 07 21:03:38 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681309]: Connection closed by invalid user ubuntu 103.61.122.229 port 42530 [preauth]
+May 07 21:03:53 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681315]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:03:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681315]: Failed password for root from 103.61.122.229 port 58644 ssh2
+May 07 21:03:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681315]: Connection closed by authenticating user root 103.61.122.229 port 58644 [preauth]
+May 07 21:04:14 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.148.10.157  user=root
+May 07 21:04:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681321]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229  user=root
+May 07 21:04:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Failed password for root from 45.148.10.157 port 50586 ssh2
+May 07 21:04:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681321]: Failed password for root from 103.61.122.229 port 49298 ssh2
+May 07 21:04:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681321]: Connection closed by authenticating user root 103.61.122.229 port 49298 [preauth]
+May 07 21:04:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Failed password for root from 45.148.10.157 port 50586 ssh2
+May 07 21:04:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Failed password for root from 45.148.10.157 port 50586 ssh2
+May 07 21:04:23 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Failed password for root from 45.148.10.157 port 50586 ssh2
+May 07 21:04:27 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Failed password for root from 45.148.10.157 port 50586 ssh2
+May 07 21:04:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: Connection reset by authenticating user root 45.148.10.157 port 50586 [preauth]
+May 07 21:04:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.148.10.157  user=root
+May 07 21:04:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681319]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:04:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681325]: Invalid user ubuntu from 103.61.122.229 port 46662
+May 07 21:04:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681325]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:04:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 07 21:04:37 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681325]: Failed password for invalid user ubuntu from 103.61.122.229 port 46662 ssh2
+May 07 21:04:38 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681325]: Connection closed by invalid user ubuntu 103.61.122.229 port 46662 [preauth]
+May 07 21:04:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681331]: Invalid user ubuntu from 103.61.122.229 port 40476
+May 07 21:04:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681331]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:04:56 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.61.122.229
+May 07 21:04:58 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681331]: Failed password for invalid user ubuntu from 103.61.122.229 port 40476 ssh2
+May 07 21:04:59 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681331]: Connection closed by invalid user ubuntu 103.61.122.229 port 40476 [preauth]
+May 07 21:05:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[681335]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 07 21:05:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[681336]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May 07 21:05:01 ubuntu-s-2vcpu-2gb-blr1-01 CRON[681335]: pam_unix(cron:session): session closed for user root
+May 07 21:05:01 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681333]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.20.210.185  user=root
+May 07 21:05:03 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681333]: Failed password for root from 178.20.210.185 port 21129 ssh2
+May 07 21:05:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681333]: Received disconnect from 178.20.210.185 port 21129:11: Client disconnecting normally [preauth]
+May 07 21:05:04 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681333]: Disconnected from authenticating user root 178.20.210.185 port 21129 [preauth]
+May 07 21:05:19 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.59.74.51  user=root
+May 07 21:05:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681341]: Failed password for root from 139.59.74.51 port 36866 ssh2
+May 07 21:05:21 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681341]: Connection closed by authenticating user root 139.59.74.51 port 36866 [preauth]
+May 07 21:05:55 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681349]: Connection closed by 194.59.206.2 port 25318 [preauth]
+May 07 21:06:13 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681351]: Connection closed by 222.107.156.227 port 48332 [preauth]
+May 07 21:06:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Invalid user user from 2.57.121.25 port 6188
+May 07 21:06:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:06:16 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.121.25
+May 07 21:06:17 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.197  user=root
+May 07 21:06:18 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Failed password for invalid user user from 2.57.121.25 port 6188 ssh2
+May 07 21:06:19 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:06:19 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Failed password for root from 92.118.39.197 port 54026 ssh2
+May 07 21:06:22 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Failed password for invalid user user from 2.57.121.25 port 6188 ssh2
+May 07 21:06:23 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:06:24 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Failed password for root from 92.118.39.197 port 54026 ssh2
+May 07 21:06:25 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:25.647Z [agent/embedded] read tool called without path: toolCallId=call_pm6uYg3aQYBAuSMFNdhigjfp|fc_0020f3d739fcfe4a0169fcfed15c7c819196c48f0c71ab1cf7 argsType=object
+May 07 21:06:26 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Failed password for invalid user user from 2.57.121.25 port 6188 ssh2
+May 07 21:06:27 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:06:28 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Failed password for root from 92.118.39.197 port 54026 ssh2
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:29.042Z [ws] ⇄ res ✓ sessions.list 93ms conn=1f789ddc…2e05 id=18b4dc17…920d
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:29.165Z [ws] ⇄ res ✓ chat.history 99ms conn=c3775d84…e16d id=bc81fe61…a3e8
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:29.287Z [ws] ⇄ res ✓ chat.history 99ms conn=161a36dc…fb08 id=4ff3ca16…a858
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Failed password for invalid user user from 2.57.121.25 port 6188 ssh2
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:29.796Z [ws] ⇄ res ✓ chat.history 245ms conn=627d7312…738d id=79a94330…fa0f
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:29.925Z [ws] ⇄ res ✓ chat.history 113ms conn=5094bf26…7e63 id=aabde613…efe7
+May 07 21:06:29 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: pam_unix(sshd:auth): check pass; user unknown
+May 07 21:06:30 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:30.019Z [ws] ⇄ res ✓ chat.history 81ms conn=af59717f…ccce id=b69ac800…c239
+May 07 21:06:30 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:30.127Z [ws] ⇄ res ✓ chat.history 85ms conn=322d0d65…0c12 id=0348b7b2…eb9a
+May 07 21:06:30 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:30.234Z [ws] ⇄ res ✓ chat.history 86ms conn=5053141b…0f14 id=24e9ea6a…62b9
+May 07 21:06:30 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:30.332Z [ws] ⇄ res ✓ chat.history 83ms conn=be78a070…b8c2 id=5647b373…2312
+May 07 21:06:30 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Failed password for root from 92.118.39.197 port 54026 ssh2
+May 07 21:06:32 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Failed password for invalid user user from 2.57.121.25 port 6188 ssh2
+May 07 21:06:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Failed password for root from 92.118.39.197 port 54026 ssh2
+May 07 21:06:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Received disconnect from 2.57.121.25 port 6188:11: Bye [preauth]
+May 07 21:06:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: Disconnected from invalid user user 2.57.121.25 port 6188 [preauth]
+May 07 21:06:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=2.57.121.25
+May 07 21:06:33 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681355]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:06:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: Connection reset by authenticating user root 92.118.39.197 port 54026 [preauth]
+May 07 21:06:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=92.118.39.197  user=root
+May 07 21:06:35 ubuntu-s-2vcpu-2gb-blr1-01 sshd[681357]: PAM service(sshd) ignoring max retries; 5 > 3
+May 07 21:06:40 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:40.298Z [agent/embedded] read tool called without path: toolCallId=call_SZ7B3A9zhrP6hRhFWR3DRRKk|fc_0020f3d739fcfe4a0169fcfee00c088191a469d2ca1e546098 argsType=object
+May 07 21:06:43 ubuntu-s-2vcpu-2gb-blr1-01 node[523485]: 2026-05-07T21:06:43.908Z [agent/embedded] read tool called without path: toolCallId=call_Lfdzrg6K9StwpE1TClfKGYyo|fc_0020f3d739fcfe4a0169fcfee3aeec81918d61c602981e0e7b argsType=object

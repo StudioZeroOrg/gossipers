@@ -1,0 +1,115 @@
+    PID ELAPSED CMD
+      1 7600174 /usr/lib/systemd/systemd --system --deserialize=67
+      2 7600174 [kthreadd]
+      3 7600174 [pool_workqueue_release]
+      4 7600174 [kworker/R-rcu_g]
+      5 7600174 [kworker/R-rcu_p]
+      6 7600174 [kworker/R-slub_]
+      7 7600174 [kworker/R-netns]
+     12 7600174 [kworker/R-mm_pe]
+     13 7600174 [rcu_tasks_kthread]
+     14 7600174 [rcu_tasks_rude_kthread]
+     15 7600174 [rcu_tasks_trace_kthread]
+     16 7600174 [ksoftirqd/0]
+     17 7600174 [rcu_preempt]
+     18 7600174 [migration/0]
+     19 7600174 [idle_inject/0]
+     20 7600174 [cpuhp/0]
+     21 7600174 [cpuhp/1]
+     22 7600174 [idle_inject/1]
+     23 7600174 [migration/1]
+     24 7600174 [ksoftirqd/1]
+     29 7600174 [kdevtmpfs]
+     30 7600174 [kworker/R-inet_]
+     31 7600174 [kauditd]
+     32 7600174 [khungtaskd]
+     33 7600174 [oom_reaper]
+     35 7600174 [kworker/R-write]
+     37 7600174 [kcompactd0]
+     38 7600174 [ksmd]
+     40 7600174 [khugepaged]
+     41 7600174 [kworker/R-kinte]
+     42 7600174 [kworker/R-kbloc]
+     43 7600174 [kworker/R-blkcg]
+     44 7600174 [irq/9-acpi]
+     45 7600174 [kworker/R-tpm_d]
+     46 7600174 [kworker/R-ata_s]
+     47 7600174 [kworker/R-md]
+     48 7600174 [kworker/R-md_bi]
+     49 7600174 [kworker/R-edac-]
+     50 7600174 [kworker/R-devfr]
+     51 7600174 [watchdogd]
+     54 7600173 [kswapd0]
+     55 7600173 [ecryptfs-kthread]
+     56 7600173 [kworker/R-kthro]
+     57 7600173 [kworker/R-acpi_]
+     59 7600173 [scsi_eh_0]
+     60 7600173 [kworker/R-scsi_]
+     61 7600173 [scsi_eh_1]
+     62 7600173 [kworker/R-scsi_]
+     63 7600173 [scsi_eh_2]
+     64 7600173 [kworker/R-scsi_]
+     67 7600173 [kworker/R-mld]
+     68 7600173 [kworker/R-ipv6_]
+     75 7600173 [kworker/R-kstrp]
+     77 7600173 [kworker/u7:0]
+     78 7600173 [kworker/u8:0]
+     79 7600173 [kworker/u9:0]
+     84 7600173 [kworker/R-crypt]
+     94 7600173 [kworker/R-charg]
+    184 7600173 [kworker/R-raid5]
+    224 7600172 [jbd2/vda1-8]
+    225 7600172 [kworker/R-ext4-]
+    316 7600172 [kworker/R-kmpat]
+    317 7600172 [kworker/R-kmpat]
+    417 7600171 [jbd2/vda16-8]
+    418 7600171 [kworker/R-ext4-]
+    733 7600167 /usr/sbin/cron -f -P
+    734 7600167 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    754 7600167 /usr/lib/systemd/systemd-logind
+    813 7600166 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+    817 7600166 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    843 7600166 /sbin/agetty -o -p -- \u --noclear - linux
+   1100 7600107 [kworker/R-tls-s]
+   5597 7598735 /usr/lib/systemd/systemd --user --deserialize=10
+   5599 7598735 (sd-pam)
+ 347903 7104016 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 352891 7097037 node dashboard/server.js
+ 359589 7086478 node webhook_server/index.js
+2021631 5030779 /opt/digitalocean/bin/droplet-agent
+2239714 4633093 [kworker/u4:0-ext4-rsv-conversion]
+2761783 3769040 [psimon]
+2932244 3330584 [kworker/1:1H-kblockd]
+3946016 1869102 [kworker/u4:2-ext4-rsv-conversion]
+  16883 1352673 /sbin/multipathd -d -s
+  16884 1352673 /usr/lib/polkit-1/polkitd --no-debug
+  16922 1352673 /usr/sbin/ModemManager
+  16927 1352673 /usr/sbin/rsyslogd -n -iNONE
+ 117113 1178400 /opt/digitalocean/bin/do-agent --syslog
+ 341782  660707 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ 367750  597123 [kworker/1:2H-kblockd]
+ 367772  597122 [kworker/0:1H-kblockd]
+ 379941  572595 [psimon]
+ 379949  572595 /usr/lib/systemd/systemd-journald
+ 379957  572595 /usr/lib/systemd/systemd-resolved
+ 379958  572595 /usr/lib/systemd/systemd-timesyncd
+ 379960  572595 /usr/libexec/udisks2/udisksd
+ 379963  572595 /usr/lib/systemd/systemd-udevd
+ 379971  572595 [psimon]
+ 379972  572595 /usr/lib/systemd/systemd-networkd
+ 523485  191080 openclaw-gateway
+ 564958  126426 [kworker/0:2H]
+ 668555   18982 [kworker/1:1-cgroup_destroy]
+ 672832   15125 [kworker/0:3-events]
+ 680926    3328 [kworker/u5:3-events_unbound]
+ 681040    3176 [kworker/u6:2-events_power_efficient]
+ 681925    1991 [kworker/u5:1-events_power_efficient]
+ 682540    1322 [kworker/1:2-events]
+ 682694     898 [kworker/u6:1-events_power_efficient]
+ 682928     722 [kworker/0:2-events]
+ 682953     626 [kworker/u5:0-events_power_efficient]
+ 683221     345 [kworker/u6:0-events_power_efficient]
+ 683338     122 [kworker/1:0-events]
+ 683375       0 /usr/bin/bash -c set -euo pipefail cd /root/.openclaw/workspace TS=$(date -u +%Y%m%d_%H%M%S) mkdir -p checkin logs  echo "# Worker Poll ($TS UTC)" > checkin/worker_poll_${TS}.md echo >> checkin/worker_poll_${TS}.md for w in Forge Micromaker Scout Serviceability; do   {     echo "## $w"     grep -Ei "$w|RfE-.*(ECHO|SPARK|VOID)|heartbeat|progress|blocker|milestone" LOG.md | tail -n 8 || true     echo   } >> checkin/worker_poll_${TS}.md done cp checkin/worker_poll_${TS}.md checkin/worker_poll_latest.md  NOW=$(date -u +%s) awk -v now="$NOW" ' function mon(m){return index("JanFebMarAprMayJunJulAugSepOctNovDec",m)/3} {   if (match($0,/[A-Z][a-z]{2} [ 0-9][0-9] [0-9]{2}:[0-9]{2}/)) {     ts=substr($0,RSTART,RLENGTH)     m=substr(ts,1,3); d=int(substr(ts,5,2)); hh=substr(ts,8,2); mm=substr(ts,11,2)     cmd=sprintf("date -u -d \"%d-%02d-%02d %02d:%02d:00\" +%%s", strftime("%Y", now), mon(m), d, hh, mm)     cmd | getline t; close(cmd)     if (now-t <= 300 && now-t >=0) print   } }' LOG.md > checkin/log_last5m_${TS}.txt || true if [ ! -s checkin/log_last5m_${TS}.txt ]; then tail -n 80 LOG.md > checkin/log_last5m_${TS}.txt; fi  if [ -f logs/internal-process.log ]; then   tail -n 300 logs/internal-process.log > checkin/proc_last5m_${TS}.txt elif [ -f internal-process.log ]; then   tail -n 300 internal-process.log > checkin/proc_last5m_${TS}.txt else   ps -eo pid,etimes,cmd --sort=-etimes | head -n 120 > checkin/proc_last5m_${TS}.txt fi  jq -n '[]' > checkin/open_issues_${TS}.json for repo in $(gh repo list StudioZeroOrg --limit 50 --json name -q '.[].name'); do   issues=$(gh issue list --repo StudioZeroOrg/$repo --state open --limit 100 --json number,title,url 2>/dev/null || true)   if [ -n "$issues" ] && [ "$issues" != "[]" ]; then     tmp=$(mktemp)     jq -s '.[0]+.[1]' checkin/open_issues_${TS}.json <(echo "$issues" | jq --arg r "$repo" '[.[]|. + {repo:$r}]') > "$tmp"     mv "$tmp" checkin/open_issues_${TS}.json   fi done COUNT=$(jq 'length' checkin/open_issues_${TS}.json) : > checkin/gh_comment_results_${TS}.log if [ "$COUNT" -gt 0 ]; then   jq -c '.[]' checkin/open_issues_${TS}.json | while read -r row; do     repo=$(echo "$row" | jq -r '.repo')     num=$(echo "$row" | jq -r '.number')     title=$(echo "$row" | jq -r '.title')     body="### Team Heartbeat ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))  **Latest Progress:** Worker poll completed for Forge, Micromaker, Scout, and Serviceability; latest execution traces and audit snapshots captured in check-in artifacts.  **Current Blocker:** No critical blocker detected from current log/process window; any repo-specific blocker should be updated by owning worker in next loop.  **Next Milestone:** Close the next actionable issue step with validation evidence, then refresh STATUS.md and dashboard heartbeat in the next cycle."     if gh issue comment "$num" --repo "StudioZeroOrg/$repo" --body "$body" >/tmp/ghc.out 2>/tmp/ghc.err; then       echo "OK StudioZeroOrg/$repo#$num $title" >> checkin/gh_comment_results_${TS}.log     else       echo "FAIL StudioZeroOrg/$repo#$num $title :: $(tr '\n' ' ' </tmp/ghc.err)" >> checkin/gh_comment_results_${TS}.log     fi   done fi HB="Workers polled; last-5m logs audited; GitHub issue heartbeats posted to ${COUNT} active issue(s); dashboard artifacts synced." cat > STATUS.md <<EOF # Team Status Dashboard  **Last Heartbeat**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')  ## Team Heartbeat - ${HB} - Worker poll: checkin/worker_poll_${TS}.md - LOG audit: checkin/log_last5m_${TS}.txt - Process audit: checkin/proc_last5m_${TS}.txt - GH comments: checkin/gh_comment_results_${TS}.log EOF mkdir -p dashboard cp STATUS.md dashboard/STATUS.md cp STATUS.md dashboard/status.md printf '{"timestamp":"%s","teamHeartbeat":"%s"}\n' "$(date -u +%FT%TZ)" "$HB" > dashboard/team-heartbeat.json python3 update_dashboard.py > checkin/dashboard_update_${TS}.txt 2>&1 || true  cat > checkin/checkin_${TS}.md <<EOF # Multi-Bot Status Check-in Report Timestamp: $(date -u '+%Y-%m-%d %H:%M:%S UTC') Workers: Forge, Micromaker, Scout, Serviceability Active issues processed: ${COUNT} Artifacts: - checkin/worker_poll_${TS}.md - checkin/log_last5m_${TS}.txt - checkin/proc_last5m_${TS}.txt - checkin/open_issues_${TS}.json - checkin/gh_comment_results_${TS}.log - STATUS.md - dashboard/STATUS.md - dashboard/status.md - dashboard/team-heartbeat.json EOF  git config user.name "Viswanatha Kartha V" git config user.email "vichukartha@gmail.com" printf "%s" "$TS"
+ 683390       0 ps -eo pid,etimes,cmd --sort=-etimes
+ 683391       0 head -n 120

@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "title": "Develop minimalist SSG in Zig [PRIORITY: HIGHEST]",
+    "url": "https://github.com/StudioZeroOrg/ssg-apocalypse/issues/1",
+    "repo": "StudioZeroOrg/ssg-apocalypse"
+  },
+  {
+    "number": 1,
+    "title": "Implement JS frequency visualizer",
+    "url": "https://github.com/StudioZeroOrg/brainwave-visualizer/issues/1",
+    "repo": "StudioZeroOrg/brainwave-visualizer"
+  },
+  {
+    "number": 1,
+    "title": "Implement Zig-based MQTT interceptor",
+    "url": "https://github.com/StudioZeroOrg/mqtt-privacy-filter/issues/1",
+    "repo": "StudioZeroOrg/mqtt-privacy-filter"
+  },
+  {
+    "number": 7,
+    "title": "Lifecycle Track: SSG Apocalypse [PRIORITY: HIGHEST]",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/7",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 6,
+    "title": "Lifecycle Track: Brainwave Visualizer",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/6",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 5,
+    "title": "Lifecycle Track: MQTT Privacy Filter",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/5",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 4,
+    "title": "Maintain Hourly Status Dashboard Updates",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/4",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 3,
+    "title": "Develop Brainwave Resonance Visualizer",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/3",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 2,
+    "title": "Implement Zig-based MQTT Privacy Filter",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/2",
+    "repo": "StudioZeroOrg/tasks"
+  },
+  {
+    "number": 1,
+    "title": "Implement Zig-based MQTT Privacy Filter",
+    "url": "https://github.com/StudioZeroOrg/tasks/issues/1",
+    "repo": "StudioZeroOrg/tasks"
+  }
+]
