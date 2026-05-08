@@ -5,3 +5,11 @@ https://github.com/StudioZeroOrg/tasks/issues/4#issuecomment-4401273185
 https://github.com/StudioZeroOrg/ssg-apocalypse/issues/1#issuecomment-4401273518
 https://github.com/StudioZeroOrg/mqtt-privacy-filter/issues/1#issuecomment-4401273853
 https://github.com/StudioZeroOrg/brainwave-visualizer/issues/1#issuecomment-4401274080
+https://github.com/StudioZeroOrg/tasks/issues/7#issuecomment-4403253902
+https://github.com/StudioZeroOrg/tasks/issues/6#issuecomment-4403253975
+https://github.com/StudioZeroOrg/tasks/issues/5#issuecomment-4403254058
+https://github.com/StudioZeroOrg/tasks/issues/4#issuecomment-4403254133
+https://github.com/StudioZeroOrg/tasks/issues/3#issuecomment-4403254210
+https://github.com/StudioZeroOrg/mqtt-privacy-filter/issues/1#issuecomment-4403254307
+https://github.com/StudioZeroOrg/brainwave-visualizer/issues/1#issuecomment-4403254400
+https://github.com/StudioZeroOrg/ssg-apocalypse/issues/1#issuecomment-4403254494
