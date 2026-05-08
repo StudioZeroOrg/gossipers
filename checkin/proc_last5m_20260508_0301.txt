@@ -1,0 +1,119 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5  22220 10496 ?        Ss   Feb08  23:15 /usr/lib/systemd/systemd --system --deserialize=67
+root           2  0.0  0.0      0     0 ?        S    Feb08   0:07 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Feb08   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-netns]
+root          12  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    Feb08   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    Feb08   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    Feb08   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    Feb08   1:54 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    Feb08  29:49 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    Feb08   0:44 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Feb08   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    Feb08   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    Feb08   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    Feb08   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    Feb08   0:42 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    Feb08   1:51 [ksoftirqd/1]
+root          29  0.0  0.0      0     0 ?        S    Feb08   0:00 [kdevtmpfs]
+root          30  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-inet_]
+root          31  0.0  0.0      0     0 ?        S    Feb08   0:00 [kauditd]
+root          32  0.0  0.0      0     0 ?        S    Feb08   0:03 [khungtaskd]
+root          33  0.0  0.0      0     0 ?        S    Feb08   0:00 [oom_reaper]
+root          35  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-write]
+root          37  0.0  0.0      0     0 ?        S    Feb08   7:11 [kcompactd0]
+root          38  0.0  0.0      0     0 ?        SN   Feb08   0:00 [ksmd]
+root          40  0.0  0.0      0     0 ?        SN   Feb08   0:00 [khugepaged]
+root          41  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kinte]
+root          42  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kbloc]
+root          43  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-blkcg]
+root          44  0.0  0.0      0     0 ?        S    Feb08   0:00 [irq/9-acpi]
+root          45  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-tpm_d]
+root          46  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-ata_s]
+root          47  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-md]
+root          48  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-md_bi]
+root          49  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-edac-]
+root          50  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-devfr]
+root          51  0.0  0.0      0     0 ?        S    Feb08   0:00 [watchdogd]
+root          54  0.0  0.0      0     0 ?        S    Feb08   0:24 [kswapd0]
+root          55  0.0  0.0      0     0 ?        S    Feb08   0:00 [ecryptfs-kthread]
+root          56  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kthro]
+root          57  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-acpi_]
+root          59  0.0  0.0      0     0 ?        S    Feb08   0:00 [scsi_eh_0]
+root          60  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-scsi_]
+root          61  0.0  0.0      0     0 ?        S    Feb08   0:00 [scsi_eh_1]
+root          62  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-scsi_]
+root          63  0.0  0.0      0     0 ?        S    Feb08   0:00 [scsi_eh_2]
+root          64  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-scsi_]
+root          67  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-mld]
+root          68  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-ipv6_]
+root          75  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kstrp]
+root          77  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/u7:0]
+root          78  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/u8:0]
+root          79  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/u9:0]
+root          84  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-crypt]
+root          94  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-charg]
+root         184  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-raid5]
+root         224  0.0  0.0      0     0 ?        S    Feb08   1:05 [jbd2/vda1-8]
+root         225  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-ext4-]
+root         316  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kmpat]
+root         317  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-kmpat]
+root         417  0.0  0.0      0     0 ?        S    Feb08   0:00 [jbd2/vda16-8]
+root         418  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-ext4-]
+root         733  0.0  0.1   7224  2560 ?        Ss   Feb08   0:27 /usr/sbin/cron -f -P
+message+     734  0.0  0.2  10108  4608 ?        Ss   Feb08   1:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         754  0.0  0.2  19088  5840 ?        Ss   Feb08   0:23 /usr/lib/systemd/systemd-logind
+root         813  0.0  0.1   6148  2048 ttyS0    Ss+  Feb08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         817  0.0  0.6 110012 13312 ?        Ssl  Feb08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         843  0.0  0.0   6104  1920 tty1     Ss+  Feb08   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        1100  0.0  0.0      0     0 ?        I<   Feb08   0:00 [kworker/R-tls-s]
+root        5597  0.0  0.3  20692  7936 ?        Ss   Feb08   0:01 /usr/lib/systemd/systemd --user --deserialize=10
+root        5599  0.0  0.1  21164  2864 ?        S    Feb08   0:00 (sd-pam)
+root       16883  0.0  1.3 223416 27008 ?        SLsl Apr22   2:38 /sbin/multipathd -d -s
+polkitd    16884  0.0  0.2 308164  5760 ?        Ssl  Apr22   0:36 /usr/lib/polkit-1/polkitd --no-debug
+root       16922  0.0  0.3 392092  6912 ?        Ssl  Apr22   0:00 /usr/sbin/ModemManager
+syslog     16927  0.0  0.2 222508  5504 ?        Ssl  Apr22   1:16 /usr/sbin/rsyslogd -n -iNONE
+do-agent  117113  0.0  0.5 1238616 10324 ?       Ssl  Apr24   2:39 /opt/digitalocean/bin/do-agent --syslog
+root      341782  0.0  0.3  12024  7424 ?        Ss   Apr30   1:10 sshd: /usr/sbin/sshd -D [listener] 1 of 10-100 startups
+root      347903  0.0  0.1   9412  3584 ?        Ss   Feb14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      352891  0.0  2.1 1027396 44200 ?       Sl   Feb14   2:05 node dashboard/server.js
+root      359589  0.0  2.3 1027800 46568 ?       Sl   Feb14   1:04 node webhook_server/index.js
+root      367750  0.0  0.0      0     0 ?        I<   May01   0:03 [kworker/1:2H-kblockd]
+root      367772  0.0  0.0      0     0 ?        I<   May01   0:04 [kworker/0:1H-kblockd]
+root      379941  0.0  0.0      0     0 ?        S    May01   0:00 [psimon]
+root      379949  0.0  2.1 181488 43248 ?        S<s  May01   2:26 /usr/lib/systemd/systemd-journald
+systemd+  379957  0.0  0.5  21940 10112 ?        Ss   May01   0:45 /usr/lib/systemd/systemd-resolved
+systemd+  379958  0.0  0.3  91028  6144 ?        Ssl  May01   0:02 /usr/lib/systemd/systemd-timesyncd
+root      379960  0.0  0.3 468836  7296 ?        Ssl  May01   0:13 /usr/libexec/udisks2/udisksd
+root      379963  0.0  0.2  25052  4992 ?        Ss   May01   0:00 /usr/lib/systemd/systemd-udevd
+root      379971  0.0  0.0      0     0 ?        S    May01   0:00 [psimon]
+systemd+  379972  0.0  0.3  19020  6400 ?        Ss   May01   0:00 /usr/lib/systemd/systemd-networkd
+root      523485 11.2 46.2 23065180 932668 ?     Ssl  May05 392:02 openclaw-gateway
+root      564958  0.0  0.0      0     0 ?        I<   May06   0:00 [kworker/0:2H]
+root      687500  0.0  0.0      0     0 ?        I    May07   0:05 [kworker/1:3-events]
+root      692524  0.0  0.0      0     0 ?        I    01:26   0:01 [kworker/0:1-events]
+root      696351  0.0  0.0      0     0 ?        I    02:17   0:00 [kworker/u6:2-writeback]
+root      697112  0.0  0.0      0     0 ?        I    02:34   0:00 [kworker/u6:0-events_unbound]
+root      697479  0.0  0.0      0     0 ?        I    02:41   0:00 [kworker/u5:2-events_power_efficient]
+root      697517  0.0  0.0      0     0 ?        I    02:42   0:00 [kworker/u6:1-events_power_efficient]
+root      697689  0.0  0.0      0     0 ?        I    02:44   0:00 [kworker/u5:3-events_power_efficient]
+root      697806  0.0  0.0      0     0 ?        I    02:47   0:00 [kworker/u6:4-events_power_efficient]
+root      697859  0.0  0.0      0     0 ?        I    02:50   0:00 [kworker/0:3-events]
+root      698012  0.0  0.0      0     0 ?        I    02:53   0:00 [kworker/1:1-cgroup_destroy]
+root      698017  0.0  0.0      0     0 ?        I    02:54   0:00 [kworker/u5:1-events_power_efficient]
+root      698236  0.0  0.0      0     0 ?        I    03:00   0:00 [kworker/1:0]
+root      698237  0.0  0.0      0     0 ?        I    03:00   0:00 [kworker/1:2-events]
+root      698246  0.0  0.0      0     0 ?        I    03:00   0:00 [kworker/u5:0-events_unbound]
+root      698343  0.2  0.4  14700  9600 ?        Ss   03:01   0:00 sshd: unknown [priv]
+sshd      698344  0.0  0.2  12156  5884 ?        S    03:01   0:00 sshd: unknown [net]
+root      698348  0.0  0.1   7740  3456 ?        Ss   03:01   0:00 /usr/bin/bash -c mkdir -p checkin && date -u > checkin/log_last5m_20260508_0301.txt && tail -n 20 LOG.md >> checkin/log_last5m_20260508_0301.txt && ps aux >> checkin/proc_last5m_20260508_0301.txt
+root      698352  0.0  0.2  11320  4352 ?        R    03:01   0:00 ps aux
+root     2021631  0.0  0.0 1240060 1920 ?        Ssl  Mar10   0:22 /opt/digitalocean/bin/droplet-agent
+root     2239714  0.0  0.0      0     0 ?        I    Mar15   0:14 [kworker/u4:0-ext4-rsv-conversion]
+root     2761783  0.0  0.0      0     0 ?        S    Mar25   0:00 [psimon]
+root     2932244  0.0  0.0      0     0 ?        I<   Mar30   0:01 [kworker/1:1H-kblockd]
+root     3946016  0.0  0.0      0     0 ?        I    Apr16   0:03 [kworker/u4:2-ext4-rsv-conversion]
